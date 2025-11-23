@@ -1867,6 +1867,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "jobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "quick-reference.md",
       "output": {
         ".html": {
