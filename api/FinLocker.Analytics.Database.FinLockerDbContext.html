@@ -1,0 +1,1025 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class FinLockerDbContext </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class FinLockerDbContext ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FinLocker.Analytics.Database.FinLockerDbContext">
+
+
+
+  <h1 id="FinLocker_Analytics_Database_FinLockerDbContext" data-uid="FinLocker.Analytics.Database.FinLockerDbContext" class="text-break">Class FinLockerDbContext</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext">DbContext</a></div>
+    <div class="level2"><span class="xref">FinLockerDbContext</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iinfrastructure-1">IInfrastructure</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iserviceprovider">IServiceProvider</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextdependencies">IDbContextDependencies</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbsetcache">IDbSetCache</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextpoolable">IDbContextPoolable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iresettableservice">IResettableService</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1">DbContext.Set&lt;TEntity&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.set#microsoft-entityframeworkcore-dbcontext-set-1(system-string)">DbContext.Set&lt;TEntity&gt;(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.onconfiguring">DbContext.OnConfiguring(DbContextOptionsBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.configureconventions">DbContext.ConfigureConventions(ModelConfigurationBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges">DbContext.SaveChanges()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges(system-boolean)">DbContext.SaveChanges(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-threading-cancellationtoken)">DbContext.SaveChangesAsync(CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesasync#microsoft-entityframeworkcore-dbcontext-savechangesasync(system-boolean-system-threading-cancellationtoken)">DbContext.SaveChangesAsync(bool, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.dispose">DbContext.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.disposeasync">DbContext.DisposeAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry-1(-0)">DbContext.Entry&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.entry#microsoft-entityframeworkcore-dbcontext-entry(system-object)">DbContext.Entry(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add-1(-0)">DbContext.Add&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync-1(-0-system-threading-cancellationtoken)">DbContext.AddAsync&lt;TEntity&gt;(TEntity, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach-1(-0)">DbContext.Attach&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update-1(-0)">DbContext.Update&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove-1(-0)">DbContext.Remove&lt;TEntity&gt;(TEntity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add(system-object)">DbContext.Add(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addasync#microsoft-entityframeworkcore-dbcontext-addasync(system-object-system-threading-cancellationtoken)">DbContext.AddAsync(object, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attach#microsoft-entityframeworkcore-dbcontext-attach(system-object)">DbContext.Attach(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.update#microsoft-entityframeworkcore-dbcontext-update(system-object)">DbContext.Update(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.remove#microsoft-entityframeworkcore-dbcontext-remove(system-object)">DbContext.Remove(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-object())">DbContext.AddRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-object())">DbContext.AddRangeAsync(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-object())">DbContext.AttachRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-object())">DbContext.UpdateRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-object())">DbContext.RemoveRange(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrange#microsoft-entityframeworkcore-dbcontext-addrange(system-collections-generic-ienumerable((system-object)))">DbContext.AddRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.addrangeasync#microsoft-entityframeworkcore-dbcontext-addrangeasync(system-collections-generic-ienumerable((system-object))-system-threading-cancellationtoken)">DbContext.AddRangeAsync(IEnumerable&lt;object&gt;, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.attachrange#microsoft-entityframeworkcore-dbcontext-attachrange(system-collections-generic-ienumerable((system-object)))">DbContext.AttachRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.updaterange#microsoft-entityframeworkcore-dbcontext-updaterange(system-collections-generic-ienumerable((system-object)))">DbContext.UpdateRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.removerange#microsoft-entityframeworkcore-dbcontext-removerange(system-collections-generic-ienumerable((system-object)))">DbContext.RemoveRange(IEnumerable&lt;object&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find(system-type-system-object())">DbContext.Find(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object())">DbContext.FindAsync(Type, params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync(system-type-system-object()-system-threading-cancellationtoken)">DbContext.FindAsync(Type, object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.find#microsoft-entityframeworkcore-dbcontext-find-1(system-object())">DbContext.Find&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object())">DbContext.FindAsync&lt;TEntity&gt;(params object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.findasync#microsoft-entityframeworkcore-dbcontext-findasync-1(system-object()-system-threading-cancellationtoken)">DbContext.FindAsync&lt;TEntity&gt;(object[], CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.fromexpression">DbContext.FromExpression&lt;TResult&gt;(Expression&lt;Func&lt;IQueryable&lt;TResult&gt;&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.database">DbContext.Database</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.changetracker">DbContext.ChangeTracker</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.model">DbContext.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.contextid">DbContext.ContextId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savingchanges">DbContext.SavingChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savedchanges">DbContext.SavedChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechangesfailed">DbContext.SaveChangesFailed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FinLocker.html">FinLocker</a>.<a class="xref" href="FinLocker.Analytics.html">Analytics</a>.<a class="xref" href="FinLocker.Analytics.Database.html">Database</a></h6>
+  <h6><strong>Assembly</strong>: FinLocker.Analytics.Database.dll</h6>
+  <h5 id="FinLocker_Analytics_Database_FinLockerDbContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FinLockerDbContext : DbContext, IInfrastructure&lt;IServiceProvider&gt;, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService, IDisposable, IAsyncDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=6">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext__ctor_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.#ctor*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_FinLocker_Analytics_Database_FinLockerDbContext__" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FinLocker.Analytics.Database.FinLockerDbContext})">FinLockerDbContext(DbContextOptions&lt;FinLockerDbContext&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FinLockerDbContext(DbContextOptions&lt;FinLockerDbContext&gt; options)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptions-1">DbContextOptions</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.FinLockerDbContext.html">FinLockerDbContext</a>&gt;</td>
+        <td><span class="parametername">options</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=22">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailClicks_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailClicks*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailClicks" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailClicks">BrazeEmailClicks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;BrazeEmailClick&gt; BrazeEmailClicks { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.BrazeEmailClick.html">BrazeEmailClick</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=20">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailOpens_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailOpens*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailOpens" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailOpens">BrazeEmailOpens</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;BrazeEmailOpen&gt; BrazeEmailOpens { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.BrazeEmailOpen.html">BrazeEmailOpen</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=18">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailSends_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailSends*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailSends" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailSends">BrazeEmailSends</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;BrazeEmailSend&gt; BrazeEmailSends { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.BrazeEmailSend.html">BrazeEmailSend</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=48">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_Companies_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Companies*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_Companies" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Companies">Companies</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Company&gt; Companies { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.Company.html">Company</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=50">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_CronJobRunLogs_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.CronJobRunLogs*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_CronJobRunLogs" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.CronJobRunLogs">CronJobRunLogs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;CronJobRunLog&gt; CronJobRunLogs { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.CronJobRunLog.html">CronJobRunLog</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=24">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_ExternalIdentities_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.ExternalIdentities*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_ExternalIdentities" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.ExternalIdentities">ExternalIdentities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ExternalIdentity&gt; ExternalIdentities { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.ExternalIdentity.html">ExternalIdentity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=14">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_Features_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Features*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_Features" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Features">Features</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Feature&gt; Features { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.Feature.html">Feature</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=46">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_FinLockerDataSourceSyncLogs_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.FinLockerDataSourceSyncLogs*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_FinLockerDataSourceSyncLogs" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.FinLockerDataSourceSyncLogs">FinLockerDataSourceSyncLogs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;FinLockerDataSourceSyncLog&gt; FinLockerDataSourceSyncLogs { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.FinLockerDataSourceSyncLog.html">FinLockerDataSourceSyncLog</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=44">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_FinLockerDataSources_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.FinLockerDataSources*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_FinLockerDataSources" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.FinLockerDataSources">FinLockerDataSources</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;FinLockerDataSource&gt; FinLockerDataSources { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.FinLockerDataSource.html">FinLockerDataSource</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=30">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_Identities_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Identities*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_Identities" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Identities">Identities</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Identity&gt; Identities { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.Identity.html">Identity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=12">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_LoanOfficerReports_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.LoanOfficerReports*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_LoanOfficerReports" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.LoanOfficerReports">LoanOfficerReports</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;LoanOfficerReport&gt; LoanOfficerReports { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.LoanOfficerReport.html">LoanOfficerReport</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=26">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_LoanOfficers_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.LoanOfficers*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_LoanOfficers" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.LoanOfficers">LoanOfficers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;LoanOfficer&gt; LoanOfficers { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.LoanOfficer.html">LoanOfficer</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=10">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_OutgoingAnalyticsPayloads_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.OutgoingAnalyticsPayloads*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_OutgoingAnalyticsPayloads" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.OutgoingAnalyticsPayloads">OutgoingAnalyticsPayloads</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;OutgoingAnalyticsPayload&gt; OutgoingAnalyticsPayloads { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.OutgoingAnalyticsPayload.html">OutgoingAnalyticsPayload</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=52">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_Prospects_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Prospects*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_Prospects" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Prospects">Prospects</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Prospect&gt; Prospects { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.Prospect.html">Prospect</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=42">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_QaTestScenarios_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.QaTestScenarios*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_QaTestScenarios" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.QaTestScenarios">QaTestScenarios</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;QaTestScenario&gt; QaTestScenarios { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.QaTestScenario.html">QaTestScenario</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=32">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_ReadinessRequests_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.ReadinessRequests*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_ReadinessRequests" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.ReadinessRequests">ReadinessRequests</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;ReadinessRequest&gt; ReadinessRequests { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.ReadinessRequest.html">ReadinessRequest</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=34">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_TrackableItemClicks_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.TrackableItemClicks*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_TrackableItemClicks" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.TrackableItemClicks">TrackableItemClicks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;TrackableItemClick&gt; TrackableItemClicks { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.TrackableItemClick.html">TrackableItemClick</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=40">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_UserActivityTrackers_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserActivityTrackers*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_UserActivityTrackers" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserActivityTrackers">UserActivityTrackers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserActivityTracker&gt; UserActivityTrackers { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.UserActivityTracker.html">UserActivityTracker</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=38">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_UserAttributesSyncLogs_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserAttributesSyncLogs*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_UserAttributesSyncLogs" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserAttributesSyncLogs">UserAttributesSyncLogs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserAttributesSyncLog&gt; UserAttributesSyncLogs { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.UserAttributesSyncLog.html">UserAttributesSyncLog</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=28">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_UserBuyerVisionReports_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserBuyerVisionReports*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_UserBuyerVisionReports" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserBuyerVisionReports">UserBuyerVisionReports</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserBuyerVisionReport&gt; UserBuyerVisionReports { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.UserBuyerVisionReport.html">UserBuyerVisionReport</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=36">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_UserFieldStatusTrackers_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserFieldStatusTrackers*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_UserFieldStatusTrackers" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserFieldStatusTrackers">UserFieldStatusTrackers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserFieldStatusTracker&gt; UserFieldStatusTrackers { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.UserFieldStatusTracker.html">UserFieldStatusTracker</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=8">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_UserSubscriptions_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserSubscriptions*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_UserSubscriptions" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.UserSubscriptions">UserSubscriptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;UserSubscription&gt; UserSubscriptions { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.UserSubscription.html">UserSubscription</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=16">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_Users_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Users*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_Users" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.Users">Users</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;User&gt; Users { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet</a>&lt;<a class="xref" href="FinLocker.Analytics.Database.Entities.User.html">User</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=54">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_FinLockerDbContext_OnModelCreating_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.OnModelCreating*"></a>
+  <h4 id="FinLocker_Analytics_Database_FinLockerDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_" data-uid="FinLocker.Analytics.Database.FinLockerDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">OnModelCreating(ModelBuilder)</h4>
+  <div class="markdown level1 summary"><p>Override this method to further configure the model that was discovered by convention from the entity types
+exposed in <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbset-1">DbSet&lt;TEntity&gt;</a> properties on your derived context. The resulting model may be cached
+and re-used for subsequent instances of your derived context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnModelCreating(ModelBuilder modelBuilder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.modelbuilder">ModelBuilder</a></td>
+        <td><span class="parametername">modelBuilder</span></td>
+        <td><p>The builder being used to construct the model for this context. Databases (and other extensions) typically
+define extension methods on this object that allow you to configure aspects of the model that are specific
+to a given database.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.onmodelcreating">DbContext.OnModelCreating(ModelBuilder)</a></div>
+  <h5 id="FinLocker_Analytics_Database_FinLockerDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+                    If a model is explicitly set on the options for this context (via <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontextoptionsbuilder.usemodel">UseModel(IModel)</a>)
+                    then this method will not be run. However, it will still run when creating a compiled model.
+                </p>
+<p>
+                    See <a href="https://aka.ms/efcore-docs-modeling">Modeling entity types and relationships</a> for more information and
+                    examples.
+                </p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iinfrastructure-1">IInfrastructure&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextdependencies">IDbContextDependencies</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbsetcache">IDbSetCache</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.internal.idbcontextpoolable">IDbContextPoolable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.infrastructure.iresettableservice">IResettableService</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/FinLockerDbContext.cs&amp;version=GBinit&amp;line=6" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

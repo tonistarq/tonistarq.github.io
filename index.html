@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>FinLocker Analytics </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="FinLocker Analytics ">
+    
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="finlocker-analytics">FinLocker Analytics</h1>
+
+<p>Welcome to the FinLocker Analytics documentation.</p>
+<h2 id="overview">Overview</h2>
+<p>This project contains analytics services and applications for the FinLocker platform, providing comprehensive data processing, reporting, and user engagement tracking capabilities.</p>
+<h2 id="documentation-structure">Documentation Structure</h2>
+<h3 id="-quick-reference-guide">🧭 <a href="quick-reference.html">Quick Reference Guide</a></h3>
+<p>New to the documentation? Start here for navigation tips and finding what you need.</p>
+<h3 id="-api-documentation">📚 <a href="api/index.md">API Documentation</a></h3>
+<p>Complete API reference for all components, including classes, methods, and interfaces.</p>
+<h3 id="-architecture-overview">🏗️ Architecture Overview</h3>
+<h4 id="core-libraries">Core Libraries</h4>
+<ul>
+<li><strong><a href="api/FinLocker.Analytics.Application.html">FinLocker.Analytics.Application</a></strong>: Core application layer with business logic and services</li>
+<li><strong><a href="api/FinLocker.Analytics.Contracts.html">FinLocker.Analytics.Contracts</a></strong>: Contracts and interfaces for queue messaging</li>
+<li><strong><a href="api/FinLocker.Analytics.Database.html">FinLocker.Analytics.Database</a></strong>: Database layer with Entity Framework contexts and models</li>
+<li><strong><a href="api/FinLocker.Analytics.Types.html">FinLocker.Analytics.Types</a></strong>: Shared types, enums, and data models</li>
+</ul>
+<h4 id="services">Services</h4>
+<ul>
+<li><strong><a href="api/FinLocker.Analytics.Internal.Api.html">FinLocker.Analytics.Internal.Api</a></strong>: Internal REST API service</li>
+<li><strong><a href="api/FinLocker.Analytics.Queue.html">FinLocker.Analytics.Queue</a></strong>: Background queue processing worker</li>
+</ul>
+<h4 id="background-jobs">Background Jobs</h4>
+<ul>
+<li><strong><a href="api/FinLocker.Analytics.LoanOfficerReportJob.html">LoanOfficerReportJob</a></strong>: Generates comprehensive loan officer performance reports</li>
+<li><strong><a href="api/FinLocker.Analytics.SupportingDataJob.html">SupportingDataJob</a></strong>: Processes and synchronizes supporting data</li>
+<li><strong><a href="api/FinLocker.Analytics.SyncJob.html">SyncJob</a></strong>: Handles data synchronization operations</li>
+<li><strong><a href="api/FinLocker.Analytics.UserAttributesJob.html">UserAttributesJob</a></strong>: Processes user attribute data and analytics</li>
+</ul>
+<h2 id="key-features">Key Features</h2>
+<h3 id="-analytics--reporting">📊 Analytics &amp; Reporting</h3>
+<ul>
+<li>User engagement tracking</li>
+<li>Loan officer performance metrics</li>
+<li>Application usage statistics</li>
+<li>Email campaign analytics</li>
+</ul>
+<h3 id="-data-processing">🔄 Data Processing</h3>
+<ul>
+<li>Real-time data synchronization</li>
+<li>Parquet file generation for analytics</li>
+<li>Background job processing</li>
+<li>Queue-based message handling</li>
+</ul>
+<h3 id="-data-sources">🗄️ Data Sources</h3>
+<ul>
+<li>FinLocker user data</li>
+<li>Company information</li>
+<li>Prospect tracking</li>
+<li>User attributes and behaviors</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<ol>
+<li><strong>Explore the API</strong>: Start with the <a href="api/index.md">API Documentation</a> to understand available endpoints and models</li>
+<li><strong>Understand Data Flow</strong>: Review the background jobs to see how data flows through the system</li>
+<li><strong>Database Schema</strong>: Check the Database project for entity models and relationships</li>
+<li><strong>Configuration</strong>: Review the application settings and configuration options</li>
+</ol>
+<h2 id="development">Development</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>.NET 8.0 SDK</li>
+<li>SQL Server or compatible database</li>
+<li>Azure Service Bus (for queue processing)</li>
+</ul>
+<h3 id="key-technologies">Key Technologies</h3>
+<ul>
+<li><strong>Entity Framework Core</strong>: Database access and migrations</li>
+<li><strong>Parquet.Net</strong>: Analytics file generation</li>
+<li><strong>Azure Service Bus</strong>: Message queuing</li>
+<li><strong>ASP.NET Core</strong>: Web API framework</li>
+</ul>
+<hr>
+<p>💡 <strong>Tip</strong>: Use the navigation menu above or browse the <a href="api/index.md">complete API reference</a> to explore specific components in detail.</p>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=index.md&amp;version=GBinit&amp;line=1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
