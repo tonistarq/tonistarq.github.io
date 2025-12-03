@@ -104,6 +104,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.OutgoingAnalyticsPayloadTable.yml",
       "output": {
         ".html": {
@@ -564,6 +574,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IMarketReportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IMarketReportService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IPropertyService.yml",
       "output": {
         ".html": {
@@ -618,6 +638,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.LockerUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.MarketReportService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.MarketReportService.html"
         }
       },
       "version": ""
@@ -1158,6 +1188,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Database.Entities.LockerProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.MarketReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.MarketReport.html"
         }
       },
       "version": ""
