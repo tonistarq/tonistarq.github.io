@@ -1,181 +1,246 @@
 ﻿<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<html>
-
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>FinLocker Analytics </title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="title" content="FinLocker Analytics ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinLocker Microservices - API Documentation</title>
+    <meta name="description" content="Comprehensive API documentation for FinLocker microservices platform">
+    <link rel="shortcut icon" href="favicon.ico">
     
+    <!-- Modern CSS Framework -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     
-      <link rel="shortcut icon" href="favicon.ico">
-      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="styles/docfx.css">
-      <link rel="stylesheet" href="styles/main.css">
-      <meta property="docfx:navrel" content="toc.html">
-      <meta property="docfx:tocrel" content="toc.html">
-    
-    
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="logo.svg" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .service-card {
+            transition: all 0.3s ease;
+            border: 1px solid #e5e7eb;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: #6366f1;
+        }
+        .tech-badge {
+            background: linear-gradient(45deg, #4f46e5, #6366f1);
+        }
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #10b981;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .hero-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='m0 40l40-40h-40v40z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <img src="logo.svg" alt="FinLocker" class="h-8 w-8 mr-3">
+                    <h1 class="text-xl font-bold text-gray-900">FinLocker Microservices</h1>
                 </div>
-              </form>
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="status-indicator"></div>
+                        <span class="text-sm text-gray-600">All Systems Operational</span>
+                    </div>
+                </div>
             </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
         </div>
-      </header>
-      <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
-<h1 id="finlocker-analytics">FinLocker Analytics</h1>
+    </nav>
 
-<p>Welcome to the FinLocker Analytics documentation.</p>
-<h2 id="overview">Overview</h2>
-<p>This project contains analytics services and applications for the FinLocker platform, providing comprehensive data processing, reporting, and user engagement tracking capabilities.</p>
-<h2 id="documentation-structure">Documentation Structure</h2>
-<p>Use the <strong>navigation menu</strong> (table of contents) on the left to browse through all sections:</p>
-<ul>
-<li><strong><a href="quick-reference.html">Quick Reference Guide</a></strong> - Navigation tips and getting started</li>
-<li><strong><a href="api/index.html">API Reference</a></strong> - Complete API documentation for all components</li>
-<li><strong>Core Components</strong> - Application, Database, Types, Contracts, Internal API, and Queue Processing</li>
-<li><strong><a href="jobs.html">Background Jobs</a></strong> - Overview and links to all job documentation</li>
-</ul>
-<h3 id="key-components">Key Components</h3>
-<h4 id="core-libraries">Core Libraries</h4>
-<ul>
-<li><strong><a href="api/FinLocker.Analytics.Application.html">FinLocker.Analytics.Application</a></strong>: Core application layer with business logic and services</li>
-<li><strong><a href="api/FinLocker.Analytics.Contracts.html">FinLocker.Analytics.Contracts</a></strong>: Contracts and interfaces for queue messaging</li>
-<li><strong><a href="api/FinLocker.Analytics.Database.html">FinLocker.Analytics.Database</a></strong>: Database layer with Entity Framework contexts and models</li>
-<li><strong><a href="api/FinLocker.Analytics.Types.html">FinLocker.Analytics.Types</a></strong>: Shared types, enums, and data models</li>
-</ul>
-<h4 id="services">Services</h4>
-<ul>
-<li><strong><a href="api/FinLocker.Analytics.Internal.Api.html">FinLocker.Analytics.Internal.Api</a></strong>: Internal REST API service</li>
-<li><strong><a href="api/FinLocker.Analytics.Queue.html">FinLocker.Analytics.Queue</a></strong>: Background queue processing worker</li>
-</ul>
-<h4 id="background-jobs">Background Jobs</h4>
-<ul>
-<li><strong><a href="api/FinLocker.Analytics.LoanOfficerReportJob.html">LoanOfficerReportJob</a></strong>: Generates comprehensive loan officer performance reports</li>
-<li><strong><a href="api/FinLocker.Analytics.SupportingDataJob.html">SupportingDataJob</a></strong>: Processes and synchronizes supporting data</li>
-<li><strong><a href="api/FinLocker.Analytics.SyncJob.html">SyncJob</a></strong>: Handles data synchronization operations</li>
-<li><strong><a href="api/FinLocker.Analytics.UserAttributesJob.html">UserAttributesJob</a></strong>: Processes user attribute data and analytics</li>
-</ul>
-<h2 id="key-features">Key Features</h2>
-<h3 id="-analytics--reporting">📊 Analytics &amp; Reporting</h3>
-<ul>
-<li>User engagement tracking</li>
-<li>Loan officer performance metrics</li>
-<li>Application usage statistics</li>
-<li>Email campaign analytics</li>
-</ul>
-<h3 id="-data-processing">🔄 Data Processing</h3>
-<ul>
-<li>Real-time data synchronization</li>
-<li>Parquet file generation for analytics</li>
-<li>Background job processing</li>
-<li>Queue-based message handling</li>
-</ul>
-<h3 id="-data-sources">🗄️ Data Sources</h3>
-<ul>
-<li>FinLocker user data</li>
-<li>Company information</li>
-<li>Prospect tracking</li>
-<li>User attributes and behaviors</li>
-</ul>
-<h2 id="getting-started">Getting Started</h2>
-<ol>
-<li><strong>Explore the API</strong>: Start with the <a href="api/index.html">API Documentation</a> to understand available endpoints and models</li>
-<li><strong>Understand Data Flow</strong>: Review the background jobs to see how data flows through the system</li>
-<li><strong>Database Schema</strong>: Check the Database project for entity models and relationships</li>
-<li><strong>Configuration</strong>: Review the application settings and configuration options</li>
-</ol>
-<h2 id="development">Development</h2>
-<h3 id="prerequisites">Prerequisites</h3>
-<ul>
-<li>.NET 8.0 SDK</li>
-<li>SQL Server or compatible database</li>
-<li>Azure Service Bus (for queue processing)</li>
-</ul>
-<h3 id="key-technologies">Key Technologies</h3>
-<ul>
-<li><strong>Entity Framework Core</strong>: Database access and migrations</li>
-<li><strong>Parquet.Net</strong>: Analytics file generation</li>
-<li><strong>Azure Service Bus</strong>: Message queuing</li>
-<li><strong>ASP.NET Core</strong>: Web API framework</li>
-</ul>
-<hr>
-<p>💡 <strong>Tip</strong>: Use the navigation menu above or browse the <a href="api/index.html">complete API reference</a> to explore specific components in detail.</p>
-
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=index.md&amp;version=GBinit&amp;line=1" class="contribution-link">Edit this page</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In this article</h5>
-                <div></div>
-              </nav>
+    <!-- Hero Section -->
+    <div class="gradient-bg hero-pattern">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                    <span class="block">FinLocker Platform</span>
+                    <span class="block text-indigo-200">API Documentation</span>
+                </h1>
+                <p class="mt-3 max-w-md mx-auto text-base text-indigo-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                    Comprehensive documentation for our microservices architecture. Built for developers, tested by QA, trusted by teams.
+                </p>
+                <div class="mt-8 flex justify-center">
+                    <div class="inline-flex rounded-md shadow">
+                        <a href="#services" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 transition duration-150 ease-in-out">
+                            <i class="fas fa-rocket mr-2"></i>
+                            Explore Services
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
-    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="styles/docfx.js"></script>
-    <script type="text/javascript" src="styles/main.js"></script>
-  </body>
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                    Our Microservices
+                </h2>
+                <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
+                    Modular, scalable, and well-documented services powering the FinLocker platform
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Analytics Service -->
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-blue-500 to-blue-600 text-white">
+                                <i class="fas fa-chart-line text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900">Analytics Service</h3>
+                            <p class="text-sm text-gray-500">Data Processing & Reporting</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">
+                        Comprehensive analytics services providing data processing, reporting, and user engagement tracking capabilities for the FinLocker platform.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Key Features</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">📊 Analytics & Reporting</span>
+                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">🔄 Data Processing</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">🗄️ Data Sources</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Technologies</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">.NET 8.0</span>
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Entity Framework</span>
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Azure Service Bus</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-3">
+                        <a href="FinLocker.Analytics/" class="flex-1 bg-indigo-600 text-white text-center py-2 px-4 rounded-md hover:bg-indigo-700 transition duration-150 ease-in-out">
+                            <i class="fas fa-book mr-2"></i>View Documentation
+                        </a>
+                    </div>
+                </div>
+
+                <!-- GenAI Service -->
+                <div class="service-card bg-white rounded-lg p-8 shadow-lg">
+                    <div class="flex items-center mb-6">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-purple-500 to-pink-600 text-white">
+                                <i class="fas fa-brain text-xl"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900">GenAI Service</h3>
+                            <p class="text-sm text-gray-500">Generative AI & Machine Learning</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-600 mb-6">
+                        Advanced GenAI services providing AI-powered features including content generation, evaluation, market reporting, and intelligent data processing.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Key Features</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">🤖 AI Content Generation</span>
+                            <span class="px-3 py-1 bg-pink-100 text-pink-800 text-xs rounded-full">📈 Market Reporting</span>
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-full">🧠 Intelligent Processing</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Technologies</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">.NET 8.0</span>
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Cosmos DB</span>
+                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">OpenAI</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex space-x-3">
+                        <a href="FinLocker.GenAI/" class="flex-1 bg-purple-600 text-white text-center py-2 px-4 rounded-md hover:bg-purple-700 transition duration-150 ease-in-out">
+                            <i class="fas fa-book mr-2"></i>View Documentation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900">Quick Links</h2>
+                <p class="mt-4 text-lg text-gray-500">Common resources for developers and QA teams</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-center">
+                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-green-100 rounded-md mb-4">
+                            <i class="fas fa-flask text-green-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Testing Guidelines</h3>
+                        <p class="text-gray-600 text-sm mb-4">Best practices and testing strategies for our microservices</p>
+                        <a href="#" class="text-green-600 hover:text-green-700 font-medium">Learn More →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-center">
+                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-blue-100 rounded-md mb-4">
+                            <i class="fas fa-code text-blue-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Developer Guide</h3>
+                        <p class="text-gray-600 text-sm mb-4">Setup instructions and development workflows</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium">Get Started →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="text-center">
+                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-yellow-100 rounded-md mb-4">
+                            <i class="fas fa-network-wired text-yellow-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Architecture Overview</h3>
+                        <p class="text-gray-600 text-sm mb-4">Understanding our microservices architecture</p>
+                        <a href="#" class="text-yellow-600 hover:text-yellow-700 font-medium">Explore →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gray-500 text-sm">
+                    © 2025 FinLocker Platform Documentation. Generated with <strong>DocFX</strong>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
