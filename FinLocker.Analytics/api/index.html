@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>API Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="API Documentation ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="api-documentation">API Documentation</h1>
+
+<p>This section contains the complete API reference for all FinLocker Analytics components.</p>
+<h2 id="overview">Overview</h2>
+<p>The FinLocker Analytics solution is organized into several key projects, each serving a specific purpose in the analytics pipeline. Browse the sections below to explore the APIs for each component.</p>
+<h2 id="core-libraries">Core Libraries</h2>
+<h3 id="finlockeranalyticsapplication"><a href="FinLocker.Analytics.Application.html">FinLocker.Analytics.Application</a></h3>
+<p>The main application layer containing business logic, services, and application orchestration.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Service implementations for data processing</li>
+<li>Application extensions and configuration</li>
+<li>Validation logic and utilities</li>
+<li>Integration with external services</li>
+</ul>
+<h3 id="finlockeranalyticsdatabase"><a href="FinLocker.Analytics.Database.html">FinLocker.Analytics.Database</a></h3>
+<p>Database access layer with Entity Framework contexts and data models.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li><code>FinLockerDbContext</code> for main application data</li>
+<li><code>SynapseDbContext</code> for analytics data warehouse</li>
+<li>Entity models and relationships</li>
+<li>Database configuration and options</li>
+</ul>
+<h3 id="finlockeranalyticstypes"><a href="FinLocker.Analytics.Types.html">FinLocker.Analytics.Types</a></h3>
+<p>Shared types, enums, and data models used across all projects.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Common enums and constants</li>
+<li>Data transfer objects (DTOs)</li>
+<li>Shared model classes</li>
+<li>Type extensions and utilities</li>
+</ul>
+<h3 id="finlockeranalyticscontracts"><a href="FinLocker.Analytics.Contracts.html">FinLocker.Analytics.Contracts</a></h3>
+<p>Contracts and interfaces for queue messaging and service communication.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Queue message contracts</li>
+<li>Service interfaces</li>
+<li>Event definitions</li>
+<li>Communication protocols</li>
+</ul>
+<h2 id="services">Services</h2>
+<h3 id="finlockeranalyticsinternalapi"><a href="FinLocker.Analytics.Internal.Api.html">FinLocker.Analytics.Internal.Api</a></h3>
+<p>Internal REST API service for analytics operations.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>RESTful endpoints for internal use</li>
+<li>Authentication and authorization</li>
+<li>Request/response models</li>
+<li>API configuration and middleware</li>
+</ul>
+<h3 id="finlockeranalyticsqueue"><a href="FinLocker.Analytics.Queue.html">FinLocker.Analytics.Queue</a></h3>
+<p>Background queue processing worker service.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Queue message processing</li>
+<li>Background worker implementation</li>
+<li>Queue configuration and setup</li>
+<li>Error handling and retry logic</li>
+</ul>
+<h2 id="background-jobs">Background Jobs</h2>
+<h3 id="finlockeranalyticsloanofficerreportjob"><a href="FinLocker.Analytics.LoanOfficerReportJob.html">FinLocker.Analytics.LoanOfficerReportJob</a></h3>
+<p>Console application for generating loan officer performance reports.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Report generation logic</li>
+<li>Data aggregation and analysis</li>
+<li>Export capabilities</li>
+<li>Scheduling and automation support</li>
+</ul>
+<h3 id="finlockeranalyticssupportingdatajob"><a href="FinLocker.Analytics.SupportingDataJob.html">FinLocker.Analytics.SupportingDataJob</a></h3>
+<p>Console application for processing supporting data required for analytics.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Data validation and cleansing</li>
+<li>Reference data updates</li>
+<li>Data transformation pipelines</li>
+<li>Integration with external data sources</li>
+</ul>
+<h3 id="finlockeranalyticssyncjob"><a href="FinLocker.Analytics.SyncJob.html">FinLocker.Analytics.SyncJob</a></h3>
+<p>Console application handling data synchronization between systems.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>Multi-system data synchronization</li>
+<li>Conflict resolution strategies</li>
+<li>Incremental sync capabilities</li>
+<li>Data consistency validation</li>
+</ul>
+<h3 id="finlockeranalyticsuserattributesjob"><a href="FinLocker.Analytics.UserAttributesJob.html">FinLocker.Analytics.UserAttributesJob</a></h3>
+<p>Console application for processing user attributes and behavioral analytics.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>User behavior analysis</li>
+<li>Attribute calculation and updates</li>
+<li>Engagement metrics processing</li>
+<li>User segmentation logic</li>
+</ul>
+<h2 id="common-patterns">Common Patterns</h2>
+<h3 id="configuration">Configuration</h3>
+<p>All projects follow consistent configuration patterns using:</p>
+<ul>
+<li><code>appsettings.json</code> for environment-specific settings</li>
+<li>Options pattern for strongly-typed configuration</li>
+<li>Environment variable overrides</li>
+</ul>
+<h3 id="dependency-injection">Dependency Injection</h3>
+<p>Standard .NET dependency injection is used throughout:</p>
+<ul>
+<li>Service registration in <code>Program.cs</code></li>
+<li>Interface-based service design</li>
+<li>Scoped lifetime management</li>
+</ul>
+<h3 id="logging">Logging</h3>
+<p>Structured logging using:</p>
+<ul>
+<li><code>ILogger&lt;T&gt;</code> injection</li>
+<li>Consistent log levels and messages</li>
+<li>Performance and diagnostic logging</li>
+</ul>
+<h3 id="error-handling">Error Handling</h3>
+<p>Consistent error handling approach:</p>
+<ul>
+<li>Global exception handlers</li>
+<li>Custom exception types</li>
+<li>Structured error responses</li>
+</ul>
+<h2 id="getting-started-with-the-apis">Getting Started with the APIs</h2>
+<ol>
+<li><strong>Start with <a href="FinLocker.Analytics.Types.html">Types</a></strong> to understand the data models</li>
+<li><strong>Review <a href="FinLocker.Analytics.Database.html">Database</a></strong> for entity relationships</li>
+<li><strong>Explore <a href="FinLocker.Analytics.Application.html">Application</a></strong> for business logic</li>
+<li><strong>Check specific jobs</strong> for background processing workflows</li>
+</ol>
+<h2 id="api-reference-navigation">API Reference Navigation</h2>
+<p>Use the left navigation menu to browse specific namespaces and classes within each project. Each API reference includes:</p>
+<ul>
+<li>Class and method documentation</li>
+<li>Parameter descriptions</li>
+<li>Return value information</li>
+<li>Usage examples where applicable</li>
+<li>Related types and dependencies</li>
+</ul>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=api/index.md&amp;version=GBinit&amp;line=1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
