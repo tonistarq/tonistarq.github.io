@@ -83,7 +83,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBinit&amp;line=30">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBmain&amp;line=30">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_Version_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.Version*"></a>
   <h4 id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_Version" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.Version">Version</h4>
@@ -113,7 +113,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBinit&amp;line=37">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBmain&amp;line=37">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForAllAsync_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForAllAsync*"></a>
   <h4 id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForAllAsync_System_Threading_CancellationToken_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForAllAsync(System.Threading.CancellationToken)">BuildForAllAsync(CancellationToken)</h4>
@@ -158,16 +158,16 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBinit&amp;line=45">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBmain&amp;line=46">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync*"></a>
-  <h4 id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Threading_CancellationToken_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Threading.CancellationToken)">BuildForLoanOfficerAsync(UserItem, CancellationToken)</h4>
+  <h4 id="FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Collections_Generic_IReadOnlySet_System_Guid__System_Threading_CancellationToken_" data-uid="FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Collections.Generic.IReadOnlySet{System.Guid},System.Threading.CancellationToken)">BuildForLoanOfficerAsync(UserItem, IReadOnlySet&lt;Guid&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Builds Loan Officer Report for a specific FLID</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;ReportResult&gt; BuildForLoanOfficerAsync(UserItem user, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task&lt;ReportResult&gt; BuildForLoanOfficerAsync(UserItem user, IReadOnlySet&lt;Guid&gt; failedIds, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -182,6 +182,11 @@
       <tr>
         <td><a class="xref" href="FinLocker.Analytics.Application.Models.UserItem.html">UserItem</a></td>
         <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlyset-1">IReadOnlySet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</td>
+        <td><span class="parametername">failedIds</span></td>
         <td></td>
       </tr>
       <tr>
@@ -215,7 +220,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBinit&amp;line=25" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/Report/ILoanOfficerReportBuilderService.cs&amp;version=GBmain&amp;line=25" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

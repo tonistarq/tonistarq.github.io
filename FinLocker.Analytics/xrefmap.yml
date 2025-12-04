@@ -5541,12 +5541,15 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForAllAsync
   nameWithType: ILoanOfficerReportBuilderService.BuildForAllAsync
-- uid: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Threading.CancellationToken)
-  name: BuildForLoanOfficerAsync(UserItem, CancellationToken)
-  href: api/FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.html#FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Threading_CancellationToken_
-  commentId: M:FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Threading.CancellationToken)
-  fullName: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Threading.CancellationToken)
-  nameWithType: ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(UserItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Collections.Generic.IReadOnlySet{System.Guid},System.Threading.CancellationToken)
+  name: BuildForLoanOfficerAsync(UserItem, IReadOnlySet<Guid>, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.html#FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Collections_Generic_IReadOnlySet_System_Guid__System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Collections.Generic.IReadOnlySet{System.Guid},System.Threading.CancellationToken)
+  name.vb: BuildForLoanOfficerAsync(UserItem, IReadOnlySet(Of Guid), CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Collections.Generic.IReadOnlySet<System.Guid>, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Collections.Generic.IReadOnlySet(Of System.Guid), System.Threading.CancellationToken)
+  nameWithType: ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(UserItem, IReadOnlySet<Guid>, CancellationToken)
+  nameWithType.vb: ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync(UserItem, IReadOnlySet(Of Guid), CancellationToken)
 - uid: FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.BuildForLoanOfficerAsync*
   name: BuildForLoanOfficerAsync
   href: api/FinLocker.Analytics.Application.Services.Report.ILoanOfficerReportBuilderService.html#FinLocker_Analytics_Application_Services_Report_ILoanOfficerReportBuilderService_BuildForLoanOfficerAsync_
@@ -5637,12 +5640,15 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForAllAsync
   nameWithType: LoanOfficerReportBuilderServiceV1.BuildForAllAsync
-- uid: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Threading.CancellationToken)
-  name: BuildForLoanOfficerAsync(UserItem, CancellationToken)
-  href: api/FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.html#FinLocker_Analytics_Application_Services_Report_LoanOfficerReportBuilderServiceV1_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Threading_CancellationToken_
-  commentId: M:FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Threading.CancellationToken)
-  fullName: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Threading.CancellationToken)
-  nameWithType: LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(UserItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Collections.Generic.IReadOnlySet{System.Guid},System.Threading.CancellationToken)
+  name: BuildForLoanOfficerAsync(UserItem, IReadOnlySet<Guid>, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.html#FinLocker_Analytics_Application_Services_Report_LoanOfficerReportBuilderServiceV1_BuildForLoanOfficerAsync_FinLocker_Analytics_Application_Models_UserItem_System_Collections_Generic_IReadOnlySet_System_Guid__System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem,System.Collections.Generic.IReadOnlySet{System.Guid},System.Threading.CancellationToken)
+  name.vb: BuildForLoanOfficerAsync(UserItem, IReadOnlySet(Of Guid), CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Collections.Generic.IReadOnlySet<System.Guid>, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(FinLocker.Analytics.Application.Models.UserItem, System.Collections.Generic.IReadOnlySet(Of System.Guid), System.Threading.CancellationToken)
+  nameWithType: LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(UserItem, IReadOnlySet<Guid>, CancellationToken)
+  nameWithType.vb: LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync(UserItem, IReadOnlySet(Of Guid), CancellationToken)
 - uid: FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.BuildForLoanOfficerAsync*
   name: BuildForLoanOfficerAsync
   href: api/FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.html#FinLocker_Analytics_Application_Services_Report_LoanOfficerReportBuilderServiceV1_BuildForLoanOfficerAsync_
