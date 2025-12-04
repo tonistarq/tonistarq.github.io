@@ -46,9 +46,9 @@ Follow these steps to add a new microservice to the documentation portal:
 
 ### Step 1: Add Your DocFX Documentation
 
-1. Generate your microservice documentation using DocFX
-2. Create a new folder in the root directory named after your microservice (e.g., `FinLocker.YourService/`)
-3. Copy all your DocFX-generated files into this folder
+1. Create a `YourService.DocFx` pipeline in Azure DevOps. We have examples in `FinLocker.GenAI repo` for reference.
+2. Run the pipeline to generate the DocFX documentation for your microservice.
+3. This will create a folder structure similar to `FinLocker.YourService/` with an `index.html` and `api/` folder.
 
 ### Step 2: Update the Landing Page
 
