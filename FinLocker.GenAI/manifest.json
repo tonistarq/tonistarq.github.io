@@ -3,6 +3,16 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.GenAI.Application.Extensions.DatabaseMapper.yml",
       "output": {
@@ -3829,6 +3839,49 @@
         },
         ".html": {
           "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "jobs.md",
+      "output": {
+        ".html": {
+          "relative_path": "jobs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "quick-reference.md",
+      "output": {
+        ".html": {
+          "relative_path": "quick-reference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""

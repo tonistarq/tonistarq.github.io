@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title> </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content=" ">
+    
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<p>﻿# Background Jobs Overview</p>
+<p>The FinLocker GenAI system includes several background processing components that handle AI content generation, evaluation, and reporting tasks.</p>
+<h2 id="available-jobs-and-queue-workers">Available Jobs and Queue Workers</h2>
+<h3 id="ai-evaluator-queue"><a href="api/FinLocker.GenAI.Evaluator.Queue.html">AI Evaluator Queue</a></h3>
+<p>Background worker that processes AI evaluation requests, scoring generated content for quality, relevance, and accuracy. Handles feedback processing and model performance assessment.</p>
+<h3 id="ai-runner-queue"><a href="api/FinLocker.GenAI.Runner.Queue.html">AI Runner Queue</a></h3>
+<p>Background worker responsible for executing AI content generation requests. Processes queue messages to generate intelligent responses, documents, and other AI-powered content.</p>
+<h3 id="market-report-sync-job"><a href="api/FinLocker.GenAI.MarketReport.SyncJob.html">Market Report Sync Job</a></h3>
+<p>Automated job that synchronizes market data and generates AI-powered market reports. Handles data processing, analysis, and report generation using AI models.</p>
+<h2 id="queue-processing-architecture">Queue Processing Architecture</h2>
+<p>All queue workers are designed to process messages asynchronously and can be deployed as:</p>
+<ul>
+<li>Azure Container Instances</li>
+<li>Kubernetes pods</li>
+<li>Azure Functions (consumption plan)</li>
+<li>Background services in Azure App Service</li>
+</ul>
+<h2 id="ai-processing-flow">AI Processing Flow</h2>
+<ol>
+<li><strong>Request Reception</strong>: API services receive AI requests and queue them</li>
+<li><strong>Queue Processing</strong>: Background workers pick up and process requests</li>
+<li><strong>AI Generation</strong>: Content is generated using AI models</li>
+<li><strong>Evaluation</strong>: Generated content is optionally evaluated for quality</li>
+<li><strong>Storage</strong>: Results are stored in Cosmos DB</li>
+<li><strong>Notification</strong>: Completion status is communicated back to requesters</li>
+</ol>
+<p>For detailed implementation and configuration, refer to each component's specific documentation.</p>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=jobs.md&amp;version=GB75934_work&amp;line=1" class="contribution-link">Edit this page</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
