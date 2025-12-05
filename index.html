@@ -36,9 +36,42 @@
         }
         
         .content-area {
-            max-width: 800px;
+            max-width: 100%;
             padding: 2rem;
             margin: 0 auto;
+        }
+        
+        .iframe-container {
+            width: 100%;
+            height: calc(100vh - 4rem);
+            border: none;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .iframe-loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background: #f8fafc;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+        
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
         
         .sidebar-header {
@@ -258,8 +291,8 @@
                     Analytics Service
                     <span class="service-badge">v2.1</span>
                 </a>
-                <a href="FinLocker.Analytics/" class="nav-item" onclick="window.open('FinLocker.Analytics/', '_blank')">
-                    <i class="fas fa-external-link-alt"></i>
+                <a href="#analytics-docs" class="nav-item" onclick="showIframe('analytics-docs', 'FinLocker.Analytics/')">
+                    <i class="fas fa-book"></i>
                     Analytics Docs
                 </a>
                 <a href="#genai" class="nav-item" onclick="showSection('genai')">
@@ -267,8 +300,8 @@
                     GenAI Service
                     <span class="service-badge">v1.5</span>
                 </a>
-                <a href="FinLocker.GenAI/" class="nav-item" onclick="window.open('FinLocker.GenAI/', '_blank')">
-                    <i class="fas fa-external-link-alt"></i>
+                <a href="#genai-docs" class="nav-item" onclick="showIframe('genai-docs', 'FinLocker.GenAI/')">
+                    <i class="fas fa-book"></i>
                     GenAI Docs
                 </a>
             </div>
@@ -409,12 +442,29 @@
                 <h3>Documentation Links</h3>
                 <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
                     <div class="flex items-center">
-                        <i class="fas fa-external-link-alt text-blue-600 mr-2"></i>
-                        <a href="FinLocker.Analytics/" class="text-blue-600 hover:text-blue-800 font-medium">
+                        <i class="fas fa-book text-blue-600 mr-2"></i>
+                        <a href="#analytics-docs" class="text-blue-600 hover:text-blue-800 font-medium" onclick="showIframe('analytics-docs', 'FinLocker.Analytics/')">
                             View Complete Analytics Documentation →
                         </a>
                     </div>
                 </div>
+            </section>
+
+            <!-- Analytics Documentation Iframe -->
+            <section id="analytics-docs-section" class="content-section" style="display: none;">
+                <div class="mb-4">
+                    <button onclick="showSection('analytics')" class="bg-blue-100 text-blue-800 px-3 py-1 rounded-md text-sm hover:bg-blue-200 transition-colors">
+                        <i class="fas fa-arrow-left mr-1"></i> Back to Analytics Overview
+                    </button>
+                    <h1 class="text-2xl font-bold mt-2">Analytics Service Documentation</h1>
+                </div>
+                <div class="iframe-loading" id="analytics-loading">
+                    <div>
+                        <div class="loading-spinner"></div>
+                        <p class="mt-4 text-gray-600">Loading Analytics Documentation...</p>
+                    </div>
+                </div>
+                <iframe id="analytics-iframe" class="iframe-container" style="display: none;" onload="hideLoading('analytics')"></iframe>
             </section>
 
             <!-- GenAI Section -->
@@ -442,7 +492,7 @@
                 
                 <h3>Key Features</h3>
                 <ul class="list-disc list-inside space-y-1">
-                    <li>🤖 AI-powered content generation</li>
+                    <li>��� AI-powered content generation</li>
                     <li>🧠 Intelligent document processing</li>
                     <li>📈 Automated market analysis</li>
                     <li>🎯 Smart recommendation engine</li>
@@ -452,12 +502,29 @@
                 <h3>Documentation Links</h3>
                 <div class="bg-purple-50 border border-purple-200 rounded-lg p-4 mt-4">
                     <div class="flex items-center">
-                        <i class="fas fa-external-link-alt text-purple-600 mr-2"></i>
-                        <a href="FinLocker.GenAI/" class="text-purple-600 hover:text-purple-800 font-medium">
+                        <i class="fas fa-book text-purple-600 mr-2"></i>
+                        <a href="#genai-docs" class="text-purple-600 hover:text-purple-800 font-medium" onclick="showIframe('genai-docs', 'FinLocker.GenAI/')">
                             View Complete GenAI Documentation →
                         </a>
                     </div>
                 </div>
+            </section>
+
+            <!-- GenAI Documentation Iframe -->
+            <section id="genai-docs-section" class="content-section" style="display: none;">
+                <div class="mb-4">
+                    <button onclick="showSection('genai')" class="bg-purple-100 text-purple-800 px-3 py-1 rounded-md text-sm hover:bg-purple-200 transition-colors">
+                        <i class="fas fa-arrow-left mr-1"></i> Back to GenAI Overview
+                    </button>
+                    <h1 class="text-2xl font-bold mt-2">GenAI Service Documentation</h1>
+                </div>
+                <div class="iframe-loading" id="genai-loading">
+                    <div>
+                        <div class="loading-spinner"></div>
+                        <p class="mt-4 text-gray-600">Loading GenAI Documentation...</p>
+                    </div>
+                </div>
+                <iframe id="genai-iframe" class="iframe-container" style="display: none;" onload="hideLoading('genai')"></iframe>
             </section>
 
             <!-- Other Sections (Hidden by default) -->
@@ -518,11 +585,75 @@
                 item.classList.remove('active');
             });
             
-            event.target.classList.add('active');
+            // Find and activate the clicked nav item
+            const clickedItem = event.target.closest('.nav-item');
+            if (clickedItem) {
+                clickedItem.classList.add('active');
+            }
             
             // Close mobile sidebar
             if (window.innerWidth <= 768) {
                 document.getElementById('sidebar').classList.remove('open');
+            }
+        }
+        
+        function showIframe(sectionId, url) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            // Show the iframe section
+            const targetSection = document.getElementById(sectionId + '-section');
+            if (targetSection) {
+                targetSection.style.display = 'block';
+            }
+            
+            // Get the iframe element
+            const iframeName = sectionId.replace('-docs', '');
+            const iframe = document.getElementById(iframeName + '-iframe');
+            const loading = document.getElementById(iframeName + '-loading');
+            
+            if (iframe && loading) {
+                // Show loading spinner
+                loading.style.display = 'flex';
+                iframe.style.display = 'none';
+                
+                // Set iframe source if not already loaded
+                if (!iframe.src) {
+                    iframe.src = url;
+                } else {
+                    // If already loaded, just show it
+                    hideLoading(iframeName);
+                }
+            }
+            
+            // Update active nav item
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Find and activate the clicked nav item
+            const clickedItem = event.target.closest('.nav-item');
+            if (clickedItem) {
+                clickedItem.classList.add('active');
+            }
+            
+            // Close mobile sidebar
+            if (window.innerWidth <= 768) {
+                document.getElementById('sidebar').classList.remove('open');
+            }
+        }
+        
+        function hideLoading(serviceName) {
+            const loading = document.getElementById(serviceName + '-loading');
+            const iframe = document.getElementById(serviceName + '-iframe');
+            
+            if (loading && iframe) {
+                loading.style.display = 'none';
+                iframe.style.display = 'block';
             }
         }
         
@@ -539,6 +670,13 @@
                 !sidebar.contains(event.target) && 
                 !menuBtn.contains(event.target)) {
                 sidebar.classList.remove('open');
+            }
+        });
+        
+        // Prevent iframe from capturing all clicks
+        document.addEventListener('click', function(event) {
+            if (event.target.closest('iframe')) {
+                event.preventDefault();
             }
         });
     </script>
