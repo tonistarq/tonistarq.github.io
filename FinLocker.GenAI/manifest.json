@@ -20,11 +20,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.DatabaseMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions.DatabaseMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -34,11 +30,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.JsonConfiguration.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions.JsonConfiguration",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -48,11 +40,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.RedisHashExtensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions.RedisHashExtensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -62,11 +50,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.ServiceCollectionExtensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions.ServiceCollectionExtensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -76,11 +60,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.StringExtensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions.StringExtensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -90,11 +70,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Extensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Extensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -104,11 +80,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.AiEvaluationResult.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.AiEvaluationResult",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -118,11 +90,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.AiModel.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.AiModel",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -132,11 +100,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.BaseSignalRData.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.BaseSignalRData",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -146,11 +110,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.ChatCitation.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.ChatCitation",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -160,11 +120,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.ChatDocument.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.ChatDocument",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -174,11 +130,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.ChatQuestion.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.ChatQuestion",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -188,11 +140,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.ChatQuestionResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.ChatQuestionResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -202,11 +150,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.ChatQuestionSection.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.ChatQuestionSection",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -216,11 +160,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.CsChatPromptFlowApiRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.CsChatPromptFlowApiRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -230,11 +170,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiChatDocument.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiChatDocument",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -244,11 +180,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiChatHistory.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiChatHistory",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -258,11 +190,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiCitation.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiCitation",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -272,11 +200,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat.PromptFlowApiResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -286,11 +210,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.CsChat.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.CsChat",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -300,11 +220,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.DataSource.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.DataSource",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -314,11 +230,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.Evaluation.EvaluateApiRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.Evaluation.EvaluateApiRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -328,11 +240,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.Evaluation.EvaluateApiResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.Evaluation.EvaluateApiResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -342,11 +250,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.Evaluation.EvaluationMetric.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.Evaluation.EvaluationMetric",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -356,11 +260,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.Evaluation.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.Evaluation",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -370,11 +270,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.EventHub.ClientPortalChat.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.EventHub.ClientPortalChat",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -384,11 +280,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.EventHub.GenAiConsumerPromptHubAction.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.EventHub.GenAiConsumerPromptHubAction",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -398,11 +290,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.EventHub.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.EventHub",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -412,11 +300,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ChatCompletionResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ChatCompletionResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -426,11 +310,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFs.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFs",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -440,11 +320,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsActionTag.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsActionTag",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -454,11 +330,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsPromptFlowApiRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsPromptFlowApiRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -468,11 +340,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsPromptFlowApiResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsPromptFlowApiResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -482,11 +350,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsStatus.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsStatus",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -496,11 +360,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsSummarySection.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary.ConsumerFsSummarySection",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -510,11 +370,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.FinancialSummary.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.FinancialSummary",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -524,11 +380,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.IGenAiResult.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.IGenAiResult",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -538,11 +390,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.ISignalRData.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.ISignalRData",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -552,11 +400,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.LogRecord.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.LogRecord",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -566,11 +410,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -580,11 +420,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.DownPaymentAssistanceProgram.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.DownPaymentAssistanceProgram",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -594,11 +430,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketCompetitiveness.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketCompetitiveness",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -608,11 +440,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -622,11 +450,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketReportPayload.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketReportPayload",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -636,11 +460,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowApiRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowApiRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -650,11 +470,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowApiResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowApiResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -664,11 +480,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowResponseData.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MarketReportPromptFlowResponseData",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -678,11 +490,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MedianHomePrices.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MedianHomePrices",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -692,11 +500,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.MedianPricePerSqft.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.MedianPricePerSqft",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -706,11 +510,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.RecentPolicy.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.RecentPolicy",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -720,11 +520,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.RecentlySoldProperty.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.RecentlySoldProperty",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -734,11 +530,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.RentalMarket.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.RentalMarket",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -748,11 +540,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -762,11 +550,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport.TokenUsage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -776,11 +560,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReport.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReport",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -790,11 +570,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReportProjectConfiguration.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReportProjectConfiguration",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -804,11 +580,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReportResult.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReportResult",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -818,11 +590,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.yml\" sourcestartlinenumber=\"1\">Message for updating market report usage information</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -832,11 +600,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.NewUserFeedback.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.NewUserFeedback",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -846,11 +610,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.ProjectConfiguration.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.ProjectConfiguration",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -860,11 +620,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.PromptFlowError.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.PromptFlowError",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -874,11 +630,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.PromptFlowErrorResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.PromptFlowErrorResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -888,11 +640,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.RecommendedAction.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.RecommendedAction",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -902,11 +650,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.SectionUserFeedback.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.SectionUserFeedback",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -916,11 +660,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.SignalRMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.SignalRMessage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -930,11 +670,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.SummarySection.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.SummarySection",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -944,11 +680,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.TokenClaims.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.TokenClaims",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -958,11 +690,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.TokenCount.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.TokenCount",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -972,11 +700,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.UserFeedback.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.UserFeedback",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -986,11 +710,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.UserPrompt.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.UserPrompt",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1000,11 +720,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.UserPromptResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.UserPromptResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1014,11 +730,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.ZipCodeUpdatePayload.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models.ZipCodeUpdatePayload",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1028,11 +740,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Models.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Models",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1042,11 +750,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.EmailOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.EmailOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1056,11 +760,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.EnvironmentOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.EnvironmentOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1070,11 +770,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.GenAiBlobStorageOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.GenAiBlobStorageOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1084,11 +780,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.GenAiHubOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.GenAiHubOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1098,11 +790,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.GenAiRedisOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.GenAiRedisOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1112,11 +800,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.SignalrOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.SignalrOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1126,11 +810,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.UrlOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options.UrlOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1140,11 +820,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Options.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Options",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1154,11 +830,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ChatService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ChatService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1168,11 +840,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ConsumerFsService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ConsumerFsService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1182,11 +850,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.GenAiEvaluationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.GenAiEvaluationService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1196,11 +860,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.GenAiEventHubService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.GenAiEventHubService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1210,11 +870,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.GenAiProjectService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.GenAiProjectService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1224,11 +880,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IChatService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IChatService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1238,11 +890,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IConsumerFsService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IConsumerFsService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1252,11 +900,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IGenAiEvaluationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IGenAiEvaluationService",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Application.Services.IGenAiEvaluationService.yml\" sourcestartlinenumber=\"1\">Service interface for evaluating GenAI content and responses</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1266,11 +910,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IGenAiEventHubService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IGenAiEventHubService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1280,11 +920,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IGenAiProjectService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IGenAiProjectService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1294,11 +930,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IMarketReportChannelService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IMarketReportChannelService",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Application.Services.IMarketReportChannelService.yml\" sourcestartlinenumber=\"1\">Service for managing in-memory channels for market report updates</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1308,11 +940,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IMarketReportService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IMarketReportService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1322,11 +950,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.INotificationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.INotificationService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1336,11 +960,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IProgressLogService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IProgressLogService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1350,11 +970,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IProjectConfigurationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IProjectConfigurationService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1364,11 +980,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.IPromptQuestionService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.IPromptQuestionService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1378,11 +990,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ISignalrService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ISignalrService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1392,11 +1000,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.MarketReportChannelService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.MarketReportChannelService",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Application.Services.MarketReportChannelService.yml\" sourcestartlinenumber=\"1\">Implementation of the market report channel service using .NET Channels</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1406,11 +1010,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.MarketReportService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.MarketReportService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1420,11 +1020,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.MarketReportUsageProcessorService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.MarketReportUsageProcessorService",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Application.Services.MarketReportUsageProcessorService.yml\" sourcestartlinenumber=\"1\">Background service that processes market report usage update messages from the channel</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1434,11 +1030,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.NotificationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.NotificationService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1448,11 +1040,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProgressLogService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProgressLogService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1462,11 +1050,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectConfigurationService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectConfigurationService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1476,11 +1060,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectRunners.ConsumerFsProjectRunner.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectRunners.ConsumerFsProjectRunner",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1490,11 +1070,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectRunners.IProjectRunner.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectRunners.IProjectRunner",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1504,11 +1080,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectRunners.MarketReportByCountryRunner.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectRunners.MarketReportByCountryRunner",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1518,11 +1090,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectRunners.MarketReportByZipRunner.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectRunners.MarketReportByZipRunner",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1532,11 +1100,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.ProjectRunners.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.ProjectRunners",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1546,11 +1110,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.PromptQuestionService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.PromptQuestionService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1560,11 +1120,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.SignalrService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services.SignalrService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1574,11 +1130,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Services.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Services",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1588,11 +1140,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.EmailOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.EmailOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1602,11 +1150,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.EnvironmentOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.EnvironmentOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1616,11 +1160,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.GenAiBlobStorageOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.GenAiBlobStorageOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1630,11 +1170,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.GenAiHubOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.GenAiHubOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1644,11 +1180,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.GenAiRedisOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.GenAiRedisOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1658,11 +1190,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.SignalrOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.SignalrOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1672,11 +1200,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.UrlOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators.UrlOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1686,11 +1210,7 @@
           "relative_path": "api/FinLocker.GenAI.Application.Validators.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Application.Validators",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1700,11 +1220,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Controllers.FinancialSummaryController.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Controllers.FinancialSummaryController",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Consumer.Api.Controllers.FinancialSummaryController.yml\" sourcestartlinenumber=\"1\">Handles financial summary</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1714,11 +1230,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Controllers.MarketReportController.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Controllers.MarketReportController",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Consumer.Api.Controllers.MarketReportController.yml\" sourcestartlinenumber=\"1\">Handles market report requests</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1728,11 +1240,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Controllers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Controllers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1742,11 +1250,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Mappers.MarketReportMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Mappers.MarketReportMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1756,11 +1260,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Mappers.SummaryMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Mappers.SummaryMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1770,11 +1270,7 @@
           "relative_path": "api/FinLocker.GenAI.Consumer.Api.Mappers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Consumer.Api.Mappers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1784,11 +1280,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1798,11 +1290,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.ConsumerFsFeedback.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.ConsumerFsFeedback",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1812,11 +1300,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.ConsumerFsResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.ConsumerFsResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1826,11 +1310,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.ConsumerFsStatusResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.ConsumerFsStatusResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1840,11 +1320,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.DownPaymentAssistanceProgram.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.DownPaymentAssistanceProgram",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1854,11 +1330,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MarketCompetitiveness.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MarketCompetitiveness",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1868,11 +1340,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MarketReportItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MarketReportItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1882,11 +1350,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MarketReportJson.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MarketReportJson",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1896,11 +1360,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MarketReportRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MarketReportRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1910,11 +1370,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MarketReportResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MarketReportResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1924,11 +1380,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MedianHomePrices.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MedianHomePrices",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1938,11 +1390,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.MedianPricePerSqft.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.MedianPricePerSqft",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1952,11 +1400,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.Policy.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.Policy",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1966,11 +1410,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.RecentlySoldProperty.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.RecentlySoldProperty",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1980,11 +1420,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.RecommendedActionItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.RecommendedActionItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -1994,11 +1430,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.RentalMarket.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.RentalMarket",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2008,11 +1440,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.ScoringBreakdown.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.ScoringBreakdown",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2022,11 +1450,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.SectionFeedback.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.SectionFeedback",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2036,11 +1460,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.SummarySectionItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.SummarySectionItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2050,11 +1470,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.TokenUsage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.TokenUsage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2064,11 +1480,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.ZipCodeUpdateRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer.ZipCodeUpdateRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2078,11 +1490,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Consumer.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Consumer",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2092,11 +1500,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.ChatPrompt.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.ChatPrompt",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2106,11 +1510,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.ChatResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.ChatResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2120,11 +1520,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.ChatResponseCitation.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.ChatResponseCitation",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2134,11 +1530,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.ChatResponseDocument.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.ChatResponseDocument",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2148,11 +1540,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.PredefinedQuestion.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.PredefinedQuestion",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2162,11 +1550,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.PredefinedQuestionResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.PredefinedQuestionResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2176,11 +1560,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.PredefinedQuestionSection.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer.PredefinedQuestionSection",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2190,11 +1570,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Customer.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Customer",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2204,11 +1580,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.FeedbackRequest.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.FeedbackRequest",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2218,11 +1590,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.AiModelItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.AiModelItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2232,11 +1600,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.CredentialItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.CredentialItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2246,11 +1610,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.DataSourceItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.DataSourceItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2260,11 +1620,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.MarketReportAiModelItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.MarketReportAiModelItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2274,11 +1630,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.MarketReportConfigurationResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.MarketReportConfigurationResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2288,11 +1640,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.ProjectConfigurationResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.ProjectConfigurationResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2302,11 +1650,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.PromptInstructionItem.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal.PromptInstructionItem",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2316,11 +1660,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Internal.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Internal",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2330,11 +1670,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Queue.GenAiEvaluatorQueueMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Queue.GenAiEvaluatorQueueMessage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2344,11 +1680,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2358,11 +1690,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.Queue.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts.Queue",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2372,11 +1700,7 @@
           "relative_path": "api/FinLocker.GenAI.Contracts.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Contracts",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2386,11 +1710,7 @@
           "relative_path": "api/FinLocker.GenAI.Customer.Api.Controllers.CsChatController.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Customer.Api.Controllers.CsChatController",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2400,11 +1720,7 @@
           "relative_path": "api/FinLocker.GenAI.Customer.Api.Controllers.QuestionController.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Customer.Api.Controllers.QuestionController",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2414,11 +1730,7 @@
           "relative_path": "api/FinLocker.GenAI.Customer.Api.Controllers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Customer.Api.Controllers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2428,11 +1740,7 @@
           "relative_path": "api/FinLocker.GenAI.Customer.Api.Extensions.ApiResponseMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Customer.Api.Extensions.ApiResponseMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2442,11 +1750,7 @@
           "relative_path": "api/FinLocker.GenAI.Customer.Api.Extensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Customer.Api.Extensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2456,11 +1760,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Converters.ProjectTypeResponseConverter.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Converters.ProjectTypeResponseConverter",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2470,11 +1770,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Converters.SystemProjectTypeResponseConverter.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Converters.SystemProjectTypeResponseConverter",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2484,11 +1780,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Converters.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Converters",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2498,11 +1790,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.CosmosOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.CosmosOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2512,11 +1800,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.DataConstants.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.DataConstants",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2526,11 +1810,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.Company.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.Company",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2540,11 +1820,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.DataSource.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.DataSource",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2554,11 +1830,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.ExternalIdentity.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.ExternalIdentity",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2568,11 +1840,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.GenAiProject.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.GenAiProject",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2582,11 +1850,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.GenAiProjectDataSource.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.GenAiProjectDataSource",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2596,11 +1860,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.GenAiProjectModel.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.GenAiProjectModel",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2610,11 +1870,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.GenAiPromptInstruction.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.GenAiPromptInstruction",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2624,11 +1880,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.GlobalConfiguration.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.GlobalConfiguration",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2638,11 +1890,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.MarketReport.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.MarketReport",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2652,11 +1900,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.PageUrl.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.PageUrl",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2666,11 +1910,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.PromptQuestion.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.PromptQuestion",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2680,11 +1920,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.PromptQuestionSection.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.PromptQuestionSection",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2694,11 +1930,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.Prospect.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.Prospect",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2708,11 +1940,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.User.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.User",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2722,11 +1950,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.UserMarketReportZipCode.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.UserMarketReportZipCode",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2736,11 +1960,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.UserSubscription.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities.UserSubscription",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2750,11 +1970,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Entities.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Entities",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2764,11 +1980,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.FinLockerDbContext.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.FinLockerDbContext",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2778,11 +1990,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.ICosmosBatchService.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.ICosmosBatchService",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2792,11 +2000,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.AiModelDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.AiModelDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2806,11 +2010,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ChatRequestDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ChatRequestDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2820,11 +2020,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ChatResponseCitationDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ChatResponseCitationDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2834,11 +2030,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ChatResponseDocumentDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ChatResponseDocumentDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2848,11 +2040,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ConsumerFs.ConsumerFsDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ConsumerFs.ConsumerFsDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2862,11 +2050,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ConsumerFs.ConsumerFsError.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ConsumerFs.ConsumerFsError",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2876,11 +2060,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ConsumerFs.RecommendedActionDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ConsumerFs.RecommendedActionDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2890,11 +2070,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ConsumerFs.SummarySectionDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ConsumerFs.SummarySectionDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2904,11 +2080,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.ConsumerFs.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.ConsumerFs",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2918,11 +2090,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.CosmosEntity.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.CosmosEntity",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2932,11 +2100,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.CredentialDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.CredentialDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2946,11 +2110,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.EvaluationResultDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.EvaluationResultDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2960,11 +2120,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.FeedBackDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.FeedBackDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2974,11 +2130,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.IProjectResponse.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.IProjectResponse",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -2988,11 +2140,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.PromptRequestDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.PromptRequestDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3002,11 +2150,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.SectionFeedBackDto.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models.SectionFeedBackDto",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3016,11 +2160,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Models.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Models",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3030,11 +2170,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Options.ChatRequestContainerOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Options.ChatRequestContainerOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3044,11 +2180,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Options.CosmosRepositoryOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Options.CosmosRepositoryOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3058,11 +2190,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Options.PromptRequestContainerOptions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Options.PromptRequestContainerOptions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3072,11 +2200,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Options.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Options",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3086,11 +2210,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.BaseRepository-2.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.BaseRepository<TDatabaseEntity, TOptions>",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3100,11 +2220,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.ChatRequestRepository.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.ChatRequestRepository",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3114,11 +2230,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.IBaseRepository-2.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.IBaseRepository<TDatabaseEntity, TOptions>",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3128,11 +2240,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.IChatRequestRepository.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.IChatRequestRepository",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3142,11 +2250,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.IPromptRequestRepository.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.IPromptRequestRepository",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3156,11 +2260,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.PromptRequestRepository.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories.PromptRequestRepository",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3170,11 +2270,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Repositories.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Repositories",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3184,11 +2280,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.ServiceCollectionExtensions.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.ServiceCollectionExtensions",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3198,11 +2290,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Validators.ChatRequestContainerOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Validators.ChatRequestContainerOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3212,11 +2300,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Validators.CosmosOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Validators.CosmosOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3226,11 +2310,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Validators.PromptRequestContainerOptionsValidator.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Validators.PromptRequestContainerOptionsValidator",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3240,11 +2320,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.Validators.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database.Validators",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3254,11 +2330,7 @@
           "relative_path": "api/FinLocker.GenAI.Database.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Database",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3268,11 +2340,7 @@
           "relative_path": "api/FinLocker.GenAI.Evaluator.Queue.Worker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Evaluator.Queue.Worker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3282,11 +2350,7 @@
           "relative_path": "api/FinLocker.GenAI.Evaluator.Queue.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Evaluator.Queue",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3296,11 +2360,7 @@
           "relative_path": "api/FinLocker.GenAI.Internal.Api.Controllers.ConfigurationController.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Internal.Api.Controllers.ConfigurationController",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Internal.Api.Controllers.ConfigurationController.yml\" sourcestartlinenumber=\"1\">Handles configuration</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3310,11 +2370,7 @@
           "relative_path": "api/FinLocker.GenAI.Internal.Api.Controllers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Internal.Api.Controllers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3324,11 +2380,7 @@
           "relative_path": "api/FinLocker.GenAI.Internal.Api.Mappers.MarketReportConfigurationMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Internal.Api.Mappers.MarketReportConfigurationMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3338,11 +2390,7 @@
           "relative_path": "api/FinLocker.GenAI.Internal.Api.Mappers.ProjectConfigurationMapper.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Internal.Api.Mappers.ProjectConfigurationMapper",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3352,11 +2400,7 @@
           "relative_path": "api/FinLocker.GenAI.Internal.Api.Mappers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Internal.Api.Mappers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3366,11 +2410,7 @@
           "relative_path": "api/FinLocker.GenAI.MarketReport.SyncJob.Worker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.MarketReport.SyncJob.Worker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3380,11 +2420,7 @@
           "relative_path": "api/FinLocker.GenAI.MarketReport.SyncJob.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.MarketReport.SyncJob",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3394,11 +2430,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Models.BaseTopicMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Models.BaseTopicMessage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3408,11 +2440,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Models.ReadinessResultSuccessfulTopicMessage.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Models.ReadinessResultSuccessfulTopicMessage",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3422,11 +2450,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Models.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Models",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3436,11 +2460,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.AccountsUpdatedWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.AccountsUpdatedWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3450,11 +2470,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.EnrolledPropertyStatusChangeWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.EnrolledPropertyStatusChangeWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3464,11 +2480,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.FavoriteHomesStatusChangeWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.FavoriteHomesStatusChangeWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3478,11 +2490,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.FlowCompletedWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.FlowCompletedWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3492,11 +2500,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.InsightsWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.InsightsWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3506,11 +2510,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.JourneyGoalsUpdatedWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.JourneyGoalsUpdatedWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3520,11 +2520,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.JourneyTagUpdatedWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.JourneyTagUpdatedWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3534,11 +2530,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.PromptWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.PromptWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3548,11 +2540,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.ScenariosWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.ScenariosWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3562,11 +2550,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.StepByStepGuideUpdatedWorker.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers.StepByStepGuideUpdatedWorker",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3576,11 +2560,7 @@
           "relative_path": "api/FinLocker.GenAI.Runner.Queue.Workers.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Runner.Queue.Workers",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3590,11 +2570,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.CredentialTypes.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.CredentialTypes",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3604,11 +2580,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.DataTrendTypes.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.DataTrendTypes",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3618,11 +2590,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.FeatureCodes.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.FeatureCodes",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3632,11 +2600,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.GenAiProjectTypes.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.GenAiProjectTypes",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3646,11 +2610,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.GenAiStatusTypes.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.GenAiStatusTypes",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3660,11 +2620,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.PromptActionType.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums.PromptActionType",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3674,11 +2630,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Enums.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Enums",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3688,11 +2640,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Events.GenAiLogEventIds.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Events.GenAiLogEventIds",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3702,11 +2650,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Events.GenAiSignalrEventIds.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Events.GenAiSignalrEventIds",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3716,11 +2660,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Events.GenAiSignalrEventMessages.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Events.GenAiSignalrEventMessages",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3730,11 +2670,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Events.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Events",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3744,11 +2680,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.Platform.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models.Platform",
-      "Summary": "<p sourcefile=\"api/FinLocker.GenAI.Types.Models.Platform.yml\" sourcestartlinenumber=\"1\">Represents platform information for tracking user device and browser details</p>\n"
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3758,11 +2690,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.RefId.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models.RefId",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3772,11 +2700,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.ReportVersion.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models.ReportVersion",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3786,11 +2710,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.ReportVersionJsonConverter.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models.ReportVersionJsonConverter",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3800,11 +2720,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.SourceKeyJsonConverter.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models.SourceKeyJsonConverter",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -3814,11 +2730,7 @@
           "relative_path": "api/FinLocker.GenAI.Types.Models.html"
         }
       },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "FinLocker.GenAI.Types.Models",
-      "Summary": null
+      "version": ""
     },
     {
       "type": "Conceptual",

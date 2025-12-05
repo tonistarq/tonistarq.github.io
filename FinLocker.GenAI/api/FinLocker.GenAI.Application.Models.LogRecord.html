@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
@@ -116,15 +116,15 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=5">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=5">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord__ctor_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.#ctor*"></a>
-  <h4 id="FinLocker_GenAI_Application_Models_LogRecord__ctor_System_String_System_String_FinLocker_GenAI_Types_Enums_GenAiStatusTypes_FinLocker_GenAI_Types_Enums_PromptActionType_System_String_System_Nullable_System_Int64__" data-uid="FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64})">LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?)</h4>
+  <h4 id="FinLocker_GenAI_Application_Models_LogRecord__ctor_System_String_System_String_FinLocker_GenAI_Types_Enums_GenAiStatusTypes_FinLocker_GenAI_Types_Enums_PromptActionType_System_String_System_Nullable_System_Int64__System_String_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64},System.String)">LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?, string?)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogRecord(string SignalRId, string SignalRMessage, GenAiStatusTypes Status, PromptActionType ActionType, string HubName, long? ElapsedMilliseconds = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogRecord(string SignalRId, string SignalRMessage, GenAiStatusTypes Status, PromptActionType ActionType, string HubName, long? ElapsedMilliseconds = null, string? ErrorMessage = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -166,13 +166,18 @@
         <td><span class="parametername">ElapsedMilliseconds</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">ErrorMessage</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=9">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=9">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_ActionType_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ActionType*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_ActionType" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ActionType">ActionType</h4>
@@ -199,7 +204,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=11">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=11">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_ElapsedMilliseconds_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ElapsedMilliseconds*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_ElapsedMilliseconds" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ElapsedMilliseconds">ElapsedMilliseconds</h4>
@@ -226,7 +231,34 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=10">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=12">View Source</a>
+  </span>
+  <a id="FinLocker_GenAI_Application_Models_LogRecord_ErrorMessage_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage*"></a>
+  <h4 id="FinLocker_GenAI_Application_Models_LogRecord_ErrorMessage" data-uid="FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage">ErrorMessage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ErrorMessage { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=10">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_HubName_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.HubName*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_HubName" data-uid="FinLocker.GenAI.Application.Models.LogRecord.HubName">HubName</h4>
@@ -253,7 +285,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=6">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=6">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_SignalRId_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.SignalRId*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_SignalRId" data-uid="FinLocker.GenAI.Application.Models.LogRecord.SignalRId">SignalRId</h4>
@@ -280,7 +312,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=7">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=7">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_SignalRMessage_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.SignalRMessage*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_SignalRMessage" data-uid="FinLocker.GenAI.Application.Models.LogRecord.SignalRMessage">SignalRMessage</h4>
@@ -307,7 +339,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=8">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=8">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_LogRecord_Status_" data-uid="FinLocker.GenAI.Application.Models.LogRecord.Status*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_LogRecord_Status" data-uid="FinLocker.GenAI.Application.Models.LogRecord.Status">Status</h4>
@@ -345,7 +377,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GB75934_work&amp;line=5" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/LogRecord.cs&amp;version=GBmain&amp;line=5" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

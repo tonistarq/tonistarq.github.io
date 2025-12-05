@@ -1998,15 +1998,15 @@ references:
   commentId: T:FinLocker.GenAI.Application.Models.LogRecord
   fullName: FinLocker.GenAI.Application.Models.LogRecord
   nameWithType: LogRecord
-- uid: FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64})
-  name: LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?)
-  href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord__ctor_System_String_System_String_FinLocker_GenAI_Types_Enums_GenAiStatusTypes_FinLocker_GenAI_Types_Enums_PromptActionType_System_String_System_Nullable_System_Int64__
-  commentId: M:FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64})
-  name.vb: New(String, String, GenAiStatusTypes, PromptActionType, String, Long?)
-  fullName: FinLocker.GenAI.Application.Models.LogRecord.LogRecord(string, string, FinLocker.GenAI.Types.Enums.GenAiStatusTypes, FinLocker.GenAI.Types.Enums.PromptActionType, string, long?)
-  fullName.vb: FinLocker.GenAI.Application.Models.LogRecord.New(String, String, FinLocker.GenAI.Types.Enums.GenAiStatusTypes, FinLocker.GenAI.Types.Enums.PromptActionType, String, Long?)
-  nameWithType: LogRecord.LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?)
-  nameWithType.vb: LogRecord.New(String, String, GenAiStatusTypes, PromptActionType, String, Long?)
+- uid: FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64},System.String)
+  name: LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?, string?)
+  href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord__ctor_System_String_System_String_FinLocker_GenAI_Types_Enums_GenAiStatusTypes_FinLocker_GenAI_Types_Enums_PromptActionType_System_String_System_Nullable_System_Int64__System_String_
+  commentId: M:FinLocker.GenAI.Application.Models.LogRecord.#ctor(System.String,System.String,FinLocker.GenAI.Types.Enums.GenAiStatusTypes,FinLocker.GenAI.Types.Enums.PromptActionType,System.String,System.Nullable{System.Int64},System.String)
+  name.vb: New(String, String, GenAiStatusTypes, PromptActionType, String, Long?, String)
+  fullName: FinLocker.GenAI.Application.Models.LogRecord.LogRecord(string, string, FinLocker.GenAI.Types.Enums.GenAiStatusTypes, FinLocker.GenAI.Types.Enums.PromptActionType, string, long?, string?)
+  fullName.vb: FinLocker.GenAI.Application.Models.LogRecord.New(String, String, FinLocker.GenAI.Types.Enums.GenAiStatusTypes, FinLocker.GenAI.Types.Enums.PromptActionType, String, Long?, String)
+  nameWithType: LogRecord.LogRecord(string, string, GenAiStatusTypes, PromptActionType, string, long?, string?)
+  nameWithType.vb: LogRecord.New(String, String, GenAiStatusTypes, PromptActionType, String, Long?, String)
 - uid: FinLocker.GenAI.Application.Models.LogRecord.#ctor*
   name: LogRecord
   href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord__ctor_
@@ -2043,6 +2043,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.LogRecord.ElapsedMilliseconds
   nameWithType: LogRecord.ElapsedMilliseconds
+- uid: FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage
+  name: ErrorMessage
+  href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord_ErrorMessage
+  commentId: P:FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage
+  fullName: FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage
+  nameWithType: LogRecord.ErrorMessage
+- uid: FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage*
+  name: ErrorMessage
+  href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord_ErrorMessage_
+  commentId: Overload:FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.LogRecord.ErrorMessage
+  nameWithType: LogRecord.ErrorMessage
 - uid: FinLocker.GenAI.Application.Models.LogRecord.HubName
   name: HubName
   href: api/FinLocker.GenAI.Application.Models.LogRecord.html#FinLocker_GenAI_Application_Models_LogRecord_HubName
