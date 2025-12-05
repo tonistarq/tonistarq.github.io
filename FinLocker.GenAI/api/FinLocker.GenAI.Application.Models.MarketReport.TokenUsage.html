@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class TokenUsage ">
     
-    
+    <meta name="description" content="Contains token usage statistics for API calls.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -71,7 +71,8 @@
 
 
   <h1 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage" class="text-break">Class TokenUsage</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Contains token usage statistics for API calls.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -112,16 +113,17 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=115">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=230">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_CachedContentTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.CachedContentTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_CachedContentTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.CachedContentTokenCount">CachedContentTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of tokens from cached content.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;cached_content_token_count&quot;)]
-public long CachedContentTokenCount { get; set; }</code></pre>
+public long? CachedContentTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -133,23 +135,24 @@ public long CachedContentTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=118">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=236">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_CandidatesTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.CandidatesTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_CandidatesTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.CandidatesTokenCount">CandidatesTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of tokens in candidate responses.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;candidates_token_count&quot;)]
-public long CandidatesTokenCount { get; set; }</code></pre>
+public long? CandidatesTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -161,23 +164,24 @@ public long CandidatesTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=121">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=242">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_PromptTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.PromptTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_PromptTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.PromptTokenCount">PromptTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of tokens in the prompt.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;prompt_token_count&quot;)]
-public long PromptTokenCount { get; set; }</code></pre>
+public long? PromptTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -189,23 +193,24 @@ public long PromptTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=124">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=248">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_ThoughtsTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.ThoughtsTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_ThoughtsTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.ThoughtsTokenCount">ThoughtsTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of tokens used for thoughts/reasoning.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;thoughts_token_count&quot;)]
-public long ThoughtsTokenCount { get; set; }</code></pre>
+public long? ThoughtsTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -217,23 +222,24 @@ public long ThoughtsTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=127">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=254">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_ToolUsePromptTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.ToolUsePromptTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_ToolUsePromptTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.ToolUsePromptTokenCount">ToolUsePromptTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of tokens used for tool use prompts.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;tool_use_prompt_token_count&quot;)]
-public long ToolUsePromptTokenCount { get; set; }</code></pre>
+public long? ToolUsePromptTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -245,23 +251,24 @@ public long ToolUsePromptTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=130">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=260">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_TotalTokenCount_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.TotalTokenCount*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_TokenUsage_TotalTokenCount" data-uid="FinLocker.GenAI.Application.Models.MarketReport.TokenUsage.TotalTokenCount">TotalTokenCount</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The total number of tokens consumed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;total_token_count&quot;)]
-public long TotalTokenCount { get; set; }</code></pre>
+public long? TotalTokenCount { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -273,7 +280,7 @@ public long TotalTokenCount { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
@@ -287,7 +294,7 @@ public long TotalTokenCount { get; set; }</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=113" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=225" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

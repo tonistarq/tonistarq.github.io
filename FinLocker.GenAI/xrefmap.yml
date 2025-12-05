@@ -3470,6 +3470,19 @@ references:
   commentId: T:FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage
   fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage
   nameWithType: MarketReportUsageUpdateMessage
+- uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code
+  name: Code
+  href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_Code
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code
+  fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code
+  nameWithType: MarketReportUsageUpdateMessage.Code
+- uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code*
+  name: Code
+  href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_Code_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.Code
+  nameWithType: MarketReportUsageUpdateMessage.Code
 - uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ExternalId
   name: ExternalId
   href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_ExternalId
@@ -3509,6 +3522,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportId
   nameWithType: MarketReportUsageUpdateMessage.ReportId
+- uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType
+  name: ReportType
+  href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_ReportType
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType
+  fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType
+  nameWithType: MarketReportUsageUpdateMessage.ReportType
+- uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType*
+  name: ReportType
+  href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_ReportType_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.ReportType
+  nameWithType: MarketReportUsageUpdateMessage.ReportType
 - uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.UsedAtUtc
   name: UsedAtUtc
   href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html#FinLocker_GenAI_Application_Models_MarketReportUsageUpdateMessage_UsedAtUtc

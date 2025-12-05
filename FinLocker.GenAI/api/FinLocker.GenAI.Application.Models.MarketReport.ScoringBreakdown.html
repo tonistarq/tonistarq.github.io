@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class ScoringBreakdown ">
     
-    
+    <meta name="description" content="Contains the detailed scoring breakdown for a down payment assistance program.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -71,7 +71,8 @@
 
 
   <h1 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown" class="text-break">Class ScoringBreakdown</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Contains the detailed scoring breakdown for a down payment assistance program.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -116,16 +117,17 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=244">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=488">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_EaseOfQualificationScore_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.EaseOfQualificationScore*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_EaseOfQualificationScore" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.EaseOfQualificationScore">EaseOfQualificationScore</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Score based on how easy it is to qualify for the program.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;ease_of_qualification_score&quot;)]
-public double EaseOfQualificationScore { get; set; }</code></pre>
+public double? EaseOfQualificationScore { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -137,23 +139,24 @@ public double EaseOfQualificationScore { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=247">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=494">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_ForgivableNatureScore_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.ForgivableNatureScore*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_ForgivableNatureScore" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.ForgivableNatureScore">ForgivableNatureScore</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Score based on whether the assistance is forgivable or needs to be repaid.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;forgivable_nature_score&quot;)]
-public double ForgivableNatureScore { get; set; }</code></pre>
+public double? ForgivableNatureScore { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -165,23 +168,24 @@ public double ForgivableNatureScore { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=250">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=500">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_GeographicCoverageScore_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.GeographicCoverageScore*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_GeographicCoverageScore" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.GeographicCoverageScore">GeographicCoverageScore</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Score based on the geographic coverage area of the program.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;geographic_coverage_score&quot;)]
-public double GeographicCoverageScore { get; set; }</code></pre>
+public double? GeographicCoverageScore { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -193,23 +197,24 @@ public double GeographicCoverageScore { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=241">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=482">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_MaxAssistanceScore_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.MaxAssistanceScore*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_MaxAssistanceScore" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.MaxAssistanceScore">MaxAssistanceScore</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Score based on the maximum assistance amount available.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;max_assistance_score&quot;)]
-public double MaxAssistanceScore { get; set; }</code></pre>
+public double? MaxAssistanceScore { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -221,23 +226,24 @@ public double MaxAssistanceScore { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=253">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=506">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_TrackRecordScore_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.TrackRecordScore*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_ScoringBreakdown_TrackRecordScore" data-uid="FinLocker.GenAI.Application.Models.MarketReport.ScoringBreakdown.TrackRecordScore">TrackRecordScore</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Score based on the historical success and track record of the program.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;track_record_score&quot;)]
-public double TrackRecordScore { get; set; }</code></pre>
+public double? TrackRecordScore { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -249,7 +255,7 @@ public double TrackRecordScore { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
         <td></td>
       </tr>
     </tbody>
@@ -267,7 +273,7 @@ public double TrackRecordScore { get; set; }</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=239" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=477" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

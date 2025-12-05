@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Class MarketReportJsonData ">
     
-    
+    <meta name="description" content="Represents the structured market report data in JSON format.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -71,7 +71,8 @@
 
 
   <h1 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData" class="text-break">Class MarketReportJsonData</h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents the structured market report data in JSON format.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -116,16 +117,17 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=139">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=278">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_City_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.City*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_City" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.City">City</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The city name for the market report.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;city&quot;)]
-public string? City { get; set; }</code></pre>
+public string? City { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -144,16 +146,17 @@ public string? City { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=160">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=320">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_DownPaymentAssistancePrograms_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.DownPaymentAssistancePrograms*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_DownPaymentAssistancePrograms" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.DownPaymentAssistancePrograms">DownPaymentAssistancePrograms</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Collection of down payment assistance programs available in the area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;down_payment_assistance_programs&quot;)]
-public IReadOnlyCollection&lt;DownPaymentAssistanceProgram&gt; DownPaymentAssistancePrograms { get; set; }</code></pre>
+public IReadOnlyCollection&lt;DownPaymentAssistanceProgram&gt;? DownPaymentAssistancePrograms { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -172,16 +175,17 @@ public IReadOnlyCollection&lt;DownPaymentAssistanceProgram&gt; DownPaymentAssist
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=136">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=272">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_Location_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.Location*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_Location" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.Location">Location</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The location identifier for the market report.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;location&quot;)]
-public string? Location { get; set; }</code></pre>
+public string? Location { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -200,16 +204,17 @@ public string? Location { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=151">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=302">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MarketCompetitiveness_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MarketCompetitiveness*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MarketCompetitiveness" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MarketCompetitiveness">MarketCompetitiveness</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The market competitiveness metrics and information.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;market_competitiveness&quot;)]
-public MarketCompetitiveness? MarketCompetitiveness { get; set; }</code></pre>
+public MarketCompetitiveness? MarketCompetitiveness { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -228,16 +233,17 @@ public MarketCompetitiveness? MarketCompetitiveness { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=148">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=296">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MedianHomePrices_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MedianHomePrices*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MedianHomePrices" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MedianHomePrices">MedianHomePrices</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The median home prices data for the area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;median_home_prices&quot;)]
-public MedianHomePrices? MedianHomePrices { get; set; }</code></pre>
+public MedianHomePrices? MedianHomePrices { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -256,16 +262,17 @@ public MedianHomePrices? MedianHomePrices { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=154">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=308">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MedianPricePerSqft_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MedianPricePerSqft*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_MedianPricePerSqft" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.MedianPricePerSqft">MedianPricePerSqft</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The median price per square foot data for the area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;median_price_per_sqft&quot;)]
-public MedianPricePerSqft? MedianPricePerSqft { get; set; }</code></pre>
+public MedianPricePerSqft? MedianPricePerSqft { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -284,16 +291,17 @@ public MedianPricePerSqft? MedianPricePerSqft { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=163">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=326">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_RecentlySoldProperties_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.RecentlySoldProperties*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_RecentlySoldProperties" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.RecentlySoldProperties">RecentlySoldProperties</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Collection of recently sold properties in the area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;recently_sold_properties&quot;)]
-public IReadOnlyCollection&lt;RecentlySoldProperty&gt; RecentlySoldProperties { get; set; }</code></pre>
+public IReadOnlyCollection&lt;RecentlySoldProperty&gt;? RecentlySoldProperties { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -312,16 +320,17 @@ public IReadOnlyCollection&lt;RecentlySoldProperty&gt; RecentlySoldProperties { 
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=157">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=314">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_RentalMarket_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.RentalMarket*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_RentalMarket" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.RentalMarket">RentalMarket</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The rental market information for the area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;rental_market&quot;)]
-public RentalMarket? RentalMarket { get; set; }</code></pre>
+public RentalMarket? RentalMarket { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -340,16 +349,17 @@ public RentalMarket? RentalMarket { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=142">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=284">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_State_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.State*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_State" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.State">State</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The state name for the market report.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;state&quot;)]
-public string? State { get; set; }</code></pre>
+public string? State { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -368,16 +378,17 @@ public string? State { get; set; }</code></pre>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=145">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=290">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_ZipCode_" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.ZipCode*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_MarketReport_MarketReportJsonData_ZipCode" data-uid="FinLocker.GenAI.Application.Models.MarketReport.MarketReportJsonData.ZipCode">ZipCode</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The ZIP code for the market report area.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;zipcode&quot;)]
-public string? ZipCode { get; set; }</code></pre>
+public string? ZipCode { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -407,7 +418,7 @@ public string? ZipCode { get; set; }</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=134" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/MarketReport/MarketReportPromptFlowApiResponse.cs&amp;version=GBmain&amp;line=267" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
