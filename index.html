@@ -12,235 +12,535 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     
     <style>
-        .gradient-bg {
+        :root {
+            --sidebar-width: 280px;
+            --header-height: 64px;
+        }
+        
+        .sidebar {
+            width: var(--sidebar-width);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #1a1b23;
+            border-right: 1px solid #2d2e37;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        
+        .main-content {
+            margin-left: var(--sidebar-width);
+            min-height: 100vh;
+            background: #ffffff;
+        }
+        
+        .content-area {
+            max-width: 800px;
+            padding: 2rem;
+            margin: 0 auto;
+        }
+        
+        .sidebar-header {
+            padding: 1.5rem 1.25rem;
+            border-bottom: 1px solid #2d2e37;
+        }
+        
+        .sidebar-nav {
+            padding: 1rem 0;
+        }
+        
+        .nav-section {
+            margin-bottom: 2rem;
+        }
+        
+        .nav-section-title {
+            color: #8b8d98;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 0 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .nav-item {
+            display: block;
+            padding: 0.5rem 1.25rem;
+            color: #c9cad1;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.15s ease;
+            border-left: 3px solid transparent;
+        }
+        
+        .nav-item:hover {
+            background: #252631;
+            color: #ffffff;
+        }
+        
+        .nav-item.active {
+            background: #252631;
+            color: #3b82f6;
+            border-left-color: #3b82f6;
+        }
+        
+        .nav-item i {
+            width: 20px;
+            margin-right: 0.75rem;
+            opacity: 0.8;
+        }
+        
+        .service-badge {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-left: auto;
+        }
+        
+        .hero-section {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
         }
-        .service-card {
-            transition: all 0.3s ease;
-            border: 1px solid #e5e7eb;
+        
+        .service-overview {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
         }
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            border-color: #6366f1;
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
         }
+        
+        .feature-card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+        }
+        
+        .feature-card:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+        }
+        
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: #eff6ff;
+            color: #3b82f6;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
         .tech-badge {
-            background: linear-gradient(45deg, #4f46e5, #6366f1);
+            background: #1f2937;
+            color: white;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
         }
+        
         .status-indicator {
             width: 8px;
             height: 8px;
-            border-radius: 50%;
             background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 0.5rem;
             animation: pulse 2s infinite;
         }
+        
         @keyframes pulse {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.5; }
         }
-        .hero-pattern {
-            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='m0 40l40-40h-40v40z'/%3E%3C/g%3E%3C/svg%3E");
+        
+        .mobile-menu-btn {
+            display: none;
+            position: fixed;
+            top: 1rem;
+            left: 1rem;
+            z-index: 1100;
+            background: #1a1b23;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+            
+            .sidebar.open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .content-area {
+                padding: 1rem;
+                margin-top: 3rem;
+            }
         }
     </style>
 </head>
 <body class="bg-gray-50">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center">
-                    <img src="logo.svg" alt="FinLocker" class="h-8 w-8 mr-3">
-                    <h1 class="text-xl font-bold text-gray-900">FinLocker Microservices</h1>
-                </div>
-                <div class="flex items-center space-x-4">
-                    <div class="flex items-center space-x-2">
-                        <div class="status-indicator"></div>
-                        <span class="text-sm text-gray-600">All Systems Operational</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </button>
 
-    <!-- Hero Section -->
-    <div class="gradient-bg hero-pattern">
-        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-                    <span class="block">FinLocker Platform</span>
-                    <span class="block text-indigo-200">API Documentation</span>
-                </h1>
-                <p class="mt-3 max-w-md mx-auto text-base text-indigo-100 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                    Comprehensive documentation for our microservices architecture. Built for developers, tested by QA, trusted by teams.
-                </p>
-                <div class="mt-8 flex justify-center">
-                    <div class="inline-flex rounded-md shadow">
-                        <a href="#services" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 transition duration-150 ease-in-out">
-                            <i class="fas fa-rocket mr-2"></i>
-                            Explore Services
-                        </a>
-                    </div>
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="flex items-center">
+                <img src="logo.svg" alt="FinLocker" class="h-8 w-8 mr-3">
+                <div>
+                    <h1 class="text-white font-bold text-lg">FinLocker</h1>
+                    <p class="text-gray-400 text-xs">API Documentation</p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Services Section -->
-    <section id="services" class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                    Our Microservices
-                </h2>
-                <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-                    Modular, scalable, and well-documented services powering the FinLocker platform
-                </p>
+        
+        <nav class="sidebar-nav">
+            <div class="nav-section">
+                <div class="nav-section-title">Overview</div>
+                <a href="#overview" class="nav-item active" onclick="showSection('overview')">
+                    <i class="fas fa-home"></i>
+                    Getting Started
+                </a>
+                <a href="#architecture" class="nav-item" onclick="showSection('architecture')">
+                    <i class="fas fa-sitemap"></i>
+                    Architecture
+                </a>
+                <a href="#authentication" class="nav-item" onclick="showSection('authentication')">
+                    <i class="fas fa-shield-alt"></i>
+                    Authentication
+                </a>
             </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Microservices</div>
+                <a href="#analytics" class="nav-item" onclick="showSection('analytics')">
+                    <i class="fas fa-chart-line"></i>
+                    Analytics Service
+                    <span class="service-badge">v2.1</span>
+                </a>
+                <a href="FinLocker.Analytics/" class="nav-item" onclick="window.open('FinLocker.Analytics/', '_blank')">
+                    <i class="fas fa-external-link-alt"></i>
+                    Analytics Docs
+                </a>
+                <a href="#genai" class="nav-item" onclick="showSection('genai')">
+                    <i class="fas fa-brain"></i>
+                    GenAI Service
+                    <span class="service-badge">v1.5</span>
+                </a>
+                <a href="FinLocker.GenAI/" class="nav-item" onclick="window.open('FinLocker.GenAI/', '_blank')">
+                    <i class="fas fa-external-link-alt"></i>
+                    GenAI Docs
+                </a>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Developer Resources</div>
+                <a href="#sdks" class="nav-item" onclick="showSection('sdks')">
+                    <i class="fas fa-code"></i>
+                    SDKs & Libraries
+                </a>
+                <a href="#testing" class="nav-item" onclick="showSection('testing')">
+                    <i class="fas fa-flask"></i>
+                    Testing Guide
+                </a>
+                <a href="#changelog" class="nav-item" onclick="showSection('changelog')">
+                    <i class="fas fa-list-ul"></i>
+                    Changelog
+                </a>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-section-title">Support</div>
+                <a href="#status" class="nav-item" onclick="showSection('status')">
+                    <i class="fas fa-heartbeat"></i>
+                    System Status
+                </a>
+                <a href="#contact" class="nav-item" onclick="showSection('contact')">
+                    <i class="fas fa-envelope"></i>
+                    Contact Support
+                </a>
+            </div>
+        </nav>
+    </aside>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                <!-- Analytics Service -->
-                <div class="service-card bg-white rounded-lg p-8 shadow-lg">
-                    <div class="flex items-center mb-6">
-                        <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-blue-500 to-blue-600 text-white">
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-area">
+            <!-- Overview Section -->
+            <section id="overview-section" class="content-section">
+                <div class="hero-section">
+                    <div class="text-center">
+                        <h1 class="text-4xl font-bold mb-4">FinLocker Platform API</h1>
+                        <p class="text-xl opacity-90 mb-6">
+                            Comprehensive documentation for our microservices architecture
+                        </p>
+                        <div class="flex items-center justify-center mb-4">
+                            <span class="status-indicator"></span>
+                            <span class="text-sm">All Systems Operational</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prose prose-lg max-w-none mt-8">
+                    <h2>Welcome to FinLocker API Documentation</h2>
+                    <p>
+                        The FinLocker platform provides a comprehensive suite of microservices designed to power 
+                        modern financial applications. Our API-first approach ensures scalability, reliability, 
+                        and developer-friendly integration.
+                    </p>
+                    
+                    <div class="service-overview">
+                        <h3 class="text-lg font-semibold mb-3">Quick Start</h3>
+                        <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                            <li>Choose your microservice from the left navigation</li>
+                            <li>Review the service-specific documentation</li>
+                            <li>Implement using our provided SDKs and examples</li>
+                            <li>Test your integration using our sandbox environment</li>
+                        </ol>
+                    </div>
+                    
+                    <h3>Available Services</h3>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
                                 <i class="fas fa-chart-line text-xl"></i>
                             </div>
-                        </div>
-                        <div class="ml-4">
-                            <h3 class="text-xl font-bold text-gray-900">Analytics Service</h3>
-                            <p class="text-sm text-gray-500">Data Processing & Reporting</p>
-                        </div>
-                    </div>
-                    
-                    <p class="text-gray-600 mb-6">
-                        Comprehensive analytics services providing data processing, reporting, and user engagement tracking capabilities for the FinLocker platform.
-                    </p>
-                    
-                    <div class="mb-6">
-                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Key Features</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">📊 Analytics & Reporting</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs rounded-full">🔄 Data Processing</span>
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">🗄️ Data Sources</span>
-                        </div>
-                    </div>
-                    
-                    <div class="mb-6">
-                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Technologies</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">.NET 8.0</span>
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Entity Framework</span>
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Azure Service Bus</span>
-                        </div>
-                    </div>
-                    
-                    <div class="flex space-x-3">
-                        <a href="FinLocker.Analytics/" class="flex-1 bg-indigo-600 text-white text-center py-2 px-4 rounded-md hover:bg-indigo-700 transition duration-150 ease-in-out">
-                            <i class="fas fa-book mr-2"></i>View Documentation
-                        </a>
-                    </div>
-                </div>
-
-                <!-- GenAI Service -->
-                <div class="service-card bg-white rounded-lg p-8 shadow-lg">
-                    <div class="flex items-center mb-6">
-                        <div class="flex-shrink-0">
-                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-gradient-to-r from-purple-500 to-pink-600 text-white">
-                                <i class="fas fa-brain text-xl"></i>
+                            <h4 class="font-semibold text-lg mb-2">Analytics Service</h4>
+                            <p class="text-gray-600 text-sm mb-3">
+                                Comprehensive analytics and reporting capabilities for user engagement tracking and data processing.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">.NET 8.0</span>
+                                <span class="tech-badge">Entity Framework</span>
+                                <span class="tech-badge">Azure Service Bus</span>
                             </div>
                         </div>
-                        <div class="ml-4">
-                            <h3 class="text-xl font-bold text-gray-900">GenAI Service</h3>
-                            <p class="text-sm text-gray-500">Generative AI & Machine Learning</p>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-brain text-xl"></i>
+                            </div>
+                            <h4 class="font-semibold text-lg mb-2">GenAI Service</h4>
+                            <p class="text-gray-600 text-sm mb-3">
+                                Advanced AI-powered features including content generation, evaluation, and intelligent data processing.
+                            </p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">.NET 8.0</span>
+                                <span class="tech-badge">Cosmos DB</span>
+                                <span class="tech-badge">OpenAI</span>
+                            </div>
                         </div>
                     </div>
-                    
-                    <p class="text-gray-600 mb-6">
-                        Advanced GenAI services providing AI-powered features including content generation, evaluation, market reporting, and intelligent data processing.
-                    </p>
-                    
-                    <div class="mb-6">
-                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Key Features</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">🤖 AI Content Generation</span>
-                            <span class="px-3 py-1 bg-pink-100 text-pink-800 text-xs rounded-full">📈 Market Reporting</span>
-                            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 text-xs rounded-full">🧠 Intelligent Processing</span>
+                </div>
+            </section>
+
+            <!-- Analytics Section -->
+            <section id="analytics-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">Analytics Service</h1>
+                
+                <div class="service-overview">
+                    <div class="flex items-center mb-4">
+                        <div class="feature-icon mr-4">
+                            <i class="fas fa-chart-line text-xl"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-xl font-semibold">Data Processing & Reporting</h2>
+                            <p class="text-gray-600">Comprehensive analytics services for the FinLocker platform</p>
                         </div>
                     </div>
-                    
-                    <div class="mb-6">
-                        <h4 class="text-sm font-semibold text-gray-900 mb-3">Technologies</h4>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">.NET 8.0</span>
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">Cosmos DB</span>
-                            <span class="tech-badge text-white px-2 py-1 text-xs rounded">OpenAI</span>
-                        </div>
-                    </div>
-                    
-                    <div class="flex space-x-3">
-                        <a href="FinLocker.GenAI/" class="flex-1 bg-purple-600 text-white text-center py-2 px-4 rounded-md hover:bg-purple-700 transition duration-150 ease-in-out">
-                            <i class="fas fa-book mr-2"></i>View Documentation
+                </div>
+                
+                <h2>Overview</h2>
+                <p>
+                    The Analytics Service provides comprehensive data processing, reporting, and user engagement 
+                    tracking capabilities. It handles real-time data synchronization, generates analytics reports, 
+                    and processes background jobs for optimal performance.
+                </p>
+                
+                <h3>Key Features</h3>
+                <ul class="list-disc list-inside space-y-1">
+                    <li>📊 Real-time analytics and reporting</li>
+                    <li>🔄 Automated data processing pipelines</li>
+                    <li>📈 Loan officer performance metrics</li>
+                    <li>📧 Email campaign analytics</li>
+                    <li>🗄️ Multi-source data integration</li>
+                </ul>
+                
+                <h3>Documentation Links</h3>
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4">
+                    <div class="flex items-center">
+                        <i class="fas fa-external-link-alt text-blue-600 mr-2"></i>
+                        <a href="FinLocker.Analytics/" class="text-blue-600 hover:text-blue-800 font-medium">
+                            View Complete Analytics Documentation →
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <!-- Quick Links Section -->
-    <section class="py-16 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-extrabold text-gray-900">Quick Links</h2>
-                <p class="mt-4 text-lg text-gray-500">Common resources for developers and QA teams</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="text-center">
-                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-green-100 rounded-md mb-4">
-                            <i class="fas fa-flask text-green-600 text-xl"></i>
+            <!-- GenAI Section -->
+            <section id="genai-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">GenAI Service</h1>
+                
+                <div class="service-overview">
+                    <div class="flex items-center mb-4">
+                        <div class="feature-icon mr-4">
+                            <i class="fas fa-brain text-xl"></i>
                         </div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Testing Guidelines</h3>
-                        <p class="text-gray-600 text-sm mb-4">Best practices and testing strategies for our microservices</p>
-                        <a href="#" class="text-green-600 hover:text-green-700 font-medium">Learn More →</a>
+                        <div>
+                            <h2 class="text-xl font-semibold">Generative AI & Machine Learning</h2>
+                            <p class="text-gray-600">Advanced AI-powered features for intelligent processing</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="text-center">
-                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-blue-100 rounded-md mb-4">
-                            <i class="fas fa-code text-blue-600 text-xl"></i>
-                        </div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Developer Guide</h3>
-                        <p class="text-gray-600 text-sm mb-4">Setup instructions and development workflows</p>
-                        <a href="#" class="text-blue-600 hover:text-blue-700 font-medium">Get Started →</a>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-                    <div class="text-center">
-                        <div class="mx-auto h-12 w-12 flex items-center justify-center bg-yellow-100 rounded-md mb-4">
-                            <i class="fas fa-network-wired text-yellow-600 text-xl"></i>
-                        </div>
-                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Architecture Overview</h3>
-                        <p class="text-gray-600 text-sm mb-4">Understanding our microservices architecture</p>
-                        <a href="#" class="text-yellow-600 hover:text-yellow-700 font-medium">Explore →</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-white border-t">
-        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <p class="text-gray-500 text-sm">
-                    © 2025 FinLocker Platform Documentation. Generated with <strong>DocFX</strong>
+                
+                <h2>Overview</h2>
+                <p>
+                    The GenAI Service provides cutting-edge generative AI capabilities including content generation, 
+                    intelligent evaluation, market reporting, and automated data processing using state-of-the-art 
+                    machine learning models.
                 </p>
-            </div>
+                
+                <h3>Key Features</h3>
+                <ul class="list-disc list-inside space-y-1">
+                    <li>🤖 AI-powered content generation</li>
+                    <li>🧠 Intelligent document processing</li>
+                    <li>📈 Automated market analysis</li>
+                    <li>🎯 Smart recommendation engine</li>
+                    <li>⚡ Real-time AI inference</li>
+                </ul>
+                
+                <h3>Documentation Links</h3>
+                <div class="bg-purple-50 border border-purple-200 rounded-lg p-4 mt-4">
+                    <div class="flex items-center">
+                        <i class="fas fa-external-link-alt text-purple-600 mr-2"></i>
+                        <a href="FinLocker.GenAI/" class="text-purple-600 hover:text-purple-800 font-medium">
+                            View Complete GenAI Documentation →
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other Sections (Hidden by default) -->
+            <section id="architecture-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">System Architecture</h1>
+                <p>Learn about our microservices architecture, design patterns, and system components.</p>
+            </section>
+            
+            <section id="authentication-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">Authentication</h1>
+                <p>Understand how to authenticate with our APIs using OAuth 2.0 and API keys.</p>
+            </section>
+            
+            <section id="sdks-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">SDKs & Libraries</h1>
+                <p>Download and integrate our official SDKs for various programming languages.</p>
+            </section>
+            
+            <section id="testing-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">Testing Guide</h1>
+                <p>Best practices and testing strategies for integrating with FinLocker services.</p>
+            </section>
+            
+            <section id="changelog-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">Changelog</h1>
+                <p>Track updates, new features, and changes across all our services.</p>
+            </section>
+            
+            <section id="status-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">System Status</h1>
+                <p>Real-time status and performance metrics for all FinLocker services.</p>
+            </section>
+            
+            <section id="contact-section" class="content-section" style="display: none;">
+                <h1 class="text-3xl font-bold mb-6">Contact Support</h1>
+                <p>Get help from our technical support team and developer community.</p>
+            </section>
         </div>
-    </footer>
+    </main>
+
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            
+            // Show selected section
+            const targetSection = document.getElementById(sectionId + '-section');
+            if (targetSection) {
+                targetSection.style.display = 'block';
+            }
+            
+            // Update active nav item
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            event.target.classList.add('active');
+            
+            // Close mobile sidebar
+            if (window.innerWidth <= 768) {
+                document.getElementById('sidebar').classList.remove('open');
+            }
+        }
+        
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+        
+        // Close sidebar when clicking outside on mobile
+        document.addEventListener('click', function(event) {
+            const sidebar = document.getElementById('sidebar');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (window.innerWidth <= 768 && 
+                !sidebar.contains(event.target) && 
+                !menuBtn.contains(event.target)) {
+                sidebar.classList.remove('open');
+            }
+        });
+    </script>
 </body>
 </html>
