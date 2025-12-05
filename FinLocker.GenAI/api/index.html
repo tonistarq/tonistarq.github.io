@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
 
@@ -14,8 +14,8 @@
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
       <link rel="stylesheet" href="../styles/main.css">
-      <meta property="docfx:navrel" content="../toc.html">
-      <meta property="docfx:tocrel" content="../toc.html">
+      <meta property="docfx:navrel" content="">
+      <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -57,7 +57,14 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="finlocker-genai-api-reference">FinLocker GenAI API Reference</h1>
@@ -67,9 +74,9 @@
 <h3 id="core-libraries">Core Libraries</h3>
 <h4 id="finlockergenaiapplication"><a href="FinLocker.GenAI.Application.yml">FinLocker.GenAI.Application</a></h4>
 <p>Core application layer containing business logic, AI services, validators, and application models.</p>
-<h4 id="finlockergenaicontracts"><a href="FinLocker.GenAI.Contracts.yml">FinLocker.GenAI.Contracts</a></h4>
+<h4 id="finlockergenaicontracts"><a href="FinLocker.GenAI.Contracts.html">FinLocker.GenAI.Contracts</a></h4>
 <p>Contracts and interfaces for queue messaging, API communication, and data transfer objects.</p>
-<h4 id="finlockergenaidatabase"><a href="FinLocker.GenAI.Database.yml">FinLocker.GenAI.Database</a></h4>
+<h4 id="finlockergenaidatabase"><a href="FinLocker.GenAI.Database.html">FinLocker.GenAI.Database</a></h4>
 <p>Database layer with Cosmos DB context, entities, repositories, and data access patterns.</p>
 <h4 id="finlockergenaitypes"><a href="FinLocker.GenAI.Types.yml">FinLocker.GenAI.Types</a></h4>
 <p>Shared types, enums, events, and data models used across the GenAI system.</p>
@@ -81,12 +88,12 @@
 <h4 id="finlockergenaiinternalapi"><a href="FinLocker.GenAI.Internal.Api.yml">FinLocker.GenAI.Internal.Api</a></h4>
 <p>Internal REST API service for administrative and system-level AI operations.</p>
 <h3 id="background-processing">Background Processing</h3>
-<h4 id="finlockergenaievaluatorqueue"><a href="FinLocker.GenAI.Evaluator.Queue.yml">FinLocker.GenAI.Evaluator.Queue</a></h4>
+<h4 id="finlockergenaievaluatorqueue"><a href="FinLocker.GenAI.Evaluator.Queue.html">FinLocker.GenAI.Evaluator.Queue</a></h4>
 <p>Background queue worker that handles AI evaluation, content scoring, and quality assessment.</p>
 <h4 id="finlockergenairunnerqueue"><a href="FinLocker.GenAI.Runner.Queue.yml">FinLocker.GenAI.Runner.Queue</a></h4>
 <p>Background queue worker responsible for AI content generation and processing requests.</p>
 <h3 id="background-jobs">Background Jobs</h3>
-<h4 id="finlockergenaimarketreportsyncjob"><a href="FinLocker.GenAI.MarketReport.SyncJob.yml">FinLocker.GenAI.MarketReport.SyncJob</a></h4>
+<h4 id="finlockergenaimarketreportsyncjob"><a href="FinLocker.GenAI.MarketReport.SyncJob.html">FinLocker.GenAI.MarketReport.SyncJob</a></h4>
 <p>Scheduled job that synchronizes market data and generates AI-powered market analysis reports.</p>
 <hr>
 <p><strong>Note</strong>: This API documentation is automatically generated from XML documentation comments in the source code. Use the navigation menu to explore specific namespaces, classes, and members.</p>
