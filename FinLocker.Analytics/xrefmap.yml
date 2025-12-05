@@ -192,6 +192,367 @@ references:
   commentId: N:FinLocker.Analytics.Application.Models.DataSource
   fullName: FinLocker.Analytics.Application.Models.DataSource
   nameWithType: FinLocker.Analytics.Application.Models.DataSource
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable
+  name: AccountStatusTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html
+  commentId: T:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable
+  nameWithType: AccountStatusTable
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.#ctor(FinLocker.Analytics.Database.Entities.AccountStatus,System.Guid)
+  name: AccountStatusTable(AccountStatus, Guid)
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable__ctor_FinLocker_Analytics_Database_Entities_AccountStatus_System_Guid_
+  commentId: M:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.#ctor(FinLocker.Analytics.Database.Entities.AccountStatus,System.Guid)
+  name.vb: New(AccountStatus, Guid)
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.AccountStatusTable(FinLocker.Analytics.Database.Entities.AccountStatus, System.Guid)
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.New(FinLocker.Analytics.Database.Entities.AccountStatus, System.Guid)
+  nameWithType: AccountStatusTable.AccountStatusTable(AccountStatus, Guid)
+  nameWithType.vb: AccountStatusTable.New(AccountStatus, Guid)
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.#ctor*
+  name: AccountStatusTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.AccountStatusTable
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.New
+  nameWithType: AccountStatusTable.AccountStatusTable
+  nameWithType.vb: AccountStatusTable.New
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc
+  nameWithType: AccountStatusTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.CreatedDateTimeUtc
+  nameWithType: AccountStatusTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Description
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description
+  nameWithType: AccountStatusTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Description_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Description
+  nameWithType: AccountStatusTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Id
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id
+  nameWithType: AccountStatusTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Id_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Id
+  nameWithType: AccountStatusTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_ModifiedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy
+  nameWithType: AccountStatusTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedBy
+  nameWithType: AccountStatusTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc
+  nameWithType: AccountStatusTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.ModifiedDateTimeUtc
+  nameWithType: AccountStatusTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Name
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name
+  nameWithType: AccountStatusTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_Name_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.Name
+  nameWithType: AccountStatusTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_SnapshotId
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId
+  nameWithType: AccountStatusTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId*
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_AccountStatusTable_SnapshotId_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.SnapshotId
+  nameWithType: AccountStatusTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable
+  name: AffiliationTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html
+  commentId: T:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable
+  nameWithType: AffiliationTypeTable
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.#ctor(FinLocker.Analytics.Database.Entities.AffiliationType,System.Guid)
+  name: AffiliationTypeTable(AffiliationType, Guid)
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable__ctor_FinLocker_Analytics_Database_Entities_AffiliationType_System_Guid_
+  commentId: M:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.#ctor(FinLocker.Analytics.Database.Entities.AffiliationType,System.Guid)
+  name.vb: New(AffiliationType, Guid)
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.AffiliationTypeTable(FinLocker.Analytics.Database.Entities.AffiliationType, System.Guid)
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.New(FinLocker.Analytics.Database.Entities.AffiliationType, System.Guid)
+  nameWithType: AffiliationTypeTable.AffiliationTypeTable(AffiliationType, Guid)
+  nameWithType.vb: AffiliationTypeTable.New(AffiliationType, Guid)
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.#ctor*
+  name: AffiliationTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.AffiliationTypeTable
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.New
+  nameWithType: AffiliationTypeTable.AffiliationTypeTable
+  nameWithType.vb: AffiliationTypeTable.New
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc
+  nameWithType: AffiliationTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.CreatedDateTimeUtc
+  nameWithType: AffiliationTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Description
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description
+  nameWithType: AffiliationTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Description_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Description
+  nameWithType: AffiliationTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Id
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id
+  nameWithType: AffiliationTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Id_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Id
+  nameWithType: AffiliationTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_ModifiedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy
+  nameWithType: AffiliationTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedBy
+  nameWithType: AffiliationTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc
+  nameWithType: AffiliationTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.ModifiedDateTimeUtc
+  nameWithType: AffiliationTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Name
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name
+  nameWithType: AffiliationTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_Name_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.Name
+  nameWithType: AffiliationTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_SnapshotId
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId
+  nameWithType: AffiliationTypeTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId*
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_AffiliationTypeTable_SnapshotId_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.SnapshotId
+  nameWithType: AffiliationTypeTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable
+  name: BillingTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html
+  commentId: T:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable
+  nameWithType: BillingTypeTable
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.#ctor(FinLocker.Analytics.Database.Entities.BillingType,System.Guid)
+  name: BillingTypeTable(BillingType, Guid)
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable__ctor_FinLocker_Analytics_Database_Entities_BillingType_System_Guid_
+  commentId: M:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.#ctor(FinLocker.Analytics.Database.Entities.BillingType,System.Guid)
+  name.vb: New(BillingType, Guid)
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.BillingTypeTable(FinLocker.Analytics.Database.Entities.BillingType, System.Guid)
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.New(FinLocker.Analytics.Database.Entities.BillingType, System.Guid)
+  nameWithType: BillingTypeTable.BillingTypeTable(BillingType, Guid)
+  nameWithType.vb: BillingTypeTable.New(BillingType, Guid)
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.#ctor*
+  name: BillingTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.BillingTypeTable
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.New
+  nameWithType: BillingTypeTable.BillingTypeTable
+  nameWithType.vb: BillingTypeTable.New
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc
+  nameWithType: BillingTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.CreatedDateTimeUtc
+  nameWithType: BillingTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Description
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description
+  nameWithType: BillingTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Description_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Description
+  nameWithType: BillingTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Id
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id
+  nameWithType: BillingTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Id_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Id
+  nameWithType: BillingTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_IsDisabled
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled
+  nameWithType: BillingTypeTable.IsDisabled
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled*
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_IsDisabled_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.IsDisabled
+  nameWithType: BillingTypeTable.IsDisabled
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_ModifiedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy
+  nameWithType: BillingTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedBy
+  nameWithType: BillingTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc
+  nameWithType: BillingTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.ModifiedDateTimeUtc
+  nameWithType: BillingTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Name
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name
+  nameWithType: BillingTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_Name_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.Name
+  nameWithType: BillingTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_SnapshotId
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId
+  nameWithType: BillingTypeTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId*
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_BillingTypeTable_SnapshotId_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.SnapshotId
+  nameWithType: BillingTypeTable.SnapshotId
 - uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable
   name: CompanyTable
   href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html
@@ -1707,6 +2068,122 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Models.DataSource.OutgoingAnalyticsPayloadTable.Status
   nameWithType: OutgoingAnalyticsPayloadTable.Status
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable
+  name: PaymentStatusTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html
+  commentId: T:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable
+  nameWithType: PaymentStatusTable
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.#ctor(FinLocker.Analytics.Database.Entities.PaymentStatus,System.Guid)
+  name: PaymentStatusTable(PaymentStatus, Guid)
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable__ctor_FinLocker_Analytics_Database_Entities_PaymentStatus_System_Guid_
+  commentId: M:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.#ctor(FinLocker.Analytics.Database.Entities.PaymentStatus,System.Guid)
+  name.vb: New(PaymentStatus, Guid)
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.PaymentStatusTable(FinLocker.Analytics.Database.Entities.PaymentStatus, System.Guid)
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.New(FinLocker.Analytics.Database.Entities.PaymentStatus, System.Guid)
+  nameWithType: PaymentStatusTable.PaymentStatusTable(PaymentStatus, Guid)
+  nameWithType.vb: PaymentStatusTable.New(PaymentStatus, Guid)
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.#ctor*
+  name: PaymentStatusTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.PaymentStatusTable
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.New
+  nameWithType: PaymentStatusTable.PaymentStatusTable
+  nameWithType.vb: PaymentStatusTable.New
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc
+  nameWithType: PaymentStatusTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.CreatedDateTimeUtc
+  nameWithType: PaymentStatusTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Description
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description
+  nameWithType: PaymentStatusTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Description_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Description
+  nameWithType: PaymentStatusTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Id
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id
+  nameWithType: PaymentStatusTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Id_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Id
+  nameWithType: PaymentStatusTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_ModifiedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy
+  nameWithType: PaymentStatusTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedBy
+  nameWithType: PaymentStatusTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc
+  nameWithType: PaymentStatusTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.ModifiedDateTimeUtc
+  nameWithType: PaymentStatusTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Name
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name
+  nameWithType: PaymentStatusTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_Name_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.Name
+  nameWithType: PaymentStatusTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_SnapshotId
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId
+  nameWithType: PaymentStatusTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId*
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html#FinLocker_Analytics_Application_Models_DataSource_PaymentStatusTable_SnapshotId_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.SnapshotId
+  nameWithType: PaymentStatusTable.SnapshotId
 - uid: FinLocker.Analytics.Application.Models.DataSource.ProspectTable
   name: ProspectTable
   href: api/FinLocker.Analytics.Application.Models.DataSource.ProspectTable.html
@@ -2057,6 +2534,187 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Models.DataSource.ProspectTable.ZipCode
   nameWithType: ProspectTable.ZipCode
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable
+  name: UserAttributeTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html
+  commentId: T:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable
+  nameWithType: UserAttributeTypeTable
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.#ctor(FinLocker.Analytics.Database.Entities.UserAttributeType,System.Guid)
+  name: UserAttributeTypeTable(UserAttributeType, Guid)
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable__ctor_FinLocker_Analytics_Database_Entities_UserAttributeType_System_Guid_
+  commentId: M:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.#ctor(FinLocker.Analytics.Database.Entities.UserAttributeType,System.Guid)
+  name.vb: New(UserAttributeType, Guid)
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.UserAttributeTypeTable(FinLocker.Analytics.Database.Entities.UserAttributeType, System.Guid)
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.New(FinLocker.Analytics.Database.Entities.UserAttributeType, System.Guid)
+  nameWithType: UserAttributeTypeTable.UserAttributeTypeTable(UserAttributeType, Guid)
+  nameWithType.vb: UserAttributeTypeTable.New(UserAttributeType, Guid)
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.#ctor*
+  name: UserAttributeTypeTable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.UserAttributeTypeTable
+  fullName.vb: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.New
+  nameWithType: UserAttributeTypeTable.UserAttributeTypeTable
+  nameWithType.vb: UserAttributeTypeTable.New
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc
+  nameWithType: UserAttributeTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.CreatedDateTimeUtc
+  nameWithType: UserAttributeTypeTable.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType
+  name: DataType
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_DataType
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType
+  nameWithType: UserAttributeTypeTable.DataType
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType*
+  name: DataType
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_DataType_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.DataType
+  nameWithType: UserAttributeTypeTable.DataType
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Description
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description
+  nameWithType: UserAttributeTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Description_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Description
+  nameWithType: UserAttributeTypeTable.Description
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Id
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id
+  nameWithType: UserAttributeTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Id_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Id
+  nameWithType: UserAttributeTypeTable.Id
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired
+  name: IsConsentRequired
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsConsentRequired
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired
+  nameWithType: UserAttributeTypeTable.IsConsentRequired
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired*
+  name: IsConsentRequired
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsConsentRequired_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsConsentRequired
+  nameWithType: UserAttributeTypeTable.IsConsentRequired
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsDisabled
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled
+  nameWithType: UserAttributeTypeTable.IsDisabled
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled*
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsDisabled_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsDisabled
+  nameWithType: UserAttributeTypeTable.IsDisabled
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable
+  name: IsValidatable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsValidatable
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable
+  nameWithType: UserAttributeTypeTable.IsValidatable
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable*
+  name: IsValidatable
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsValidatable_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatable
+  nameWithType: UserAttributeTypeTable.IsValidatable
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy
+  name: IsValidatedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsValidatedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy
+  nameWithType: UserAttributeTypeTable.IsValidatedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy*
+  name: IsValidatedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_IsValidatedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.IsValidatedBy
+  nameWithType: UserAttributeTypeTable.IsValidatedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_ModifiedBy
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy
+  nameWithType: UserAttributeTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedBy
+  nameWithType: UserAttributeTypeTable.ModifiedBy
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc
+  nameWithType: UserAttributeTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.ModifiedDateTimeUtc
+  nameWithType: UserAttributeTypeTable.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Name
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name
+  nameWithType: UserAttributeTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_Name_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.Name
+  nameWithType: UserAttributeTypeTable.Name
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_SnapshotId
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId
+  nameWithType: UserAttributeTypeTable.SnapshotId
+- uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId*
+  name: SnapshotId
+  href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html#FinLocker_Analytics_Application_Models_DataSource_UserAttributeTypeTable_SnapshotId_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.SnapshotId
+  nameWithType: UserAttributeTypeTable.SnapshotId
 - uid: FinLocker.Analytics.Application.Models.DataSource.UserAttributesSyncLogTable
   name: UserAttributesSyncLogTable
   href: api/FinLocker.Analytics.Application.Models.DataSource.UserAttributesSyncLogTable.html
@@ -3789,6 +4447,159 @@ references:
   commentId: N:FinLocker.Analytics.Application.Services.DataSource
   fullName: FinLocker.Analytics.Application.Services.DataSource
   nameWithType: FinLocker.Analytics.Application.Services.DataSource
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService
+  name: AccountStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService
+  nameWithType: AccountStatusService
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name: AccountStatusService(IDbContextFactory<FinLockerDbContext>)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name.vb: New(IDbContextFactory(Of FinLockerDbContext))
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.AccountStatusService(Microsoft.EntityFrameworkCore.IDbContextFactory<FinLocker.Analytics.Database.FinLockerDbContext>)
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of FinLocker.Analytics.Database.FinLockerDbContext))
+  nameWithType: AccountStatusService.AccountStatusService(IDbContextFactory<FinLockerDbContext>)
+  nameWithType.vb: AccountStatusService.New(IDbContextFactory(Of FinLockerDbContext))
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.#ctor*
+  name: AccountStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.AccountStatusService
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.New
+  nameWithType: AccountStatusService.AccountStatusService
+  nameWithType.vb: AccountStatusService.New
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  name: GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync(System.Guid, FinLocker.Analytics.Application.Models.DataSourceSyncItem, System.Threading.CancellationToken)
+  nameWithType: AccountStatusService.GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync*
+  name: GetDataAsync
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService_GetDataAsync_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.GetDataAsync
+  nameWithType: AccountStatusService.GetDataAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService_SourceKey
+  commentId: P:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey
+  nameWithType: AccountStatusService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey*
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html#FinLocker_Analytics_Application_Services_DataSource_AccountStatusService_SourceKey_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.SourceKey
+  nameWithType: AccountStatusService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService
+  name: AffiliationTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService
+  nameWithType: AffiliationTypeService
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name: AffiliationTypeService(IDbContextFactory<FinLockerDbContext>)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name.vb: New(IDbContextFactory(Of FinLockerDbContext))
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.AffiliationTypeService(Microsoft.EntityFrameworkCore.IDbContextFactory<FinLocker.Analytics.Database.FinLockerDbContext>)
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of FinLocker.Analytics.Database.FinLockerDbContext))
+  nameWithType: AffiliationTypeService.AffiliationTypeService(IDbContextFactory<FinLockerDbContext>)
+  nameWithType.vb: AffiliationTypeService.New(IDbContextFactory(Of FinLockerDbContext))
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.#ctor*
+  name: AffiliationTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.AffiliationTypeService
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.New
+  nameWithType: AffiliationTypeService.AffiliationTypeService
+  nameWithType.vb: AffiliationTypeService.New
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  name: GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync(System.Guid, FinLocker.Analytics.Application.Models.DataSourceSyncItem, System.Threading.CancellationToken)
+  nameWithType: AffiliationTypeService.GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync*
+  name: GetDataAsync
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService_GetDataAsync_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.GetDataAsync
+  nameWithType: AffiliationTypeService.GetDataAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService_SourceKey
+  commentId: P:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey
+  nameWithType: AffiliationTypeService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey*
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html#FinLocker_Analytics_Application_Services_DataSource_AffiliationTypeService_SourceKey_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.SourceKey
+  nameWithType: AffiliationTypeService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService
+  name: BillingTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService
+  nameWithType: BillingTypeService
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name: BillingTypeService(IDbContextFactory<FinLockerDbContext>)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name.vb: New(IDbContextFactory(Of FinLockerDbContext))
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.BillingTypeService(Microsoft.EntityFrameworkCore.IDbContextFactory<FinLocker.Analytics.Database.FinLockerDbContext>)
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of FinLocker.Analytics.Database.FinLockerDbContext))
+  nameWithType: BillingTypeService.BillingTypeService(IDbContextFactory<FinLockerDbContext>)
+  nameWithType.vb: BillingTypeService.New(IDbContextFactory(Of FinLockerDbContext))
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.#ctor*
+  name: BillingTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.BillingTypeService
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.New
+  nameWithType: BillingTypeService.BillingTypeService
+  nameWithType.vb: BillingTypeService.New
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  name: GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync(System.Guid, FinLocker.Analytics.Application.Models.DataSourceSyncItem, System.Threading.CancellationToken)
+  nameWithType: BillingTypeService.GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync*
+  name: GetDataAsync
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService_GetDataAsync_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.GetDataAsync
+  nameWithType: BillingTypeService.GetDataAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService_SourceKey
+  commentId: P:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey
+  nameWithType: BillingTypeService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey*
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html#FinLocker_Analytics_Application_Services_DataSource_BillingTypeService_SourceKey_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.SourceKey
+  nameWithType: BillingTypeService.SourceKey
 - uid: FinLocker.Analytics.Application.Services.DataSource.BrazeService
   name: BrazeService
   href: api/FinLocker.Analytics.Application.Services.DataSource.BrazeService.html
@@ -4161,6 +4972,24 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.DataSource.FinLockerDataSourceSyncLogService.SourceKey
   nameWithType: FinLockerDataSourceSyncLogService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService
+  name: IAccountStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService
+  nameWithType: IAccountStatusService
+- uid: FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService
+  name: IAffiliationTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService
+  nameWithType: IAffiliationTypeService
+- uid: FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService
+  name: IBillingTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService
+  nameWithType: IBillingTypeService
 - uid: FinLocker.Analytics.Application.Services.DataSource.IBrazeService
   name: IBrazeService
   href: api/FinLocker.Analytics.Application.Services.DataSource.IBrazeService.html
@@ -4372,6 +5201,12 @@ references:
   commentId: T:FinLocker.Analytics.Application.Services.DataSource.IMarketReportService
   fullName: FinLocker.Analytics.Application.Services.DataSource.IMarketReportService
   nameWithType: IMarketReportService
+- uid: FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService
+  name: IPaymentStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService
+  nameWithType: IPaymentStatusService
 - uid: FinLocker.Analytics.Application.Services.DataSource.IPropertyService
   name: IPropertyService
   href: api/FinLocker.Analytics.Application.Services.DataSource.IPropertyService.html
@@ -4467,6 +5302,12 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.DataSource.IReadinessService.GetTotalUsersWithAllStarsAsync
   nameWithType: IReadinessService.GetTotalUsersWithAllStarsAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService
+  name: IUserAttributeTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService
+  nameWithType: IUserAttributeTypeService
 - uid: FinLocker.Analytics.Application.Services.DataSource.IUserAttributesSyncLogService
   name: IUserAttributesSyncLogService
   href: api/FinLocker.Analytics.Application.Services.DataSource.IUserAttributesSyncLogService.html
@@ -4632,6 +5473,57 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.DataSource.MarketReportService.SourceKey
   nameWithType: MarketReportService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService
+  name: PaymentStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService
+  nameWithType: PaymentStatusService
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name: PaymentStatusService(IDbContextFactory<FinLockerDbContext>)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name.vb: New(IDbContextFactory(Of FinLockerDbContext))
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.PaymentStatusService(Microsoft.EntityFrameworkCore.IDbContextFactory<FinLocker.Analytics.Database.FinLockerDbContext>)
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of FinLocker.Analytics.Database.FinLockerDbContext))
+  nameWithType: PaymentStatusService.PaymentStatusService(IDbContextFactory<FinLockerDbContext>)
+  nameWithType.vb: PaymentStatusService.New(IDbContextFactory(Of FinLockerDbContext))
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.#ctor*
+  name: PaymentStatusService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.PaymentStatusService
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.New
+  nameWithType: PaymentStatusService.PaymentStatusService
+  nameWithType.vb: PaymentStatusService.New
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  name: GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync(System.Guid, FinLocker.Analytics.Application.Models.DataSourceSyncItem, System.Threading.CancellationToken)
+  nameWithType: PaymentStatusService.GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync*
+  name: GetDataAsync
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService_GetDataAsync_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.GetDataAsync
+  nameWithType: PaymentStatusService.GetDataAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService_SourceKey
+  commentId: P:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey
+  nameWithType: PaymentStatusService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey*
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html#FinLocker_Analytics_Application_Services_DataSource_PaymentStatusService_SourceKey_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.SourceKey
+  nameWithType: PaymentStatusService.SourceKey
 - uid: FinLocker.Analytics.Application.Services.DataSource.PropertyService
   name: PropertyService
   href: api/FinLocker.Analytics.Application.Services.DataSource.PropertyService.html
@@ -4810,6 +5702,57 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Services.DataSource.ReadinessService.GetTotalUsersWithAllStarsAsync
   nameWithType: ReadinessService.GetTotalUsersWithAllStarsAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService
+  name: UserAttributeTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html
+  commentId: T:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService
+  nameWithType: UserAttributeTypeService
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name: UserAttributeTypeService(IDbContextFactory<FinLockerDbContext>)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})
+  name.vb: New(IDbContextFactory(Of FinLockerDbContext))
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.UserAttributeTypeService(Microsoft.EntityFrameworkCore.IDbContextFactory<FinLocker.Analytics.Database.FinLockerDbContext>)
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.New(Microsoft.EntityFrameworkCore.IDbContextFactory(Of FinLocker.Analytics.Database.FinLockerDbContext))
+  nameWithType: UserAttributeTypeService.UserAttributeTypeService(IDbContextFactory<FinLockerDbContext>)
+  nameWithType.vb: UserAttributeTypeService.New(IDbContextFactory(Of FinLockerDbContext))
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.#ctor*
+  name: UserAttributeTypeService
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService__ctor_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.UserAttributeTypeService
+  fullName.vb: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.New
+  nameWithType: UserAttributeTypeService.UserAttributeTypeService
+  nameWithType.vb: UserAttributeTypeService.New
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  name: GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_
+  commentId: M:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync(System.Guid, FinLocker.Analytics.Application.Models.DataSourceSyncItem, System.Threading.CancellationToken)
+  nameWithType: UserAttributeTypeService.GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync*
+  name: GetDataAsync
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService_GetDataAsync_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.GetDataAsync
+  nameWithType: UserAttributeTypeService.GetDataAsync
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService_SourceKey
+  commentId: P:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey
+  nameWithType: UserAttributeTypeService.SourceKey
+- uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey*
+  name: SourceKey
+  href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html#FinLocker_Analytics_Application_Services_DataSource_UserAttributeTypeService_SourceKey_
+  commentId: Overload:FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.SourceKey
+  nameWithType: UserAttributeTypeService.SourceKey
 - uid: FinLocker.Analytics.Application.Services.DataSource.UserAttributesSyncLogService
   name: UserAttributesSyncLogService
   href: api/FinLocker.Analytics.Application.Services.DataSource.UserAttributesSyncLogService.html
@@ -5913,6 +6856,319 @@ references:
   commentId: N:FinLocker.Analytics.Database.Entities
   fullName: FinLocker.Analytics.Database.Entities
   nameWithType: FinLocker.Analytics.Database.Entities
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus
+  name: AccountStatus
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html
+  commentId: T:FinLocker.Analytics.Database.Entities.AccountStatus
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus
+  nameWithType: AccountStatus
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.AccountStatus})
+  name: Configure(EntityTypeBuilder<AccountStatus>)
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_AccountStatus__
+  commentId: M:FinLocker.Analytics.Database.Entities.AccountStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.AccountStatus})
+  name.vb: Configure(EntityTypeBuilder(Of AccountStatus))
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<FinLocker.Analytics.Database.Entities.AccountStatus>)
+  fullName.vb: FinLocker.Analytics.Database.Entities.AccountStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of FinLocker.Analytics.Database.Entities.AccountStatus))
+  nameWithType: AccountStatus.Configure(EntityTypeBuilder<AccountStatus>)
+  nameWithType.vb: AccountStatus.Configure(EntityTypeBuilder(Of AccountStatus))
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Configure*
+  name: Configure
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Configure_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.Configure
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Configure
+  nameWithType: AccountStatus.Configure
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc
+  nameWithType: AccountStatus.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.CreatedDateTimeUtc
+  nameWithType: AccountStatus.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Description
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Description
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.Description
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Description
+  nameWithType: AccountStatus.Description
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Description_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Description
+  nameWithType: AccountStatus.Description
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Id
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Id
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.Id
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Id
+  nameWithType: AccountStatus.Id
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Id_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Id
+  nameWithType: AccountStatus.Id
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_ModifiedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy
+  nameWithType: AccountStatus.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedBy
+  nameWithType: AccountStatus.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc
+  nameWithType: AccountStatus.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.ModifiedDateTimeUtc
+  nameWithType: AccountStatus.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Name
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Name
+  commentId: P:FinLocker.Analytics.Database.Entities.AccountStatus.Name
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Name
+  nameWithType: AccountStatus.Name
+- uid: FinLocker.Analytics.Database.Entities.AccountStatus.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.AccountStatus.html#FinLocker_Analytics_Database_Entities_AccountStatus_Name_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AccountStatus.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AccountStatus.Name
+  nameWithType: AccountStatus.Name
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType
+  name: AffiliationType
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html
+  commentId: T:FinLocker.Analytics.Database.Entities.AffiliationType
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType
+  nameWithType: AffiliationType
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.AffiliationType})
+  name: Configure(EntityTypeBuilder<AffiliationType>)
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_AffiliationType__
+  commentId: M:FinLocker.Analytics.Database.Entities.AffiliationType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.AffiliationType})
+  name.vb: Configure(EntityTypeBuilder(Of AffiliationType))
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<FinLocker.Analytics.Database.Entities.AffiliationType>)
+  fullName.vb: FinLocker.Analytics.Database.Entities.AffiliationType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of FinLocker.Analytics.Database.Entities.AffiliationType))
+  nameWithType: AffiliationType.Configure(EntityTypeBuilder<AffiliationType>)
+  nameWithType.vb: AffiliationType.Configure(EntityTypeBuilder(Of AffiliationType))
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Configure*
+  name: Configure
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Configure_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.Configure
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Configure
+  nameWithType: AffiliationType.Configure
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc
+  nameWithType: AffiliationType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.CreatedDateTimeUtc
+  nameWithType: AffiliationType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Description
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Description
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.Description
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Description
+  nameWithType: AffiliationType.Description
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Description_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Description
+  nameWithType: AffiliationType.Description
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Id
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Id
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.Id
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Id
+  nameWithType: AffiliationType.Id
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Id_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Id
+  nameWithType: AffiliationType.Id
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_ModifiedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy
+  nameWithType: AffiliationType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedBy
+  nameWithType: AffiliationType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc
+  nameWithType: AffiliationType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.ModifiedDateTimeUtc
+  nameWithType: AffiliationType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Name
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Name
+  commentId: P:FinLocker.Analytics.Database.Entities.AffiliationType.Name
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Name
+  nameWithType: AffiliationType.Name
+- uid: FinLocker.Analytics.Database.Entities.AffiliationType.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.AffiliationType.html#FinLocker_Analytics_Database_Entities_AffiliationType_Name_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.AffiliationType.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.AffiliationType.Name
+  nameWithType: AffiliationType.Name
+- uid: FinLocker.Analytics.Database.Entities.BillingType
+  name: BillingType
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html
+  commentId: T:FinLocker.Analytics.Database.Entities.BillingType
+  fullName: FinLocker.Analytics.Database.Entities.BillingType
+  nameWithType: BillingType
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.BillingType})
+  name: Configure(EntityTypeBuilder<BillingType>)
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_BillingType__
+  commentId: M:FinLocker.Analytics.Database.Entities.BillingType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.BillingType})
+  name.vb: Configure(EntityTypeBuilder(Of BillingType))
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<FinLocker.Analytics.Database.Entities.BillingType>)
+  fullName.vb: FinLocker.Analytics.Database.Entities.BillingType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of FinLocker.Analytics.Database.Entities.BillingType))
+  nameWithType: BillingType.Configure(EntityTypeBuilder<BillingType>)
+  nameWithType.vb: BillingType.Configure(EntityTypeBuilder(Of BillingType))
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Configure*
+  name: Configure
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Configure_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.Configure
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Configure
+  nameWithType: BillingType.Configure
+- uid: FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc
+  nameWithType: BillingType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.CreatedDateTimeUtc
+  nameWithType: BillingType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Description
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Description
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.Description
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Description
+  nameWithType: BillingType.Description
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Description_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Description
+  nameWithType: BillingType.Description
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Id
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Id
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.Id
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Id
+  nameWithType: BillingType.Id
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Id_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Id
+  nameWithType: BillingType.Id
+- uid: FinLocker.Analytics.Database.Entities.BillingType.IsDisabled
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_IsDisabled
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.IsDisabled
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.IsDisabled
+  nameWithType: BillingType.IsDisabled
+- uid: FinLocker.Analytics.Database.Entities.BillingType.IsDisabled*
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_IsDisabled_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.IsDisabled
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.IsDisabled
+  nameWithType: BillingType.IsDisabled
+- uid: FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_ModifiedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy
+  nameWithType: BillingType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.ModifiedBy
+  nameWithType: BillingType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc
+  nameWithType: BillingType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.ModifiedDateTimeUtc
+  nameWithType: BillingType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Name
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Name
+  commentId: P:FinLocker.Analytics.Database.Entities.BillingType.Name
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Name
+  nameWithType: BillingType.Name
+- uid: FinLocker.Analytics.Database.Entities.BillingType.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.BillingType.html#FinLocker_Analytics_Database_Entities_BillingType_Name_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.BillingType.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.BillingType.Name
+  nameWithType: BillingType.Name
 - uid: FinLocker.Analytics.Database.Entities.BrazeEmailClick
   name: BrazeEmailClick
   href: api/FinLocker.Analytics.Database.Entities.BrazeEmailClick.html
@@ -9096,6 +10352,106 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.OutgoingAnalyticsPayload.Status
   nameWithType: OutgoingAnalyticsPayload.Status
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus
+  name: PaymentStatus
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html
+  commentId: T:FinLocker.Analytics.Database.Entities.PaymentStatus
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus
+  nameWithType: PaymentStatus
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.PaymentStatus})
+  name: Configure(EntityTypeBuilder<PaymentStatus>)
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_PaymentStatus__
+  commentId: M:FinLocker.Analytics.Database.Entities.PaymentStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.PaymentStatus})
+  name.vb: Configure(EntityTypeBuilder(Of PaymentStatus))
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<FinLocker.Analytics.Database.Entities.PaymentStatus>)
+  fullName.vb: FinLocker.Analytics.Database.Entities.PaymentStatus.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of FinLocker.Analytics.Database.Entities.PaymentStatus))
+  nameWithType: PaymentStatus.Configure(EntityTypeBuilder<PaymentStatus>)
+  nameWithType.vb: PaymentStatus.Configure(EntityTypeBuilder(Of PaymentStatus))
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Configure*
+  name: Configure
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Configure_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.Configure
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Configure
+  nameWithType: PaymentStatus.Configure
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc
+  nameWithType: PaymentStatus.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.CreatedDateTimeUtc
+  nameWithType: PaymentStatus.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Description
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Description
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.Description
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Description
+  nameWithType: PaymentStatus.Description
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Description_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Description
+  nameWithType: PaymentStatus.Description
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Id
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Id
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.Id
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Id
+  nameWithType: PaymentStatus.Id
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Id_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Id
+  nameWithType: PaymentStatus.Id
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_ModifiedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy
+  nameWithType: PaymentStatus.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedBy
+  nameWithType: PaymentStatus.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc
+  nameWithType: PaymentStatus.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.ModifiedDateTimeUtc
+  nameWithType: PaymentStatus.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Name
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Name
+  commentId: P:FinLocker.Analytics.Database.Entities.PaymentStatus.Name
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Name
+  nameWithType: PaymentStatus.Name
+- uid: FinLocker.Analytics.Database.Entities.PaymentStatus.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.PaymentStatus.html#FinLocker_Analytics_Database_Entities_PaymentStatus_Name_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.PaymentStatus.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.PaymentStatus.Name
+  nameWithType: PaymentStatus.Name
 - uid: FinLocker.Analytics.Database.Entities.ProductConsent
   name: ProductConsent
   href: api/FinLocker.Analytics.Database.Entities.ProductConsent.html
@@ -11631,6 +12987,171 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.UserActivityTracker.Tag
   nameWithType: UserActivityTracker.Tag
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType
+  name: UserAttributeType
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html
+  commentId: T:FinLocker.Analytics.Database.Entities.UserAttributeType
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType
+  nameWithType: UserAttributeType
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.UserAttributeType})
+  name: Configure(EntityTypeBuilder<UserAttributeType>)
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_UserAttributeType__
+  commentId: M:FinLocker.Analytics.Database.Entities.UserAttributeType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.UserAttributeType})
+  name.vb: Configure(EntityTypeBuilder(Of UserAttributeType))
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<FinLocker.Analytics.Database.Entities.UserAttributeType>)
+  fullName.vb: FinLocker.Analytics.Database.Entities.UserAttributeType.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of FinLocker.Analytics.Database.Entities.UserAttributeType))
+  nameWithType: UserAttributeType.Configure(EntityTypeBuilder<UserAttributeType>)
+  nameWithType.vb: UserAttributeType.Configure(EntityTypeBuilder(Of UserAttributeType))
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Configure*
+  name: Configure
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Configure_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.Configure
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Configure
+  nameWithType: UserAttributeType.Configure
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_CreatedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc
+  nameWithType: UserAttributeType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc*
+  name: CreatedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_CreatedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.CreatedDateTimeUtc
+  nameWithType: UserAttributeType.CreatedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.DataType
+  name: DataType
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_DataType
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.DataType
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.DataType
+  nameWithType: UserAttributeType.DataType
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.DataType*
+  name: DataType
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_DataType_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.DataType
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.DataType
+  nameWithType: UserAttributeType.DataType
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Description
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Description
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.Description
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Description
+  nameWithType: UserAttributeType.Description
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Description*
+  name: Description
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Description_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.Description
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Description
+  nameWithType: UserAttributeType.Description
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Id
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Id
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.Id
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Id
+  nameWithType: UserAttributeType.Id
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Id*
+  name: Id
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Id_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.Id
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Id
+  nameWithType: UserAttributeType.Id
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired
+  name: IsConsentRequired
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsConsentRequired
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired
+  nameWithType: UserAttributeType.IsConsentRequired
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired*
+  name: IsConsentRequired
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsConsentRequired_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsConsentRequired
+  nameWithType: UserAttributeType.IsConsentRequired
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsDisabled
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled
+  nameWithType: UserAttributeType.IsDisabled
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled*
+  name: IsDisabled
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsDisabled_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsDisabled
+  nameWithType: UserAttributeType.IsDisabled
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable
+  name: IsValidatable
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsValidatable
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable
+  nameWithType: UserAttributeType.IsValidatable
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable*
+  name: IsValidatable
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsValidatable_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatable
+  nameWithType: UserAttributeType.IsValidatable
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy
+  name: IsValidatedBy
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsValidatedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy
+  nameWithType: UserAttributeType.IsValidatedBy
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy*
+  name: IsValidatedBy
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_IsValidatedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.IsValidatedBy
+  nameWithType: UserAttributeType.IsValidatedBy
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_ModifiedBy
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy
+  nameWithType: UserAttributeType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy*
+  name: ModifiedBy
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_ModifiedBy_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedBy
+  nameWithType: UserAttributeType.ModifiedBy
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_ModifiedDateTimeUtc
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc
+  nameWithType: UserAttributeType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc*
+  name: ModifiedDateTimeUtc
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_ModifiedDateTimeUtc_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.ModifiedDateTimeUtc
+  nameWithType: UserAttributeType.ModifiedDateTimeUtc
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Name
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Name
+  commentId: P:FinLocker.Analytics.Database.Entities.UserAttributeType.Name
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Name
+  nameWithType: UserAttributeType.Name
+- uid: FinLocker.Analytics.Database.Entities.UserAttributeType.Name*
+  name: Name
+  href: api/FinLocker.Analytics.Database.Entities.UserAttributeType.html#FinLocker_Analytics_Database_Entities_UserAttributeType_Name_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.UserAttributeType.Name
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.UserAttributeType.Name
+  nameWithType: UserAttributeType.Name
 - uid: FinLocker.Analytics.Database.Entities.UserAttributesSyncLog
   name: UserAttributesSyncLog
   href: api/FinLocker.Analytics.Database.Entities.UserAttributesSyncLog.html
@@ -12340,6 +13861,45 @@ references:
   fullName.vb: FinLocker.Analytics.Database.FinLockerDbContext.New
   nameWithType: FinLockerDbContext.FinLockerDbContext
   nameWithType.vb: FinLockerDbContext.New
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses
+  name: AccountStatuses
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_AccountStatuses
+  commentId: P:FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses
+  nameWithType: FinLockerDbContext.AccountStatuses
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses*
+  name: AccountStatuses
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_AccountStatuses_
+  commentId: Overload:FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.AccountStatuses
+  nameWithType: FinLockerDbContext.AccountStatuses
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes
+  name: AffiliationTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_AffiliationTypes
+  commentId: P:FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes
+  nameWithType: FinLockerDbContext.AffiliationTypes
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes*
+  name: AffiliationTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_AffiliationTypes_
+  commentId: Overload:FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.AffiliationTypes
+  nameWithType: FinLockerDbContext.AffiliationTypes
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes
+  name: BillingTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_BillingTypes
+  commentId: P:FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes
+  nameWithType: FinLockerDbContext.BillingTypes
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes*
+  name: BillingTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_BillingTypes_
+  commentId: Overload:FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.BillingTypes
+  nameWithType: FinLockerDbContext.BillingTypes
 - uid: FinLocker.Analytics.Database.FinLockerDbContext.BrazeEmailClicks
   name: BrazeEmailClicks
   href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_BrazeEmailClicks
@@ -12535,6 +14095,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.FinLockerDbContext.OutgoingAnalyticsPayloads
   nameWithType: FinLockerDbContext.OutgoingAnalyticsPayloads
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses
+  name: PaymentStatuses
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_PaymentStatuses
+  commentId: P:FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses
+  nameWithType: FinLockerDbContext.PaymentStatuses
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses*
+  name: PaymentStatuses
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_PaymentStatuses_
+  commentId: Overload:FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.PaymentStatuses
+  nameWithType: FinLockerDbContext.PaymentStatuses
 - uid: FinLocker.Analytics.Database.FinLockerDbContext.Prospects
   name: Prospects
   href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_Prospects
@@ -12600,6 +14173,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.FinLockerDbContext.UserActivityTrackers
   nameWithType: FinLockerDbContext.UserActivityTrackers
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes
+  name: UserAttributeTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_UserAttributeTypes
+  commentId: P:FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes
+  nameWithType: FinLockerDbContext.UserAttributeTypes
+- uid: FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes*
+  name: UserAttributeTypes
+  href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_UserAttributeTypes_
+  commentId: Overload:FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.FinLockerDbContext.UserAttributeTypes
+  nameWithType: FinLockerDbContext.UserAttributeTypes
 - uid: FinLocker.Analytics.Database.FinLockerDbContext.UserAttributesSyncLogs
   name: UserAttributesSyncLogs
   href: api/FinLocker.Analytics.Database.FinLockerDbContext.html#FinLocker_Analytics_Database_FinLockerDbContext_UserAttributesSyncLogs
@@ -13142,6 +14728,24 @@ references:
   commentId: T:FinLocker.Analytics.Types.Enums.DataSourceKey
   fullName: FinLocker.Analytics.Types.Enums.DataSourceKey
   nameWithType: DataSourceKey
+- uid: FinLocker.Analytics.Types.Enums.DataSourceKey.AccountStatus
+  name: AccountStatus
+  href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_AccountStatus
+  commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.AccountStatus
+  fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.AccountStatus
+  nameWithType: DataSourceKey.AccountStatus
+- uid: FinLocker.Analytics.Types.Enums.DataSourceKey.AffiliationType
+  name: AffiliationType
+  href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_AffiliationType
+  commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.AffiliationType
+  fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.AffiliationType
+  nameWithType: DataSourceKey.AffiliationType
+- uid: FinLocker.Analytics.Types.Enums.DataSourceKey.BillingType
+  name: BillingType
+  href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_BillingType
+  commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.BillingType
+  fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.BillingType
+  nameWithType: DataSourceKey.BillingType
 - uid: FinLocker.Analytics.Types.Enums.DataSourceKey.Company
   name: Company
   href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_Company
@@ -13178,6 +14782,12 @@ references:
   commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.OutgoingAnalyticsPayload
   fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.OutgoingAnalyticsPayload
   nameWithType: DataSourceKey.OutgoingAnalyticsPayload
+- uid: FinLocker.Analytics.Types.Enums.DataSourceKey.PaymentStatus
+  name: PaymentStatus
+  href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_PaymentStatus
+  commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.PaymentStatus
+  fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.PaymentStatus
+  nameWithType: DataSourceKey.PaymentStatus
 - uid: FinLocker.Analytics.Types.Enums.DataSourceKey.Prospect
   name: Prospect
   href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_Prospect
@@ -13190,6 +14800,12 @@ references:
   commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.Unknown
   fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.Unknown
   nameWithType: DataSourceKey.Unknown
+- uid: FinLocker.Analytics.Types.Enums.DataSourceKey.UserAttributeType
+  name: UserAttributeType
+  href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_UserAttributeType
+  commentId: F:FinLocker.Analytics.Types.Enums.DataSourceKey.UserAttributeType
+  fullName: FinLocker.Analytics.Types.Enums.DataSourceKey.UserAttributeType
+  nameWithType: DataSourceKey.UserAttributeType
 - uid: FinLocker.Analytics.Types.Enums.DataSourceKey.UserAttributesSyncLog
   name: UserAttributesSyncLog
   href: api/FinLocker.Analytics.Types.Enums.DataSourceKey.html#FinLocker_Analytics_Types_Enums_DataSourceKey_UserAttributesSyncLog

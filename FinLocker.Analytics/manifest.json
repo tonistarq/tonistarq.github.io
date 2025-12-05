@@ -64,6 +64,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.AccountStatusTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.AffiliationTypeTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.BillingTypeTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.yml",
       "output": {
         ".html": {
@@ -124,10 +154,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.PaymentStatusTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.ProspectTable.yml",
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.ProspectTable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Models.DataSource.UserAttributeTypeTable.html"
         }
       },
       "version": ""
@@ -424,6 +474,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AccountStatusService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AffiliationTypeService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.BrazeService.yml",
       "output": {
         ".html": {
@@ -488,6 +568,36 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.FinLockerDataSourceSyncLogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAccountStatusService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAffiliationTypeService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService.html"
         }
       },
       "version": ""
@@ -584,6 +694,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IPaymentStatusService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IPropertyService.yml",
       "output": {
         ".html": {
@@ -608,6 +728,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IReadinessService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IUserAttributeTypeService.html"
         }
       },
       "version": ""
@@ -654,6 +784,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.PaymentStatusService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.PropertyService.yml",
       "output": {
         ".html": {
@@ -678,6 +818,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.ReadinessService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.UserAttributeTypeService.html"
         }
       },
       "version": ""
@@ -1024,6 +1174,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.AccountStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.AccountStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.AffiliationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.AffiliationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BillingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BillingType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BrazeEmailClick.yml",
       "output": {
         ".html": {
@@ -1224,6 +1404,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.PaymentStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.PaymentStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Database.Entities.ProductConsent.yml",
       "output": {
         ".html": {
@@ -1348,6 +1538,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Database.Entities.UserActivityTracker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.UserAttributeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.UserAttributeType.html"
         }
       },
       "version": ""
