@@ -1744,6 +1744,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketAnalysisFinishedReason
   nameWithType: MarketReportTable.MarketAnalysisFinishedReason
+- uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason
+  name: MarketReportJsonFinishedReason
+  href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_MarketReportJsonFinishedReason
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason
+  fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason
+  nameWithType: MarketReportTable.MarketReportJsonFinishedReason
+- uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason*
+  name: MarketReportJsonFinishedReason
+  href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_MarketReportJsonFinishedReason_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.MarketReportJsonFinishedReason
+  nameWithType: MarketReportTable.MarketReportJsonFinishedReason
 - uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.ModifiedBy
   name: ModifiedBy
   href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_ModifiedBy
@@ -1783,6 +1796,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.PromptFlowApiStatusCode
   nameWithType: MarketReportTable.PromptFlowApiStatusCode
+- uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason
+  name: RecentlySoldHomesFinishedReason
+  href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_RecentlySoldHomesFinishedReason
+  commentId: P:FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason
+  fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason
+  nameWithType: MarketReportTable.RecentlySoldHomesFinishedReason
+- uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason*
+  name: RecentlySoldHomesFinishedReason
+  href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_RecentlySoldHomesFinishedReason_
+  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.RecentlySoldHomesFinishedReason
+  nameWithType: MarketReportTable.RecentlySoldHomesFinishedReason
 - uid: FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.ReportCode
   name: ReportCode
   href: api/FinLocker.Analytics.Application.Models.DataSource.MarketReportTable.html#FinLocker_Analytics_Application_Models_DataSource_MarketReportTable_ReportCode
@@ -9970,6 +9996,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.MarketReport.MarketAnalysisFinishedReason
   nameWithType: MarketReport.MarketAnalysisFinishedReason
+- uid: FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason
+  name: MarketReportJsonFinishedReason
+  href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_MarketReportJsonFinishedReason
+  commentId: P:FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason
+  fullName: FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason
+  nameWithType: MarketReport.MarketReportJsonFinishedReason
+- uid: FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason*
+  name: MarketReportJsonFinishedReason
+  href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_MarketReportJsonFinishedReason_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason
+  nameWithType: MarketReport.MarketReportJsonFinishedReason
 - uid: FinLocker.Analytics.Database.Entities.MarketReport.ModifiedBy
   name: ModifiedBy
   href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_ModifiedBy
@@ -10009,6 +10048,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.MarketReport.PromptFlowApiStatusCode
   nameWithType: MarketReport.PromptFlowApiStatusCode
+- uid: FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason
+  name: RecentlySoldHomesFinishedReason
+  href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_RecentlySoldHomesFinishedReason
+  commentId: P:FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason
+  fullName: FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason
+  nameWithType: MarketReport.RecentlySoldHomesFinishedReason
+- uid: FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason*
+  name: RecentlySoldHomesFinishedReason
+  href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_RecentlySoldHomesFinishedReason_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason
+  nameWithType: MarketReport.RecentlySoldHomesFinishedReason
 - uid: FinLocker.Analytics.Database.Entities.MarketReport.ReportCode
   name: ReportCode
   href: api/FinLocker.Analytics.Database.Entities.MarketReport.html#FinLocker_Analytics_Database_Entities_MarketReport_ReportCode

@@ -116,7 +116,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=29">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=33">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_CreatedDateTimeUtc_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.CreatedDateTimeUtc*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_CreatedDateTimeUtc" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.CreatedDateTimeUtc">CreatedDateTimeUtc</h4>
@@ -124,7 +124,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required DateTime CreatedDateTimeUtc { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required DateTime CreatedDateTimeUtc { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -143,7 +143,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=29">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_ElapsedTimeInMilliseconds_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ElapsedTimeInMilliseconds*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ElapsedTimeInMilliseconds" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ElapsedTimeInMilliseconds">ElapsedTimeInMilliseconds</h4>
@@ -151,7 +151,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required long ElapsedTimeInMilliseconds { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required long? ElapsedTimeInMilliseconds { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -163,14 +163,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=15">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=19">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_ErrorMessage_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ErrorMessage*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ErrorMessage" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ErrorMessage">ErrorMessage</h4>
@@ -178,7 +178,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string? ErrorMessage { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string? ErrorMessage { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -197,7 +197,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=35">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=39">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_GeneratedFrom_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.GeneratedFrom*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_GeneratedFrom" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.GeneratedFrom">GeneratedFrom</h4>
@@ -205,7 +205,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string GeneratedFrom { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string GeneratedFrom { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -232,7 +232,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required Guid Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required Guid Id { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -251,7 +251,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=33">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=37">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_LastUsedDateTimeUtc_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.LastUsedDateTimeUtc*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_LastUsedDateTimeUtc" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.LastUsedDateTimeUtc">LastUsedDateTimeUtc</h4>
@@ -259,7 +259,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required DateTime? LastUsedDateTimeUtc { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required DateTime? LastUsedDateTimeUtc { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -278,7 +278,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=17">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=21">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_MarketAnalysisFinishedReason_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.MarketAnalysisFinishedReason*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_MarketAnalysisFinishedReason" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.MarketAnalysisFinishedReason">MarketAnalysisFinishedReason</h4>
@@ -305,15 +305,15 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=37">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=25">View Source</a>
   </span>
-  <a id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedBy_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedBy*"></a>
-  <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedBy" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedBy">ModifiedBy</h4>
+  <a id="FinLocker_Analytics_Database_Entities_MarketReport_MarketReportJsonFinishedReason_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason*"></a>
+  <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_MarketReportJsonFinishedReason" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.MarketReportJsonFinishedReason">MarketReportJsonFinishedReason</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string ModifiedBy { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string? MarketReportJsonFinishedReason { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -332,7 +332,34 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=31">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=41">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedBy_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedBy*"></a>
+  <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedBy" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedBy">ModifiedBy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string ModifiedBy { get; init; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=35">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedDateTimeUtc_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedDateTimeUtc*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ModifiedDateTimeUtc" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ModifiedDateTimeUtc">ModifiedDateTimeUtc</h4>
@@ -340,7 +367,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required DateTime ModifiedDateTimeUtc { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required DateTime ModifiedDateTimeUtc { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -359,7 +386,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=27">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=31">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_PromptFlowApiStatusCode_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.PromptFlowApiStatusCode*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_PromptFlowApiStatusCode" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.PromptFlowApiStatusCode">PromptFlowApiStatusCode</h4>
@@ -386,6 +413,33 @@
   </table>
 
   <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=23">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Database_Entities_MarketReport_RecentlySoldHomesFinishedReason_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason*"></a>
+  <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_RecentlySoldHomesFinishedReason" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.RecentlySoldHomesFinishedReason">RecentlySoldHomesFinishedReason</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string? RecentlySoldHomesFinishedReason { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
     <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=11">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_ReportCode_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ReportCode*"></a>
@@ -394,7 +448,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string ReportCode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string ReportCode { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -421,7 +475,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string? ReportJson { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string? ReportJson { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -440,7 +494,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=19">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=15">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_ReportType_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ReportType*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_ReportType" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.ReportType">ReportType</h4>
@@ -448,7 +502,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string ReportType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string ReportType { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -467,7 +521,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=21">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=17">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_Status_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Status*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_Status" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Status">Status</h4>
@@ -475,7 +529,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string Status { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string Status { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -494,7 +548,7 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=39">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=43">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_TotalTokenCount_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.TotalTokenCount*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_TotalTokenCount" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.TotalTokenCount">TotalTokenCount</h4>
@@ -502,7 +556,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required long TotalTokenCount { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required long? TotalTokenCount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -514,14 +568,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
         <td></td>
       </tr>
     </tbody>
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=23">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=27">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_Version_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Version*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_Version" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Version">Version</h4>
@@ -529,7 +583,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string Version { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public required string Version { get; init; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -550,7 +604,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=41">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Database/Entities/MarketReport.cs&amp;version=GBmain&amp;line=45">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Database_Entities_MarketReport_Configure_" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Configure*"></a>
   <h4 id="FinLocker_Analytics_Database_Entities_MarketReport_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_FinLocker_Analytics_Database_Entities_MarketReport__" data-uid="FinLocker.Analytics.Database.Entities.MarketReport.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{FinLocker.Analytics.Database.Entities.MarketReport})">Configure(EntityTypeBuilder&lt;MarketReport&gt;)</h4>
