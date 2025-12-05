@@ -35,19 +35,37 @@
             background: #ffffff;
         }
         
+        .main-content.iframe-active {
+            overflow: hidden;
+            height: 100vh;
+        }
+        
         .content-area {
             max-width: 100%;
             padding: 2rem;
             margin: 0 auto;
         }
         
+        .content-area.iframe-content {
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
         .iframe-container {
             width: 100%;
-            height: calc(100vh - 4rem);
+            height: 100vh;
             border: none;
-            border-radius: 8px;
             background: white;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        .iframe-header {
+            padding: 1rem 2rem;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
         
         .iframe-loading {
@@ -401,11 +419,11 @@
 
             <!-- Analytics Documentation Iframe -->
             <section id="analytics-docs-section" class="content-section" style="display: none;">
-                <div class="mb-4">
+                <div class="iframe-header">
                     <button onclick="showSection('overview')" class="bg-blue-100 text-blue-800 px-3 py-1 rounded-md text-sm hover:bg-blue-200 transition-colors">
                         <i class="fas fa-arrow-left mr-1"></i> Back to Getting Started
                     </button>
-                    <h1 class="text-2xl font-bold mt-2">Analytics Service Documentation</h1>
+                    <span class="text-lg font-semibold ml-4">Analytics Service Documentation</span>
                 </div>
                 <div class="iframe-loading" id="analytics-loading">
                     <div>
@@ -461,11 +479,11 @@
 
             <!-- GenAI Documentation Iframe -->
             <section id="genai-docs-section" class="content-section" style="display: none;">
-                <div class="mb-4">
+                <div class="iframe-header">
                     <button onclick="showSection('overview')" class="bg-purple-100 text-purple-800 px-3 py-1 rounded-md text-sm hover:bg-purple-200 transition-colors">
                         <i class="fas fa-arrow-left mr-1"></i> Back to Getting Started
                     </button>
-                    <h1 class="text-2xl font-bold mt-2">GenAI Service Documentation</h1>
+                    <span class="text-lg font-semibold ml-4">GenAI Service Documentation</span>
                 </div>
                 <div class="iframe-loading" id="genai-loading">
                     <div>
@@ -516,6 +534,13 @@
 
     <script>
         function showSection(sectionId) {
+            const mainContent = document.querySelector('.main-content');
+            const contentArea = document.querySelector('.content-area');
+            
+            // Reset main content styles
+            mainContent.classList.remove('iframe-active');
+            contentArea.classList.remove('iframe-content');
+            
             // Hide all sections
             const sections = document.querySelectorAll('.content-section');
             sections.forEach(section => {
@@ -547,6 +572,13 @@
         }
         
         function showIframe(sectionId, url) {
+            const mainContent = document.querySelector('.main-content');
+            const contentArea = document.querySelector('.content-area');
+            
+            // Set iframe mode styles
+            mainContent.classList.add('iframe-active');
+            contentArea.classList.add('iframe-content');
+            
             // Hide all sections
             const sections = document.querySelectorAll('.content-section');
             sections.forEach(section => {
