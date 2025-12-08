@@ -2172,6 +2172,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketType
   nameWithType: CalculatedAvgValues.MarketType
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription
+  name: MarketTypeDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MarketTypeDescription
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription
+  nameWithType: CalculatedAvgValues.MarketTypeDescription
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription*
+  name: MarketTypeDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MarketTypeDescription_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MarketTypeDescription
+  nameWithType: CalculatedAvgValues.MarketTypeDescription
 - uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianDaysOnMarketAvg
   name: MedianDaysOnMarketAvg
   href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MedianDaysOnMarketAvg
@@ -2198,6 +2211,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptor
   nameWithType: CalculatedAvgValues.MedianHomePriceDescriptor
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  name: MedianHomePriceDescriptorDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MedianHomePriceDescriptorDescription
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  nameWithType: CalculatedAvgValues.MedianHomePriceDescriptorDescription
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription*
+  name: MedianHomePriceDescriptorDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MedianHomePriceDescriptorDescription_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  nameWithType: CalculatedAvgValues.MedianHomePriceDescriptorDescription
 - uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.MedianHomePriceYoYChange
   name: MedianHomePriceYoYChange
   href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_MedianHomePriceYoYChange
@@ -2302,6 +2328,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTier
   nameWithType: CalculatedAvgValues.SellingTier
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription
+  name: SellingTierDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_SellingTierDescription
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription
+  nameWithType: CalculatedAvgValues.SellingTierDescription
+- uid: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription*
+  name: SellingTierDescription
+  href: api/FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.html#FinLocker_GenAI_Application_Models_MarketReport_CalculatedAvgValues_SellingTierDescription_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReport.CalculatedAvgValues.SellingTierDescription
+  nameWithType: CalculatedAvgValues.SellingTierDescription
 - uid: FinLocker.GenAI.Application.Models.MarketReport.DownPaymentAssistanceProgram
   name: DownPaymentAssistanceProgram
   href: api/FinLocker.GenAI.Application.Models.MarketReport.DownPaymentAssistanceProgram.html
@@ -6290,6 +6329,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketType
   nameWithType: CalculatedAvgValues.MarketType
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription
+  name: MarketTypeDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MarketTypeDescription
+  commentId: P:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription
+  nameWithType: CalculatedAvgValues.MarketTypeDescription
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription*
+  name: MarketTypeDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MarketTypeDescription_
+  commentId: Overload:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MarketTypeDescription
+  nameWithType: CalculatedAvgValues.MarketTypeDescription
 - uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianDaysOnMarketAvg
   name: MedianDaysOnMarketAvg
   href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MedianDaysOnMarketAvg
@@ -6316,6 +6368,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptor
   nameWithType: CalculatedAvgValues.MedianHomePriceDescriptor
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  name: MedianHomePriceDescriptorDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MedianHomePriceDescriptorDescription
+  commentId: P:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  nameWithType: CalculatedAvgValues.MedianHomePriceDescriptorDescription
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription*
+  name: MedianHomePriceDescriptorDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MedianHomePriceDescriptorDescription_
+  commentId: Overload:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceDescriptorDescription
+  nameWithType: CalculatedAvgValues.MedianHomePriceDescriptorDescription
 - uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.MedianHomePriceYoYChange
   name: MedianHomePriceYoYChange
   href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_MedianHomePriceYoYChange
@@ -6420,6 +6485,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTier
   nameWithType: CalculatedAvgValues.SellingTier
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription
+  name: SellingTierDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_SellingTierDescription
+  commentId: P:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription
+  nameWithType: CalculatedAvgValues.SellingTierDescription
+- uid: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription*
+  name: SellingTierDescription
+  href: api/FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.html#FinLocker_GenAI_Contracts_Consumer_CalculatedAvgValues_SellingTierDescription_
+  commentId: Overload:FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Contracts.Consumer.CalculatedAvgValues.SellingTierDescription
+  nameWithType: CalculatedAvgValues.SellingTierDescription
 - uid: FinLocker.GenAI.Contracts.Consumer.ConsumerFsFeedback
   name: ConsumerFsFeedback
   href: api/FinLocker.GenAI.Contracts.Consumer.ConsumerFsFeedback.html
