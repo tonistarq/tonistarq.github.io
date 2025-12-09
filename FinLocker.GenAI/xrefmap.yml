@@ -5074,22 +5074,22 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Services.INotificationService.NotifyGenAiFailedToRespondAsync
   nameWithType: INotificationService.NotifyGenAiFailedToRespondAsync
-- uid: FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync(System.String,System.Threading.CancellationToken)
-  name: NotifyTeamsAsync(string, CancellationToken)
-  href: api/FinLocker.GenAI.Application.Services.INotificationService.html#FinLocker_GenAI_Application_Services_INotificationService_NotifyTeamsAsync_System_String_System_Threading_CancellationToken_
-  commentId: M:FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync(System.String,System.Threading.CancellationToken)
-  name.vb: NotifyTeamsAsync(String, CancellationToken)
-  fullName: FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync(string, System.Threading.CancellationToken)
-  fullName.vb: FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync(String, System.Threading.CancellationToken)
-  nameWithType: INotificationService.NotifyTeamsAsync(string, CancellationToken)
-  nameWithType.vb: INotificationService.NotifyTeamsAsync(String, CancellationToken)
-- uid: FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync*
-  name: NotifyTeamsAsync
-  href: api/FinLocker.GenAI.Application.Services.INotificationService.html#FinLocker_GenAI_Application_Services_INotificationService_NotifyTeamsAsync_
-  commentId: Overload:FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync
+- uid: FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync(System.Exception,System.String,System.Threading.CancellationToken)
+  name: NotifyOfErrorByTeamsAsync(Exception, string, CancellationToken)
+  href: api/FinLocker.GenAI.Application.Services.INotificationService.html#FinLocker_GenAI_Application_Services_INotificationService_NotifyOfErrorByTeamsAsync_System_Exception_System_String_System_Threading_CancellationToken_
+  commentId: M:FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync(System.Exception,System.String,System.Threading.CancellationToken)
+  name.vb: NotifyOfErrorByTeamsAsync(Exception, String, CancellationToken)
+  fullName: FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync(System.Exception, string, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync(System.Exception, String, System.Threading.CancellationToken)
+  nameWithType: INotificationService.NotifyOfErrorByTeamsAsync(Exception, string, CancellationToken)
+  nameWithType.vb: INotificationService.NotifyOfErrorByTeamsAsync(Exception, String, CancellationToken)
+- uid: FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync*
+  name: NotifyOfErrorByTeamsAsync
+  href: api/FinLocker.GenAI.Application.Services.INotificationService.html#FinLocker_GenAI_Application_Services_INotificationService_NotifyOfErrorByTeamsAsync_
+  commentId: Overload:FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync
   isSpec: "True"
-  fullName: FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync
-  nameWithType: INotificationService.NotifyTeamsAsync
+  fullName: FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync
+  nameWithType: INotificationService.NotifyOfErrorByTeamsAsync
 - uid: FinLocker.GenAI.Application.Services.IProgressLogService
   name: IProgressLogService
   href: api/FinLocker.GenAI.Application.Services.IProgressLogService.html
@@ -5443,22 +5443,22 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Services.NotificationService.NotifyGenAiFailedToRespondAsync
   nameWithType: NotificationService.NotifyGenAiFailedToRespondAsync
-- uid: FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync(System.String,System.Threading.CancellationToken)
-  name: NotifyTeamsAsync(string, CancellationToken)
-  href: api/FinLocker.GenAI.Application.Services.NotificationService.html#FinLocker_GenAI_Application_Services_NotificationService_NotifyTeamsAsync_System_String_System_Threading_CancellationToken_
-  commentId: M:FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync(System.String,System.Threading.CancellationToken)
-  name.vb: NotifyTeamsAsync(String, CancellationToken)
-  fullName: FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync(string, System.Threading.CancellationToken)
-  fullName.vb: FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync(String, System.Threading.CancellationToken)
-  nameWithType: NotificationService.NotifyTeamsAsync(string, CancellationToken)
-  nameWithType.vb: NotificationService.NotifyTeamsAsync(String, CancellationToken)
-- uid: FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync*
-  name: NotifyTeamsAsync
-  href: api/FinLocker.GenAI.Application.Services.NotificationService.html#FinLocker_GenAI_Application_Services_NotificationService_NotifyTeamsAsync_
-  commentId: Overload:FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync
+- uid: FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync(System.Exception,System.String,System.Threading.CancellationToken)
+  name: NotifyOfErrorByTeamsAsync(Exception, string, CancellationToken)
+  href: api/FinLocker.GenAI.Application.Services.NotificationService.html#FinLocker_GenAI_Application_Services_NotificationService_NotifyOfErrorByTeamsAsync_System_Exception_System_String_System_Threading_CancellationToken_
+  commentId: M:FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync(System.Exception,System.String,System.Threading.CancellationToken)
+  name.vb: NotifyOfErrorByTeamsAsync(Exception, String, CancellationToken)
+  fullName: FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync(System.Exception, string, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync(System.Exception, String, System.Threading.CancellationToken)
+  nameWithType: NotificationService.NotifyOfErrorByTeamsAsync(Exception, string, CancellationToken)
+  nameWithType.vb: NotificationService.NotifyOfErrorByTeamsAsync(Exception, String, CancellationToken)
+- uid: FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync*
+  name: NotifyOfErrorByTeamsAsync
+  href: api/FinLocker.GenAI.Application.Services.NotificationService.html#FinLocker_GenAI_Application_Services_NotificationService_NotifyOfErrorByTeamsAsync_
+  commentId: Overload:FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync
   isSpec: "True"
-  fullName: FinLocker.GenAI.Application.Services.NotificationService.NotifyTeamsAsync
-  nameWithType: NotificationService.NotifyTeamsAsync
+  fullName: FinLocker.GenAI.Application.Services.NotificationService.NotifyOfErrorByTeamsAsync
+  nameWithType: NotificationService.NotifyOfErrorByTeamsAsync
 - uid: FinLocker.GenAI.Application.Services.ProgressLogService
   name: ProgressLogService
   href: api/FinLocker.GenAI.Application.Services.ProgressLogService.html

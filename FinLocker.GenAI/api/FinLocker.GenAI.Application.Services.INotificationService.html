@@ -198,16 +198,16 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/INotificationService.cs&amp;version=GBmain&amp;line=46">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/INotificationService.cs&amp;version=GBmain&amp;line=47">View Source</a>
   </span>
-  <a id="FinLocker_GenAI_Application_Services_INotificationService_NotifyTeamsAsync_" data-uid="FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync*"></a>
-  <h4 id="FinLocker_GenAI_Application_Services_INotificationService_NotifyTeamsAsync_System_String_System_Threading_CancellationToken_" data-uid="FinLocker.GenAI.Application.Services.INotificationService.NotifyTeamsAsync(System.String,System.Threading.CancellationToken)">NotifyTeamsAsync(string, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Notifies Teams channel</p>
+  <a id="FinLocker_GenAI_Application_Services_INotificationService_NotifyOfErrorByTeamsAsync_" data-uid="FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync*"></a>
+  <h4 id="FinLocker_GenAI_Application_Services_INotificationService_NotifyOfErrorByTeamsAsync_System_Exception_System_String_System_Threading_CancellationToken_" data-uid="FinLocker.GenAI.Application.Services.INotificationService.NotifyOfErrorByTeamsAsync(System.Exception,System.String,System.Threading.CancellationToken)">NotifyOfErrorByTeamsAsync(Exception, string, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Notifies Teams channel of an error</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task NotifyTeamsAsync(string message, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">Task NotifyOfErrorByTeamsAsync(Exception exception, string title, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -220,9 +220,15 @@
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td><p>Exception object containing error details</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>Teams message</p>
+        <td><span class="parametername">title</span></td>
+        <td><p>Title for the error notification</p>
 </td>
       </tr>
       <tr>
