@@ -760,32 +760,6 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EmailFromPrefix
   nameWithType: CompanyTable.EmailFromPrefix
-- uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId
-  name: EncompassClientId
-  href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html#FinLocker_Analytics_Application_Models_DataSource_CompanyTable_EncompassClientId
-  commentId: P:FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId
-  fullName: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId
-  nameWithType: CompanyTable.EncompassClientId
-- uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId*
-  name: EncompassClientId
-  href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html#FinLocker_Analytics_Application_Models_DataSource_CompanyTable_EncompassClientId_
-  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientId
-  nameWithType: CompanyTable.EncompassClientId
-- uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret
-  name: EncompassClientSecret
-  href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html#FinLocker_Analytics_Application_Models_DataSource_CompanyTable_EncompassClientSecret
-  commentId: P:FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret
-  fullName: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret
-  nameWithType: CompanyTable.EncompassClientSecret
-- uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret*
-  name: EncompassClientSecret
-  href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html#FinLocker_Analytics_Application_Models_DataSource_CompanyTable_EncompassClientSecret_
-  commentId: Overload:FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.EncompassClientSecret
-  nameWithType: CompanyTable.EncompassClientSecret
 - uid: FinLocker.Analytics.Application.Models.DataSource.CompanyTable.FinLockerEngagementPlatform
   name: FinLockerEngagementPlatform
   href: api/FinLocker.Analytics.Application.Models.DataSource.CompanyTable.html#FinLocker_Analytics_Application_Models_DataSource_CompanyTable_FinLockerEngagementPlatform
@@ -7543,32 +7517,6 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.Company.EmailFromPrefix
   nameWithType: Company.EmailFromPrefix
-- uid: FinLocker.Analytics.Database.Entities.Company.EncompassClientId
-  name: EncompassClientId
-  href: api/FinLocker.Analytics.Database.Entities.Company.html#FinLocker_Analytics_Database_Entities_Company_EncompassClientId
-  commentId: P:FinLocker.Analytics.Database.Entities.Company.EncompassClientId
-  fullName: FinLocker.Analytics.Database.Entities.Company.EncompassClientId
-  nameWithType: Company.EncompassClientId
-- uid: FinLocker.Analytics.Database.Entities.Company.EncompassClientId*
-  name: EncompassClientId
-  href: api/FinLocker.Analytics.Database.Entities.Company.html#FinLocker_Analytics_Database_Entities_Company_EncompassClientId_
-  commentId: Overload:FinLocker.Analytics.Database.Entities.Company.EncompassClientId
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Database.Entities.Company.EncompassClientId
-  nameWithType: Company.EncompassClientId
-- uid: FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret
-  name: EncompassClientSecret
-  href: api/FinLocker.Analytics.Database.Entities.Company.html#FinLocker_Analytics_Database_Entities_Company_EncompassClientSecret
-  commentId: P:FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret
-  fullName: FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret
-  nameWithType: Company.EncompassClientSecret
-- uid: FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret*
-  name: EncompassClientSecret
-  href: api/FinLocker.Analytics.Database.Entities.Company.html#FinLocker_Analytics_Database_Entities_Company_EncompassClientSecret_
-  commentId: Overload:FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Database.Entities.Company.EncompassClientSecret
-  nameWithType: Company.EncompassClientSecret
 - uid: FinLocker.Analytics.Database.Entities.Company.FeatureCompanies
   name: FeatureCompanies
   href: api/FinLocker.Analytics.Database.Entities.Company.html#FinLocker_Analytics_Database_Entities_Company_FeatureCompanies
@@ -9327,6 +9275,19 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedBy
   nameWithType: IncomingAnalyticsPayload.InsertedBy
+- uid: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom
+  name: InsertedFrom
+  href: api/FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.html#FinLocker_Analytics_Database_Entities_IncomingAnalyticsPayload_InsertedFrom
+  commentId: P:FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom
+  fullName: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom
+  nameWithType: IncomingAnalyticsPayload.InsertedFrom
+- uid: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom*
+  name: InsertedFrom
+  href: api/FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.html#FinLocker_Analytics_Database_Entities_IncomingAnalyticsPayload_InsertedFrom_
+  commentId: Overload:FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom
+  isSpec: "True"
+  fullName: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.InsertedFrom
+  nameWithType: IncomingAnalyticsPayload.InsertedFrom
 - uid: FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.PayloadStorageKey
   name: PayloadStorageKey
   href: api/FinLocker.Analytics.Database.Entities.IncomingAnalyticsPayload.html#FinLocker_Analytics_Database_Entities_IncomingAnalyticsPayload_PayloadStorageKey
