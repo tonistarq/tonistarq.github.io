@@ -116,7 +116,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=20">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=22">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Services_ProgressLogService__ctor_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.#ctor*"></a>
   <h4 id="FinLocker_GenAI_Application_Services_ProgressLogService__ctor_Microsoft_Extensions_Options_IOptionsMonitor_FinLocker_Shared_Logging_Options_AppOptions__Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_GenAI_Database_FinLockerDbContext__FinLocker_GenAI_Application_Services_IGenAiEventHubService_FinLocker_GenAI_Application_Services_ISignalrService_FinLocker_GenAI_Database_Repositories_IPromptRequestRepository_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{FinLocker.Shared.Logging.Options.AppOptions},Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.GenAI.Database.FinLockerDbContext},FinLocker.GenAI.Application.Services.IGenAiEventHubService,FinLocker.GenAI.Application.Services.ISignalrService,FinLocker.GenAI.Database.Repositories.IPromptRequestRepository)">ProgressLogService(IOptionsMonitor&lt;AppOptions&gt;, IDbContextFactory&lt;FinLockerDbContext&gt;, IGenAiEventHubService, ISignalrService, IPromptRequestRepository)</h4>
@@ -167,7 +167,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=28">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=30">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync*"></a>
   <h4 id="FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_FinLocker_GenAI_Database_Models_PromptRequestDto_System_Threading_CancellationToken_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,FinLocker.GenAI.Database.Models.PromptRequestDto,System.Threading.CancellationToken)">LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, PromptRequestDto?, CancellationToken)</h4>
@@ -226,15 +226,15 @@
   </table>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=56">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=58">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync*"></a>
-  <h4 id="FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_Threading_CancellationToken_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.Threading.CancellationToken)">LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, CancellationToken)</h4>
+  <h4 id="FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_String_System_Threading_CancellationToken_" data-uid="FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.String,System.Threading.CancellationToken)">LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, string, CancellationToken)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task LogAndUpdateAsync(GenAiRunnerQueueMessage message, LogRecord log, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task LogAndUpdateAsync(GenAiRunnerQueueMessage message, LogRecord log, string reportCode, CancellationToken cancellationToken)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -254,6 +254,11 @@
       <tr>
         <td><a class="xref" href="FinLocker.GenAI.Application.Models.LogRecord.html">LogRecord</a></td>
         <td><span class="parametername">log</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">reportCode</span></td>
         <td></td>
       </tr>
       <tr>
@@ -291,7 +296,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=20" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Services/IProgressLogService.cs&amp;version=GBmain&amp;line=22" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

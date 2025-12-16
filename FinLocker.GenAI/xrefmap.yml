@@ -505,6 +505,22 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.BaseSignalRData.Create
   nameWithType: BaseSignalRData.Create
+- uid: FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,System.String)
+  name: CreateForMarketReport(GenAiRunnerQueueMessage, string)
+  href: api/FinLocker.GenAI.Application.Models.BaseSignalRData.html#FinLocker_GenAI_Application_Models_BaseSignalRData_CreateForMarketReport_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_System_String_
+  commentId: M:FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,System.String)
+  name.vb: CreateForMarketReport(GenAiRunnerQueueMessage, String)
+  fullName: FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, string)
+  fullName.vb: FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, String)
+  nameWithType: BaseSignalRData.CreateForMarketReport(GenAiRunnerQueueMessage, string)
+  nameWithType.vb: BaseSignalRData.CreateForMarketReport(GenAiRunnerQueueMessage, String)
+- uid: FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport*
+  name: CreateForMarketReport
+  href: api/FinLocker.GenAI.Application.Models.BaseSignalRData.html#FinLocker_GenAI_Application_Models_BaseSignalRData_CreateForMarketReport_
+  commentId: Overload:FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.BaseSignalRData.CreateForMarketReport
+  nameWithType: BaseSignalRData.CreateForMarketReport
 - uid: FinLocker.GenAI.Application.Models.BaseSignalRData.Flid
   name: Flid
   href: api/FinLocker.GenAI.Application.Models.BaseSignalRData.html#FinLocker_GenAI_Application_Models_BaseSignalRData_Flid
@@ -3503,6 +3519,25 @@ references:
   isSpec: "True"
   fullName: FinLocker.GenAI.Application.Models.MarketReportResult.ReportVersion
   nameWithType: MarketReportResult.ReportVersion
+- uid: FinLocker.GenAI.Application.Models.MarketReportSignalRData
+  name: MarketReportSignalRData
+  href: api/FinLocker.GenAI.Application.Models.MarketReportSignalRData.html
+  commentId: T:FinLocker.GenAI.Application.Models.MarketReportSignalRData
+  fullName: FinLocker.GenAI.Application.Models.MarketReportSignalRData
+  nameWithType: MarketReportSignalRData
+- uid: FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code
+  name: Code
+  href: api/FinLocker.GenAI.Application.Models.MarketReportSignalRData.html#FinLocker_GenAI_Application_Models_MarketReportSignalRData_Code
+  commentId: P:FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code
+  fullName: FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code
+  nameWithType: MarketReportSignalRData.Code
+- uid: FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code*
+  name: Code
+  href: api/FinLocker.GenAI.Application.Models.MarketReportSignalRData.html#FinLocker_GenAI_Application_Models_MarketReportSignalRData_Code_
+  commentId: Overload:FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code
+  isSpec: "True"
+  fullName: FinLocker.GenAI.Application.Models.MarketReportSignalRData.Code
+  nameWithType: MarketReportSignalRData.Code
 - uid: FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage
   name: MarketReportUsageUpdateMessage
   href: api/FinLocker.GenAI.Application.Models.MarketReportUsageUpdateMessage.html
@@ -5105,12 +5140,15 @@ references:
   fullName.vb: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, FinLocker.GenAI.Database.Models.PromptRequestDto, System.Threading.CancellationToken)
   nameWithType: IProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, PromptRequestDto?, CancellationToken)
   nameWithType.vb: IProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, PromptRequestDto, CancellationToken)
-- uid: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.Threading.CancellationToken)
-  name: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, CancellationToken)
-  href: api/FinLocker.GenAI.Application.Services.IProgressLogService.html#FinLocker_GenAI_Application_Services_IProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_Threading_CancellationToken_
-  commentId: M:FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.Threading.CancellationToken)
-  fullName: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, System.Threading.CancellationToken)
-  nameWithType: IProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, CancellationToken)
+- uid: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.String,System.Threading.CancellationToken)
+  name: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, string, CancellationToken)
+  href: api/FinLocker.GenAI.Application.Services.IProgressLogService.html#FinLocker_GenAI_Application_Services_IProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_String_System_Threading_CancellationToken_
+  commentId: M:FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.String,System.Threading.CancellationToken)
+  name.vb: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, String, CancellationToken)
+  fullName: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, string, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, String, System.Threading.CancellationToken)
+  nameWithType: IProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, string, CancellationToken)
+  nameWithType.vb: IProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, String, CancellationToken)
 - uid: FinLocker.GenAI.Application.Services.IProgressLogService.LogAndUpdateAsync*
   name: LogAndUpdateAsync
   href: api/FinLocker.GenAI.Application.Services.IProgressLogService.html#FinLocker_GenAI_Application_Services_IProgressLogService_LogAndUpdateAsync_
@@ -5493,12 +5531,15 @@ references:
   fullName.vb: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, FinLocker.GenAI.Database.Models.PromptRequestDto, System.Threading.CancellationToken)
   nameWithType: ProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, PromptRequestDto?, CancellationToken)
   nameWithType.vb: ProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, PromptRequestDto, CancellationToken)
-- uid: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.Threading.CancellationToken)
-  name: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, CancellationToken)
-  href: api/FinLocker.GenAI.Application.Services.ProgressLogService.html#FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_Threading_CancellationToken_
-  commentId: M:FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.Threading.CancellationToken)
-  fullName: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, System.Threading.CancellationToken)
-  nameWithType: ProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, CancellationToken)
+- uid: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.String,System.Threading.CancellationToken)
+  name: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, string, CancellationToken)
+  href: api/FinLocker.GenAI.Application.Services.ProgressLogService.html#FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_FinLocker_GenAI_Contracts_Queue_GenAiRunnerQueueMessage_FinLocker_GenAI_Application_Models_LogRecord_System_String_System_Threading_CancellationToken_
+  commentId: M:FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage,FinLocker.GenAI.Application.Models.LogRecord,System.String,System.Threading.CancellationToken)
+  name.vb: LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, String, CancellationToken)
+  fullName: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, string, System.Threading.CancellationToken)
+  fullName.vb: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync(FinLocker.GenAI.Contracts.Queue.GenAiRunnerQueueMessage, FinLocker.GenAI.Application.Models.LogRecord, String, System.Threading.CancellationToken)
+  nameWithType: ProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, string, CancellationToken)
+  nameWithType.vb: ProgressLogService.LogAndUpdateAsync(GenAiRunnerQueueMessage, LogRecord, String, CancellationToken)
 - uid: FinLocker.GenAI.Application.Services.ProgressLogService.LogAndUpdateAsync*
   name: LogAndUpdateAsync
   href: api/FinLocker.GenAI.Application.Services.ProgressLogService.html#FinLocker_GenAI_Application_Services_ProgressLogService_LogAndUpdateAsync_
