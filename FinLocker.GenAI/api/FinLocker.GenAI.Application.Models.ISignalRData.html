@@ -77,13 +77,16 @@
   <h6><strong>Assembly</strong>: FinLocker.GenAI.Application.dll</h6>
   <h5 id="FinLocker_GenAI_Application_Models_ISignalRData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ISignalRData</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonPolymorphic(TypeDiscriminatorPropertyName = &quot;$type&quot;)]
+[JsonDerivedType(typeof(BaseSignalRData), &quot;base&quot;)]
+[JsonDerivedType(typeof(MarketReportSignalRData), &quot;marketReport&quot;)]
+public interface ISignalRData</code></pre>
   </div>
   <h3 id="properties">Properties
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/SignalRMessage.cs&amp;version=GBmain&amp;line=10">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/SignalRMessage.cs&amp;version=GBmain&amp;line=14">View Source</a>
   </span>
   <a id="FinLocker_GenAI_Application_Models_ISignalRData_Flid_" data-uid="FinLocker.GenAI.Application.Models.ISignalRData.Flid*"></a>
   <h4 id="FinLocker_GenAI_Application_Models_ISignalRData_Flid" data-uid="FinLocker.GenAI.Application.Models.ISignalRData.Flid">Flid</h4>
@@ -117,7 +120,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/SignalRMessage.cs&amp;version=GBmain&amp;line=8" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.GenAI?path=FinLocker.GenAI.Application/Models/SignalRMessage.cs&amp;version=GBmain&amp;line=9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
