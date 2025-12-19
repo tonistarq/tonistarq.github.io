@@ -494,6 +494,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AppUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.AppUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.BillingTypeService.yml",
       "output": {
         ".html": {
@@ -594,6 +604,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAppUserService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IAppUserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IBillingTypeService.yml",
       "output": {
         ".html": {
@@ -668,6 +688,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IFinLockerDataSourceSyncLogService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.ILoanOfficerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.ILoanOfficerService.html"
         }
       },
       "version": ""
@@ -764,6 +794,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IVerificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.IVerificationService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.LoanOfficerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.LoanOfficerService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.LockerUserService.yml",
       "output": {
         ".html": {
@@ -848,6 +898,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.UserService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.VerificationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.DataSource.VerificationService.html"
         }
       },
       "version": ""
@@ -964,6 +1024,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.IUserAttributesBuilderService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.IUserAttributesBuilderService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.IUserAttributesSyncService.yml",
       "output": {
         ".html": {
@@ -1034,30 +1104,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/FinLocker.Analytics.Application.Services.Report.IUserAttributesBuilderService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FinLocker.Analytics.Application.Services.Report.IUserAttributesBuilderService.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.yml",
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.Report.LoanOfficerReportBuilderServiceV1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/FinLocker.Analytics.Application.Services.Report.UserAttributesBuilderServiceV1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/FinLocker.Analytics.Application.Services.Report.UserAttributesBuilderServiceV1.html"
         }
       },
       "version": ""
@@ -1078,6 +1128,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Application.Services.SupportingDataSyncService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Application.Services.UserAttributesBuilderServiceV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Application.Services.UserAttributesBuilderServiceV1.html"
         }
       },
       "version": ""
@@ -1204,6 +1264,146 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.Binder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.Binder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BinderBorrower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BinderBorrower.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BinderBorrowerPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BinderBorrowerPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.Blob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.Blob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerAccountBalanceJournal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerAccountBalanceJournal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerEmploymentArgyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerEmploymentArgyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountInvestmentPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountInvestmentPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountOwner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountOwner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransaction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionBanking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionBanking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionCreditCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionCreditCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionInvestment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionInvestment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionOther.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.BorrowerFinancialAccountTransactionOther.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Database.Entities.BrazeEmailClick.yml",
       "output": {
         ".html": {
@@ -1244,6 +1444,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.CompanyAccessPeriods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.CompanyAccessPeriods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Database.Entities.CreditReportLookUp.yml",
       "output": {
         ".html": {
@@ -1258,6 +1468,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Database.Entities.CronJobRunLog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.CustomerOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.CustomerOrder.html"
         }
       },
       "version": ""
@@ -1334,6 +1554,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.InvestmentPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.InvestmentPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/FinLocker.Analytics.Database.Entities.JourneyTag.yml",
       "output": {
         ".html": {
@@ -1388,6 +1618,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Database.Entities.NurturingEmailJourney.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.Order.html"
         }
       },
       "version": ""
@@ -1478,6 +1718,136 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Database.Entities.ReportRangeValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogAsset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogCollateralType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogCollateralType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogContact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogContact.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogContactPersona.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogContactPersona.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogDocumentType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogHardshipTimeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogHardshipTimeline.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogHomeDetail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogHomeDetail.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogIncome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogIncome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogLiability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogLiability.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogLoanType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogLoanType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogPropertyInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Database.Entities.SharedCatalogPropertyInformation.html"
         }
       },
       "version": ""
@@ -1848,6 +2218,16 @@
       "output": {
         ".html": {
           "relative_path": "api/FinLocker.Analytics.Types.Enums.IncomingAnalyticsPayloadStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FinLocker.Analytics.Types.Enums.InvitationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FinLocker.Analytics.Types.Enums.InvitationType.html"
         }
       },
       "version": ""

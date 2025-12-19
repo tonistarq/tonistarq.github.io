@@ -82,6 +82,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="FinLocker.Analytics.Application.Services.DataSource.IProspectService.html">IProspectService</a></div>
     <div><a class="xref" href="FinLocker.Analytics.Application.Services.IDataSourceSyncHandler.html">IDataSourceSyncHandler</a></div>
+    <div><a class="xref" href="FinLocker.Analytics.Application.Services.AttributeSource.IUserAttributeGenerator.html">IUserAttributeGenerator</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -111,13 +112,13 @@
   <h6><strong>Assembly</strong>: FinLocker.Analytics.Application.dll</h6>
   <h5 id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ProspectService : IProspectService, IDataSourceSyncHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProspectService : IProspectService, IDataSourceSyncHandler, IUserAttributeGenerator</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=11">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=12">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_DataSource_ProspectService__ctor_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.#ctor*"></a>
   <h4 id="FinLocker_Analytics_Application_Services_DataSource_ProspectService__ctor_Microsoft_EntityFrameworkCore_IDbContextFactory_FinLocker_Analytics_Database_FinLockerDbContext__" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.#ctor(Microsoft.EntityFrameworkCore.IDbContextFactory{FinLocker.Analytics.Database.FinLockerDbContext})">ProspectService(IDbContextFactory&lt;FinLockerDbContext&gt;)</h4>
@@ -148,7 +149,7 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=25">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=26">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_SourceKey_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.SourceKey*"></a>
   <h4 id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_SourceKey" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.SourceKey">SourceKey</h4>
@@ -177,7 +178,61 @@
 </h3>
 
   <span class="small pull-right mobile-hide">
-    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=14">View Source</a>
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=28">View Source</a>
+  </span>
+  <a id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_AddAsync_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.AddAsync*"></a>
+  <h4 id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_AddAsync_FinLocker_Analytics_Application_Models_UserItem_FinLocker_Analytics_Application_Models_UserAttributeCollection_System_Threading_CancellationToken_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.AddAsync(FinLocker.Analytics.Application.Models.UserItem,FinLocker.Analytics.Application.Models.UserAttributeCollection,System.Threading.CancellationToken)">AddAsync(UserItem, UserAttributeCollection, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddAsync(UserItem user, UserAttributeCollection attributes, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FinLocker.Analytics.Application.Models.UserItem.html">UserItem</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FinLocker.Analytics.Application.Models.UserAttributeCollection.html">UserAttributeCollection</a></td>
+        <td><span class="parametername">attributes</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <span class="small pull-right mobile-hide">
+    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=15">View Source</a>
   </span>
   <a id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_GetDataAsync_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.GetDataAsync*"></a>
   <h4 id="FinLocker_Analytics_Application_Services_DataSource_ProspectService_GetDataAsync_System_Guid_FinLocker_Analytics_Application_Models_DataSourceSyncItem_System_Threading_CancellationToken_" data-uid="FinLocker.Analytics.Application.Services.DataSource.ProspectService.GetDataAsync(System.Guid,FinLocker.Analytics.Application.Models.DataSourceSyncItem,System.Threading.CancellationToken)">GetDataAsync(Guid, DataSourceSyncItem, CancellationToken)</h4>
@@ -236,6 +291,9 @@
   <div>
       <a class="xref" href="FinLocker.Analytics.Application.Services.IDataSourceSyncHandler.html">IDataSourceSyncHandler</a>
   </div>
+  <div>
+      <a class="xref" href="FinLocker.Analytics.Application.Services.AttributeSource.IUserAttributeGenerator.html">IUserAttributeGenerator</a>
+  </div>
 
 </article>
           </div>
@@ -245,7 +303,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=11" class="contribution-link">View Source</a>
+                    <a href="https://dev.azure.com/finlocker/Global/_git/FinLocker.Analytics?path=FinLocker.Analytics.Application/Services/DataSource/IProspectService.cs&amp;version=GBmain&amp;line=12" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
