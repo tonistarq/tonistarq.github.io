@@ -24566,15 +24566,6 @@ references:
   fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.New(System.Guid)
   nameWithType: SourceKey.SourceKey(Guid)
   nameWithType.vb: SourceKey.New(Guid)
-- uid: FinLocker.Analytics.Types.Models.SourceKey.#ctor(System.Nullable{System.Int32})
-  name: SourceKey(int?)
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey__ctor_System_Nullable_System_Int32__
-  commentId: M:FinLocker.Analytics.Types.Models.SourceKey.#ctor(System.Nullable{System.Int32})
-  name.vb: New(Integer?)
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.SourceKey(int?)
-  fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.New(Integer?)
-  nameWithType: SourceKey.SourceKey(int?)
-  nameWithType.vb: SourceKey.New(Integer?)
 - uid: FinLocker.Analytics.Types.Models.SourceKey.#ctor(System.String)
   name: SourceKey(string)
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey__ctor_System_String_
@@ -24607,19 +24598,6 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Types.Models.SourceKey.AsGuid
   nameWithType: SourceKey.AsGuid
-- uid: FinLocker.Analytics.Types.Models.SourceKey.AsInt
-  name: AsInt
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_AsInt
-  commentId: P:FinLocker.Analytics.Types.Models.SourceKey.AsInt
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.AsInt
-  nameWithType: SourceKey.AsInt
-- uid: FinLocker.Analytics.Types.Models.SourceKey.AsInt*
-  name: AsInt
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_AsInt_
-  commentId: Overload:FinLocker.Analytics.Types.Models.SourceKey.AsInt
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.AsInt
-  nameWithType: SourceKey.AsInt
 - uid: FinLocker.Analytics.Types.Models.SourceKey.AsString
   name: AsString
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_AsString
@@ -24668,22 +24646,6 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Types.Models.SourceKey.FromGuid
   nameWithType: SourceKey.FromGuid
-- uid: FinLocker.Analytics.Types.Models.SourceKey.FromInt(System.Int32)
-  name: FromInt(int)
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_FromInt_System_Int32_
-  commentId: M:FinLocker.Analytics.Types.Models.SourceKey.FromInt(System.Int32)
-  name.vb: FromInt(Integer)
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.FromInt(int)
-  fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.FromInt(Integer)
-  nameWithType: SourceKey.FromInt(int)
-  nameWithType.vb: SourceKey.FromInt(Integer)
-- uid: FinLocker.Analytics.Types.Models.SourceKey.FromInt*
-  name: FromInt
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_FromInt_
-  commentId: Overload:FinLocker.Analytics.Types.Models.SourceKey.FromInt
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.FromInt
-  nameWithType: SourceKey.FromInt
 - uid: FinLocker.Analytics.Types.Models.SourceKey.FromString(System.String)
   name: FromString(string)
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_FromString_System_String_
@@ -24726,19 +24688,6 @@ references:
   isSpec: "True"
   fullName: FinLocker.Analytics.Types.Models.SourceKey.IsGuid
   nameWithType: SourceKey.IsGuid
-- uid: FinLocker.Analytics.Types.Models.SourceKey.IsInt
-  name: IsInt
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_IsInt
-  commentId: P:FinLocker.Analytics.Types.Models.SourceKey.IsInt
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.IsInt
-  nameWithType: SourceKey.IsInt
-- uid: FinLocker.Analytics.Types.Models.SourceKey.IsInt*
-  name: IsInt
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_IsInt_
-  commentId: Overload:FinLocker.Analytics.Types.Models.SourceKey.IsInt
-  isSpec: "True"
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.IsInt
-  nameWithType: SourceKey.IsInt
 - uid: FinLocker.Analytics.Types.Models.SourceKey.IsString
   name: IsString
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_IsString
@@ -24793,15 +24742,6 @@ references:
   fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.CType(FinLocker.Analytics.Types.Models.SourceKey)
   nameWithType: SourceKey.explicit operator Guid(SourceKey)
   nameWithType.vb: SourceKey.CType(SourceKey)
-- uid: FinLocker.Analytics.Types.Models.SourceKey.op_Explicit(FinLocker.Analytics.Types.Models.SourceKey)~System.Int32
-  name: explicit operator int(SourceKey)
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_op_Explicit_FinLocker_Analytics_Types_Models_SourceKey__System_Int32
-  commentId: M:FinLocker.Analytics.Types.Models.SourceKey.op_Explicit(FinLocker.Analytics.Types.Models.SourceKey)~System.Int32
-  name.vb: CType(SourceKey)
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.explicit operator int(FinLocker.Analytics.Types.Models.SourceKey)
-  fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.CType(FinLocker.Analytics.Types.Models.SourceKey)
-  nameWithType: SourceKey.explicit operator int(SourceKey)
-  nameWithType.vb: SourceKey.CType(SourceKey)
 - uid: FinLocker.Analytics.Types.Models.SourceKey.op_Explicit(FinLocker.Analytics.Types.Models.SourceKey)~System.String
   name: explicit operator string(SourceKey)
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_op_Explicit_FinLocker_Analytics_Types_Models_SourceKey__System_String
@@ -24830,15 +24770,6 @@ references:
   fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.CType(System.Guid)
   nameWithType: SourceKey.implicit operator SourceKey(Guid)
   nameWithType.vb: SourceKey.CType(Guid)
-- uid: FinLocker.Analytics.Types.Models.SourceKey.op_Implicit(System.Nullable{System.Int32})~FinLocker.Analytics.Types.Models.SourceKey
-  name: implicit operator SourceKey(int?)
-  href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_op_Implicit_System_Nullable_System_Int32___FinLocker_Analytics_Types_Models_SourceKey
-  commentId: M:FinLocker.Analytics.Types.Models.SourceKey.op_Implicit(System.Nullable{System.Int32})~FinLocker.Analytics.Types.Models.SourceKey
-  name.vb: CType(Integer?)
-  fullName: FinLocker.Analytics.Types.Models.SourceKey.implicit operator FinLocker.Analytics.Types.Models.SourceKey(int?)
-  fullName.vb: FinLocker.Analytics.Types.Models.SourceKey.CType(Integer?)
-  nameWithType: SourceKey.implicit operator SourceKey(int?)
-  nameWithType.vb: SourceKey.CType(Integer?)
 - uid: FinLocker.Analytics.Types.Models.SourceKey.op_Implicit(System.String)~FinLocker.Analytics.Types.Models.SourceKey
   name: implicit operator SourceKey(string)
   href: api/FinLocker.Analytics.Types.Models.SourceKey.html#FinLocker_Analytics_Types_Models_SourceKey_op_Implicit_System_String__FinLocker_Analytics_Types_Models_SourceKey
